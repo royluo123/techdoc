@@ -1,0 +1,1885 @@
+Message-ID: <1642163452.429355.1482404717069.JavaMail.ci@docs>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_429352_1443888655.1482404706272"
+
+------=_Part_429352_1443888655.1482404706272
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Android =E7=B3=BB=E7=BB=9F=E7=A8=B3=E5=AE=9A=E6=80=A7 - ANR=EF=
+=BC=88=E4=BA=8C=EF=BC=89</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Android =E7=B3=BB=E7=BB=9F=E7=A8=B3=E5=AE=9A=E6=80=A7 - ANR=EF=BC=
+=88=E4=BA=8C=EF=BC=89</h1>
+    <div class=3D"Section1">
+        <p>=E6=91=98=E8=87=AA=EF=BC=9A<a href=3D"http://rayleeya.iteye.com/=
+blog/1955657" class=3D"external-link" rel=3D"nofollow">http://rayleeya.itey=
+e.com/blog/1955657</a></p>
+<h3 class=3D"cjk" id=3D"Android=E7=B3=BB=E7=BB=9F=E7=A8=B3=E5=AE=9A=E6=80=
+=A7-ANR=EF=BC=88=E4=BA=8C=EF=BC=89-1.2=E5=A6=82=E4=BD=95=E5=88=86=E6=9E=90A=
+NR=E9=97=AE=E9=A2=98"><span><span><strong>1.2&nbsp;</strong></span></span><=
+span>=E5=A6=82=E4=BD=95=E5=88=86=E6=9E=90</span><span><span><strong>ANR</st=
+rong></span></span><span>=E9=97=AE=E9=A2=98</span></h3>
+<p class=3D"cjk"><span>=E5=BC=95=E8=B5=B7</span><span>ANR</span><span>=E9=
+=97=AE=E9=A2=98=E7=9A=84=E6=A0=B9=E6=9C=AC=E5=8E=9F=E5=9B=A0=EF=BC=8C=E6=80=
+=BB=E7=9A=84=E6=9D=A5=E8=AF=B4=E5=8F=AF=E4=BB=A5=E5=BD=92=E7=BA=B3=E4=B8=BA=
+=E4=B8=A4=E7=B1=BB=EF=BC=9A</span></p>
+<ul>
+<li><p class=3D"cjk"><span>=E5=BA=94=E7=94=A8=E8=BF=9B=E7=A8=8B=E8=87=AA=E8=
+=BA=AB=E5=BC=95=E8=B5=B7=E7=9A=84=EF=BC=8C=E4=BE=8B=E5=A6=82=EF=BC=9A</span=
+></p></li>
+</ul>
+<p class=3D"cjk"><span>=E4=B8=BB=E7=BA=BF=E7=A8=8B=E9=98=BB=E5=A1=9E=E3=80=
+=81=E6=8C=82=E8=B5=B7=E3=80=81=E6=AD=BB=E5=BE=AA=E7=8E=AF</span></p>
+<p class=3D"cjk"><span>=E5=BA=94=E7=94=A8=E8=BF=9B=E7=A8=8B=E7=9A=84=E5=85=
+=B6=E4=BB=96=E7=BA=BF=E7=A8=8B=E7=9A=84</span><span>CPU</span><span>=E5=8D=
+=A0=E7=94=A8=E7=8E=87=E9=AB=98=EF=BC=8C=E4=BD=BF=E5=BE=97=E4=B8=BB=E7=BA=BF=
+=E7=A8=8B=E6=97=A0=E6=B3=95=E6=8A=A2=E5=8D=A0=E5=88=B0</span><span>CPU</spa=
+n><span>=E6=97=B6=E9=97=B4=E7=89=87</span></p>
+<ul>
+<li><p class=3D"cjk"><span>=E5=85=B6=E4=BB=96=E8=BF=9B=E7=A8=8B=E9=97=B4=E6=
+=8E=A5=E5=BC=95=E8=B5=B7=E7=9A=84=EF=BC=8C=E4=BE=8B=E5=A6=82=EF=BC=9A</span=
+></p></li>
+</ul>
+<p class=3D"cjk"><span>=E5=BD=93=E5=89=8D=E5=BA=94=E7=94=A8=E8=BF=9B=E7=A8=
+=8B=E8=BF=9B=E8=A1=8C=E8=BF=9B=E7=A8=8B=E9=97=B4=E9=80=9A=E4=BF=A1=E8=AF=B7=
+=E6=B1=82=E5=85=B6=E4=BB=96=E8=BF=9B=E7=A8=8B=EF=BC=8C=E5=85=B6=E4=BB=96=E8=
+=BF=9B=E7=A8=8B=E7=9A=84=E6=93=8D=E4=BD=9C=E9=95=BF=E6=97=B6=E9=97=B4=E6=B2=
+=A1=E6=9C=89=E5=8F=8D=E9=A6=88</span></p>
+<p class=3D"cjk"><span>=E5=85=B6=E4=BB=96=E8=BF=9B=E7=A8=8B=E7=9A=84</span>=
+<span>CPU</span><span>=E5=8D=A0=E7=94=A8=E7=8E=87=E9=AB=98=EF=BC=8C=E4=BD=
+=BF=E5=BE=97=E5=BD=93=E5=89=8D=E5=BA=94=E7=94=A8=E8=BF=9B=E7=A8=8B=E6=97=A0=
+=E6=B3=95=E6=8A=A2=E5=8D=A0=E5=88=B0</span><span>CPU</span><span>=E6=97=B6=
+=E9=97=B4=E7=89=87</span></p>
+<p class=3D"cjk"><span>=E5=88=86=E6=9E=90</span><span>ANR</span><span>=E9=
+=97=AE=E9=A2=98=E6=97=B6=EF=BC=8C=E4=BB=A5=E4=B8=8A=E8=BF=B0=E5=8F=AF=E8=83=
+=BD=E7=9A=84=E5=87=A0=E7=A7=8D=E5=8E=9F=E5=9B=A0=E4=B8=BA=E7=BA=BF=E7=B4=A2=
+=EF=BC=8C=E9=80=9A=E8=BF=87=E5=88=86=E6=9E=90=E5=90=84=E7=A7=8D=E6=97=A5=E5=
+=BF=97=E4=BF=A1=E6=81=AF=EF=BC=8C=E5=A4=A7=E5=A4=9A=E6=95=B0=E6=83=85=E5=86=
+=B5=E4=B8=8B=E4=BD=A0=E5=B0=B1=E5=8F=AF=E4=BB=A5=E5=BE=88=E5=AE=B9=E6=98=93=
+=E6=89=BE=E5=88=B0=E9=97=AE=E9=A2=98=E6=89=80=E5=9C=A8=E4=BA=86=E3=80=82</s=
+pan></p>
+<p class=3D"cjk"><br><br></p>
+<p class=3D"cjk"><span><span><strong>=E6=B3=A8=E6=84=8F=EF=BC=9A</strong>=
+=E6=88=91=E5=BE=88=E8=AF=9A=E6=81=B3=E7=9A=84=E5=90=91=E8=AF=BB=E8=80=85=E8=
+=AF=B4=E6=98=8E=EF=BC=8C=E7=A1=AE=E5=AE=9E=E6=9C=89=E4=B8=80=E4=BA=9B</span=
+></span><span><span>ANR</span></span><span><span>=E9=97=AE=E9=A2=98=E5=BE=
+=88=E9=9A=BE=E8=B0=83=E6=9F=A5=E6=B8=85=E6=A5=9A=EF=BC=8C=E5=9B=A0=E4=B8=BA=
+=E6=95=B4=E4=B8=AA=E7=B3=BB=E7=BB=9F=E4=B8=8D=E7=A8=B3=E5=AE=9A=E7=9A=84=E5=
+=9B=A0=E7=B4=A0=E5=BE=88=E5=A4=9A=EF=BC=8C=E4=BE=8B=E5=A6=82</span></span><=
+span><span>Linux Kernel</span></span><span><span>=E6=9C=AC=E8=BA=AB=E7=9A=
+=84</span></span><span><span>bug</span></span><span><span>=E5=BC=95=E8=B5=
+=B7=E7=9A=84=E5=86=85=E5=AD=98=E7=A2=8E=E7=89=87=E8=BF=87=E5=A4=9A=E3=80=81=
+=E7=A1=AC=E4=BB=B6=E6=8D=9F=E5=9D=8F=E7=AD=89=E3=80=82=E8=BF=99=E7=B1=BB=E6=
+=AF=94=E8=BE=83=E5=BA=95=E5=B1=82=E7=9A=84=E5=8E=9F=E5=9B=A0=E5=BC=95=E8=B5=
+=B7=E7=9A=84</span></span><span><span>ANR</span></span><span><span>=E9=97=
+=AE=E9=A2=98=E5=BE=80=E5=BE=80=E6=97=A0=E4=BB=8E=E6=9F=A5=E8=B5=B7=EF=BC=8C=
+=E5=B9=B6=E4=B8=94=E8=BF=99=E6=A0=B9=E6=9C=AC=E4=B8=8D=E6=98=AF=E5=BA=94=E7=
+=94=A8=E7=A8=8B=E5=BA=8F=E7=9A=84=E9=97=AE=E9=A2=98=EF=BC=8C=E6=B5=AA=E8=B4=
+=B9=E4=BA=86=E5=BA=94=E7=94=A8=E5=BC=80=E5=8F=91=E4=BA=BA=E5=91=98=E5=BE=88=
+=E5=A4=9A=E6=97=B6=E9=97=B4=EF=BC=8C=E5=A6=82=E6=9E=9C=E4=BD=A0=E4=BB=8E=E4=
+=BA=8B=E8=BF=87=E6=95=B4=E4=B8=AA=E7=B3=BB=E7=BB=9F=E7=9A=84=E5=BC=80=E5=8F=
+=91=E5=92=8C=E7=BB=B4=E6=8A=A4=E5=B7=A5=E4=BD=9C=E7=9A=84=E8=AF=9D=E4=BC=9A=
+=E6=B7=B1=E6=9C=89=E4=BD=93=E4=BC=9A=E3=80=82=E6=89=80=E4=BB=A5=E6=88=91=E4=
+=B8=8D=E8=83=BD=E4=BF=9D=E8=AF=81=E4=BA=86=E8=A7=A3=E4=BA=86=E6=9C=AC=E7=AB=
+=A0=E7=9A=84=E6=89=80=E6=9C=89=E5=86=85=E5=AE=B9=E5=90=8E=E8=83=BD=E5=A4=9F=
+=E8=A7=A3=E5=86=B3=E4=B8=80=E5=88=87</span></span><span><span>ANR</span></s=
+pan><span><span>=E9=97=AE=E9=A2=98=EF=BC=8C=E5=A6=82=E6=9E=9C=E5=87=BA=E7=
+=8E=B0=E4=BA=86=E5=BE=88=E7=96=91=E9=9A=BE=E7=9A=84</span></span><span><spa=
+n>ANR</span></span><span><span>=E9=97=AE=E9=A2=98=EF=BC=8C=E6=88=91=E5=BB=
+=BA=E8=AE=AE=E6=9C=80=E5=A5=BD=E5=8E=BB=E5=92=8C=E5=81=9A=E9=A9=B1=E5=8A=A8=
+=E5=92=8C=E5=86=85=E6=A0=B8=E7=9A=84=E6=9C=8B=E5=8F=8B=E8=81=8A=E8=81=8A=EF=
+=BC=8C=E6=88=96=E8=80=85=EF=BC=8C=E5=A6=82=E6=9E=9C=E9=97=AE=E9=A2=98=E5=8F=
+=AA=E6=98=AF=E4=B8=AA=E5=8D=81=E4=B8=87=E5=88=86=E4=B9=8B=E4=B8=80=E7=9A=84=
+=E5=81=B6=E7=84=B6=E7=8E=B0=E8=B1=A1=EF=BC=8C=E4=B8=8D=E5=BD=B1=E5=93=8D=E7=
+=A8=8B=E5=BA=8F=E7=9A=84=E6=AD=A3=E5=B8=B8=E8=BF=90=E8=A1=8C=EF=BC=8C=E6=88=
+=91=E5=80=92=E6=98=AF=E5=BB=BA=E8=AE=AE=E4=B8=8D=E5=8E=BB=E7=90=86=E5=AE=83=
+=E3=80=82</span></span></p>
+<h5 class=3D"cjk" id=3D"Android=E7=B3=BB=E7=BB=9F=E7=A8=B3=E5=AE=9A=E6=80=
+=A7-ANR=EF=BC=88=E4=BA=8C=EF=BC=89-1.2.1=E5=88=86=E6=9E=90ANR=E7=9A=84=E5=
+=88=A9=E5=99=A8"><span>1.2.1&nbsp;</span><span>=E5=88=86=E6=9E=90</span><sp=
+an>ANR</span><span>=E7=9A=84=E5=88=A9=E5=99=A8</span></h5>
+<p class=3D"cjk"><span><span><span>Android</span></span></span><span><span>=
+=E4=BC=9A=E5=9C=A8</span></span><span><span><span>ANR</span></span></span><=
+span><span>=E5=8F=91=E7=94=9F=E6=97=B6=E8=BE=93=E5=87=BA=E5=BE=88=E5=A4=9A=
+=E6=9C=89=E7=94=A8=E7=9A=84=E4=BF=A1=E6=81=AF=E5=B8=AE=E5=8A=A9=E5=88=86=E6=
+=9E=90=E9=97=AE=E9=A2=98=E5=8E=9F=E5=9B=A0=EF=BC=8C=E6=88=91=E4=BB=AC=E5=85=
+=88=E6=9D=A5=E7=9C=8B=E4=B8=80=E4=B8=8B</span></span><span><span><span>ANR<=
+/span></span></span><span><span>=E7=9A=84=E5=BC=82=E5=B8=B8=E4=BF=A1=E6=81=
+=AF=EF=BC=8C=E4=BD=BF=E7=94=A8</span></span><span><span><span>logcat</span>=
+</span></span><span><span>=E5=91=BD=E4=BB=A4=E6=9F=A5=E7=9C=8B=E4=BC=9A=E5=
+=BE=97=E5=88=B0=E7=B1=BB=E4=BC=BC=E5=A6=82=E4=B8=8B=E7=9A=84</span></span><=
+span><span><span>log</span></span></span><span><span>=EF=BC=9A</span></span=
+></p>
+<p style=3D"margin-left: 0.0cm;"><span>//WindowManager</span><span>=E6=89=
+=80=E5=9C=A8=E7=9A=84=E8=BF=9B=E7=A8=8B=E6=98=AF</span><span>system_server<=
+/span><span>=EF=BC=8C=E8=BF=9B=E7=A8=8B=E5=8F=B7=E6=98=AF</span><span>127</=
+span></p>
+<p style=3D"margin-left: 0.0cm;"><span>I/WindowManager( 127): Input event d=
+ispatching timed out sending to com.example.anrdemo/com.example.anrdemo.ANR=
+Activity</span></p>
+<p style=3D"margin-left: 0.0cm;">&nbsp;</p>
+<p style=3D"margin-left: 0.0cm;"><span>//system_server</span><span>=E8=BF=
+=9B=E7=A8=8B=E4=B8=AD=E7=9A=84</span><span>ActivityManagerService</span><sp=
+an>=E8=AF=B7=E6=B1=82</span><span>kernel</span><span>=E5=90=91</span><span>=
+5033</span><span>=E8=BF=9B=E7=A8=8B=E5=8F=91=E9=80=81</span><span>SIGNAL_QU=
+IT</span><span>=E8=AF=B7=E6=B1=82</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>//</span><span>=E4=BD=A0=E5=8F=AF=E4=
+=BB=A5=E5=9C=A8</span><span>shell</span><span>=E4=B8=AD=E4=BD=BF=E7=94=A8=
+=E5=91=BD=E4=BB=A4=E8=BE=BE=E5=88=B0=E7=9B=B8=E5=90=8C=E7=9A=84=E7=9B=AE=E7=
+=9A=84=EF=BC=9A</span><span>adb shell kill -3 5033</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>//</span><span>=E5=92=8C=E5=85=B6=E4=
+=BB=96=E7=9A=84</span><span>Java</span><span>=E8=99=9A=E6=8B=9F=E6=9C=BA=E4=
+=B8=80=E6=A0=B7=EF=BC=8C</span><span>SIGNAL_QUIT</span><span>=E4=B9=9F=E6=
+=98=AF</span><span>Dalvik</span><span>=E5=86=85=E9=83=A8=E6=94=AF=E6=8C=81=
+=E7=9A=84=E5=8A=9F=E8=83=BD=E4=B9=8B=E4=B8=80</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>I/Process ( 127): Sending signal. PI=
+D: 5033 SIG: 3</span></p>
+<p style=3D"margin-left: 0.0cm;">&nbsp;</p>
+<p style=3D"margin-left: 0.0cm;"><span>//5033</span><span>=E8=BF=9B=E7=A8=
+=8B=E7=9A=84=E8=99=9A=E6=8B=9F=E6=9C=BA=E5=AE=9E=E4=BE=8B=E6=8E=A5=E6=94=B6=
+=E5=88=B0</span><span>SIGNAL_QUIT</span><span>=E4=BF=A1=E5=8F=B7=E5=90=8E=
+=E4=BC=9A=E5=B0=86=E8=BF=9B=E7=A8=8B=E4=B8=AD=E5=90=84=E4=B8=AA=E7=BA=BF=E7=
+=A8=8B=E7=9A=84=E5=87=BD=E6=95=B0=E5=A0=86=E6=A0=88=E4=BF=A1=E6=81=AF=E8=BE=
+=93=E5=87=BA=E5=88=B0</span><span>traces.txt</span><span>=E6=96=87=E4=BB=B6=
+=E4=B8=AD</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>//</span><span>=E5=8F=91=E7=94=9F</s=
+pan><span>ANR</span><span>=E7=9A=84=E8=BF=9B=E7=A8=8B=E6=AD=A3=E5=B8=B8=E6=
+=83=85=E5=86=B5=E4=B8=8B=E4=BC=9A=E7=AC=AC=E4=B8=80=E4=B8=AA=E8=BE=93=E5=87=
+=BA</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>I/dalvikvm( 5033): threadid=3D4: rea=
+cting to signal 3</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>I/dalvikvm( 5033): Wrote stack trace=
+s to '/data/anr/traces.txt'</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>... ...//</span><span>=E5=8F=A6=E5=
+=A4=96=E8=BF=98=E6=9C=89=E5=85=B6=E4=BB=96=E4=B8=80=E4=BA=9B=E8=BF=9B=E7=A8=
+=8B</span></p>
+<p style=3D"margin-left: 0.0cm;">&nbsp;</p>
+<p style=3D"margin-left: 0.0cm;"><span>//</span><span>=E9=9A=8F=E5=90=8E=E4=
+=BC=9A=E8=BE=93=E5=87=BA</span><span>CPU</span><span>=E4=BD=BF=E7=94=A8=E6=
+=83=85=E5=86=B5</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>E/ActivityManager( 127): ANR in com.=
+example.anrdemo (com.example.anrdemo/.ANRActivity)</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>//Reason</span><span>=E8=A1=A8=E7=A4=
+=BA=E5=AF=BC=E8=87=B4</span><span>ANR</span><span>=E9=97=AE=E9=A2=98=E7=9A=
+=84=E7=9B=B4=E6=8E=A5=E5=8E=9F=E5=9B=A0</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>E/ActivityManager( 127): Reason: key=
+DispatchingTimedOut</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>E/ActivityManager( 127): Load: 3.85 =
+/ 3.41 / 3.16</span></p>
+<p style=3D"margin-left: 0.0cm;">&nbsp;</p>
+<p style=3D"margin-left: 0.0cm;"><span>//</span><span>=E8=AF=B7=E6=B3=A8=E6=
+=84=8F</span><span>ago</span><span>=EF=BC=8C=E8=A1=A8=E7=A4=BA</span><span>=
+ANR</span><span>=E5=8F=91=E7=94=9F=E4=B9=8B=E5=89=8D=E7=9A=84=E4=B8=80=E6=
+=AE=B5=E6=97=B6=E9=97=B4=E5=86=85=E7=9A=84</span><span>CPU</span><span>=E4=
+=BD=BF=E7=94=A8=E7=8E=87=EF=BC=8C=E5=B9=B6=E4=B8=8D=E6=98=AF=E6=9F=90=E4=B8=
+=80=E6=97=B6=E5=88=BB=E7=9A=84=E5=80=BC</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>E/ActivityManager( 127): CPU usage f=
+rom 26835ms to 3662ms ago with 99% awake:</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>E/ActivityManager( 127): 9.4% 98/med=
+iaserver: 9.4% user + 0% kernel</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>E/ActivityManager( 127): 8.9% 127/sy=
+stem_server: 6.9% user + 2% kernel / faults: 1823 minor</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>... ...</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>E/ActivityManager( 127): +0% 5033/co=
+m.example.anrdemo: 0% user + 0% kernel</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>E/ActivityManager( 127): 39% TOTAL: =
+32% user + 6.1% kernel</span></p>
+<p style=3D"margin-left: 0.0cm;">&nbsp;</p>
+<p style=3D"margin-left: 0.0cm;"><span>//</span><span>=E8=BF=99=E9=87=8C=E6=
+=98=AF</span><span>later</span><span>=EF=BC=8C=E8=A1=A8=E7=A4=BA</span><spa=
+n>ANR</span><span>=E5=8F=91=E7=94=9F=E4=B9=8B=E5=90=8E</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>E/ActivityManager( 127): CPU usage f=
+rom 601ms to 1132ms later with 99% awake:</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>E/ActivityManager( 127): 10% 127/sys=
+tem_server: 1.7% user + 8.9% kernel / faults: 5 minor</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>E/ActivityManager( 127): 10% 163/Inp=
+utDispatcher: 1.7% user + 8.9% kernel</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>E/ActivityManager( 127): 1.7% 127/sy=
+stem_server: 1.7% user + 0% kernel</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>E/ActivityManager( 127): 1.7% 135/Su=
+rfaceFlinger: 0% user + 1.7% kernel</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>E/ActivityManager( 127): 1.7% 2814/B=
+inder Thread #: 1.7% user + 0% kernel</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>... ...</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>E/ActivityManager( 127): 37% TOTAL: =
+27% user + 9.2% kernel</span></p>
+<p style=3D"margin-left: 0.0cm;"><br><br></p>
+<p class=3D"cjk"><span><span>=E4=BB=8E</span></span><span><span>log</span><=
+/span><span><span>=E4=B8=AD=E8=83=BD=E5=A4=9F=E7=9F=A5=E9=81=93=EF=BC=8C=E5=
+=8F=91=E7=94=9F</span></span><span><span>ANR</span></span><span><span>=E6=
+=97=B6</span></span><span><span>Android</span></span><span><span>=E4=B8=BA=
+=E6=88=91=E4=BB=AC=E6=8F=90=E4=BE=9B=E4=BA=86=E4=B8=A4=E7=A7=8D=E2=80=9C=E5=
+=88=A9=E5=99=A8=E2=80=9D=EF=BC=9A</span></span><span><span>traces</span></s=
+pan><span><span>=E6=96=87=E4=BB=B6=E5=92=8C</span></span><span><span>CPU</s=
+pan></span><span><span>=E4=BD=BF=E7=94=A8=E7=8E=87=E3=80=82=E4=BB=A5=E4=B8=
+=8A=E5=81=9A=E4=BA=86=E7=AE=80=E5=8D=95=E6=B3=A8=E9=87=8A=EF=BC=8C=E4=B8=8D=
+=E8=BF=87=E7=A8=8D=E5=90=8E=E5=86=8D=E8=AF=A6=E7=BB=86=E5=88=86=E6=9E=90=E5=
+=AE=83=E4=BB=AC=E3=80=82</span></span></p>
+<h5 class=3D"cjk" id=3D"Android=E7=B3=BB=E7=BB=9F=E7=A8=B3=E5=AE=9A=E6=80=
+=A7-ANR=EF=BC=88=E4=BA=8C=EF=BC=89-1.2.2ANR=E4=BF=A1=E6=81=AF=E6=98=AF=E5=
+=A6=82=E4=BD=95=E8=BE=93=E5=87=BA=E7=9A=84"><span><span>1.2.2 ANR</span></s=
+pan><span><span>=E4=BF=A1=E6=81=AF=E6=98=AF=E5=A6=82=E4=BD=95=E8=BE=93=E5=
+=87=BA=E7=9A=84</span></span></h5>
+<p class=3D"cjk"><span><span>=E6=88=91=E4=BB=AC=E5=86=8D=E6=9D=A5=E7=9C=8B=
+=E7=9C=8B=E8=BF=99=E4=BA=9B</span></span><span><span>log</span></span><span=
+><span>=E6=98=AF=E6=80=8E=E6=A0=B7=E8=A2=AB=E8=BE=93=E5=87=BA=E7=9A=84=EF=
+=BC=8C=E8=BF=99=E5=BE=88=E9=87=8D=E8=A6=81=EF=BC=8C=E7=9F=A5=E5=85=B6=E7=84=
+=B6=EF=BC=8C=E4=B9=9F=E8=A6=81=E7=9F=A5=E5=85=B6=E6=89=80=E4=BB=A5=E7=84=B6=
+=E3=80=82=E4=BB=A3=E7=A0=81=E5=9C=A8</span></span><span><span>ActivityManag=
+erService</span></span><span><span>=E7=B1=BB=E4=B8=AD=EF=BC=8C=E6=89=BE=E5=
+=88=B0=E5=AE=83=E7=9A=84</span></span><span><span>appNotResponding</span></=
+span><span><span>=E5=87=BD=E6=95=B0=E3=80=82</span></span></p>
+<p style=3D"margin-left: 0.0cm;"><br><br></p>
+<p style=3D"margin-left: 0.0cm;"><span>final void appNotResponding(ProcessR=
+ecord app, ActivityRecord activity,</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>ActivityRecord parent, final String =
+annotation) {</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>//firstPids</span><span>=E5=92=8C</s=
+pan><span>lastPids</span><span>=E4=B8=A4=E4=B8=AA=E9=9B=86=E5=90=88=E5=AD=
+=98=E6=94=BE=E9=82=A3=E4=BA=9B=E5=B0=86=E4=BC=9A=E5=9C=A8</span><span>trace=
+s</span><span>=E4=B8=AD=E8=BE=93=E5=87=BA=E4=BF=A1=E6=81=AF=E7=9A=84=E8=BF=
+=9B=E7=A8=8B=E7=9A=84=E8=BF=9B=E7=A8=8B=E5=8F=B7</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>ArrayList&lt;Integer&gt; firstPids =
+=3D new ArrayList&lt;Integer&gt;(5);</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>SparseArray&lt;Boolean&gt; lastPids =
+=3D new SparseArray&lt;Boolean&gt;(20);</span></p>
+<p style=3D"margin-left: 0.0cm;">&nbsp;</p>
+<p style=3D"margin-left: 0.0cm;"><span>//mController</span><span>=E6=98=AF<=
+/span><span>IActivityController</span><span>=E6=8E=A5=E5=8F=A3=E7=9A=84=E5=
+=AE=9E=E4=BE=8B=EF=BC=8C=E6=98=AF=E4=B8=BA</span><span>Monkey</span><span>=
+=E6=B5=8B=E8=AF=95=E7=A8=8B=E5=BA=8F=E9=A2=84=E7=95=99=E7=9A=84=EF=BC=8C=E9=
+=BB=98=E8=AE=A4=E4=B8=BA</span><span>null</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>if (mController !=3D null) {</span><=
+/p>
+<p style=3D"margin-left: 0.0cm;"><span>... ...</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>}</span></p>
+<p style=3D"margin-left: 0.0cm;">&nbsp;</p>
+<p style=3D"margin-left: 0.0cm;"><span>long anrTime =3D SystemClock.uptimeM=
+illis();</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>if (MONITOR_CPU_USAGE) {</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>updateCpuStatsNow(); //</span><span>=
+=E6=9B=B4=E6=96=B0</span><span>CPU</span><span>=E4=BD=BF=E7=94=A8=E7=8E=87<=
+/span></p>
+<p style=3D"margin-left: 0.0cm;"><span>}</span></p>
+<p style=3D"margin-left: 0.0cm;">&nbsp;</p>
+<p style=3D"margin-left: 0.0cm;"><span>synchronized (this) { //</span><span=
+>=E4=B8=80=E4=BA=9B=E7=89=B9=E5=AE=9A=E6=9D=A1=E4=BB=B6=E4=B8=8B=E4=BC=9A=
+=E5=BF=BD=E7=95=A5</span><span>ANR</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>if (mShuttingDown) {</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>Slog.i(TAG, "During shutdown skippin=
+g ANR: " + app + " " + annotation);</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>return;</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>} else if (app.notResponding) {</spa=
+n></p>
+<p style=3D"margin-left: 0.0cm;"><span>Slog.i(TAG, "Skipping duplicate ANR:=
+ " + app + " " + annotation);</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>return;</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>} else if (app.crashing) {</span></p=
+>
+<p style=3D"margin-left: 0.0cm;"><span>Slog.i(TAG, "Crashing app skipping A=
+NR: " + app + " " + annotation);</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>return;</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>}</span></p>
+<p style=3D"margin-left: 0.0cm;">&nbsp;</p>
+<p style=3D"margin-left: 0.0cm;"><span>//</span><span>=E4=BD=BF=E7=94=A8=E4=
+=B8=80=E4=B8=AA=E6=A0=87=E5=BF=97=E5=8F=98=E9=87=8F=E9=81=BF=E5=85=8D=E5=90=
+=8C=E4=B8=80=E4=B8=AA=E5=BA=94=E7=94=A8=E5=9C=A8=E6=B2=A1=E6=9C=89=E5=A4=84=
+=E7=90=86=E5=AE=8C=E6=97=B6=E9=87=8D=E5=A4=8D=E8=BE=93=E5=87=BA</span><span=
+>log</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>app.notResponding =3D true;</span></=
+p>
+<p style=3D"margin-left: 0.0cm;"><span>... ...</span></p>
+<p style=3D"margin-left: 0.0cm;">&nbsp;</p>
+<p style=3D"margin-left: 0.0cm;"><span><span>//<span>=E2=91=A0</span></span=
+></span><span>=E5=BD=93=E5=89=8D=E5=8F=91=E7=94=9F</span><span><span>ANR</s=
+pan></span><span>=E7=9A=84=E5=BA=94=E7=94=A8=E8=BF=9B=E7=A8=8B=E8=A2=AB=E7=
+=AC=AC=E4=B8=80=E4=B8=AA=E6=B7=BB=E5=8A=A0=E8=BF=9B</span><span><span>first=
+Pids</span></span><span>=E9=9B=86=E5=90=88=E4=B8=AD</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>firstPids.add(app.pid);</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>... ...</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>}</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>... ...</span></p>
+<p style=3D"margin-left: 0.0cm;">&nbsp;</p>
+<p style=3D"margin-left: 0.0cm;"><span><span>//<span>=E2=91=A1</span>dumpSt=
+ackTraces</span></span><span>=E6=98=AF=E8=BE=93=E5=87=BA</span><span><span>=
+traces</span></span><span>=E6=96=87=E4=BB=B6=E7=9A=84=E5=87=BD=E6=95=B0</sp=
+an></p>
+<p style=3D"margin-left: 0.0cm;"><span>File tracesFile =3D dumpStackTraces(=
+true, firstPids, processStats, lastPids, null);</span></p>
+<p style=3D"margin-left: 0.0cm;">&nbsp;</p>
+<p style=3D"margin-left: 0.0cm;"><span>String cpuInfo =3D null;</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>if (MONITOR_CPU_USAGE) { //MONITOR_C=
+PU_USAGE</span><span>=E9=BB=98=E8=AE=A4=E4=B8=BA</span><span>true</span></p=
+>
+<p style=3D"margin-left: 0.0cm;"><span>updateCpuStatsNow(); //</span><span>=
+=E5=86=8D=E6=AC=A1=E6=9B=B4=E6=96=B0</span><span>CPU</span><span>=E4=BF=A1=
+=E6=81=AF</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>synchronized (mProcessStatsThread) {=
+</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>//</span><span>=E8=BE=93=E5=87=BA</s=
+pan><span>ANR</span><span>=E5=8F=91=E7=94=9F=E5=89=8D=E4=B8=80=E6=AE=B5=E6=
+=97=B6=E9=97=B4=E5=86=85=E7=9A=84</span><span>CPU</span><span>=E4=BD=BF=E7=
+=94=A8=E7=8E=87</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>cpuInfo =3D mProcessStats.printCurre=
+ntState(anrTime);</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>}</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>info.append(processStats.printCurren=
+tLoad());</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>info.append(cpuInfo);</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>}</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>//</span><span>=E8=BE=93=E5=87=BA</s=
+pan><span>ANR</span><span>=E5=8F=91=E7=94=9F=E5=90=8E=E4=B8=80=E6=AE=B5=E6=
+=97=B6=E9=97=B4=E5=86=85=E7=9A=84</span><span>CPU</span><span>=E4=BD=BF=E7=
+=94=A8=E7=8E=87</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>info.append(processStats.printCurren=
+tState(anrTime));</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>... ...</span></p>
+<p style=3D"margin-left: 0.0cm;">&nbsp;</p>
+<p style=3D"margin-left: 0.0cm;"><span><span>//<span>=E2=91=A2</span></span=
+></span><span>=E5=B0=86</span><span><span>ANR</span></span><span>=E4=BF=A1=
+=E6=81=AF=E5=90=8C=E6=97=B6=E8=BE=93=E5=87=BA=E5=88=B0</span><span><span>Dr=
+opBox</span></span><span>=E4=B8=AD</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>addErrorToDropBox("anr", app, app.pr=
+ocessName, activity, parent, annotation,</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>cpuInfo, tracesFile, null);</span></=
+p>
+<p style=3D"margin-left: 0.0cm;"><span>... ...</span></p>
+<p style=3D"margin-left: 0.0cm;">&nbsp;</p>
+<p style=3D"margin-left: 0.0cm;"><span>//</span><span>=E5=9C=A8</span><span=
+>Android4.0</span><span>=E4=B8=AD=E5=8F=AF=E4=BB=A5=E8=AE=BE=E7=BD=AE=E6=98=
+=AF=E5=90=A6=E4=B8=8D=E6=98=BE=E7=A4=BA</span><span>ANR</span><span>=E6=8F=
+=90=E7=A4=BA=E5=AF=B9=E8=AF=9D=E6=A1=86=EF=BC=8C=E5=A6=82=E6=9E=9C=E8=AE=BE=
+=E7=BD=AE=E7=9A=84=E8=AF=9D=E5=B0=B1=E4=B8=8D=E4=BC=9A=E6=98=BE=E7=A4=BA=E5=
+=AF=B9=E8=AF=9D=E6=A1=86=EF=BC=8C=E5=B9=B6=E4=B8=94=E4=BC=9A=E6=9D=80=E6=8E=
+=89</span><span>ANR</span><span>=E8=BF=9B=E7=A8=8B</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>boolean showBackground =3D Settings.=
+Secure.getInt(mContext.getContentResolver(),</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>Settings.Secure.ANR_SHOW_BACKGROUND,=
+ 0) !=3D 0;</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>synchronized (this) {</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>if (!showBackground &amp;&amp; !app.=
+isInterestingToUserLocked() &amp;&amp; app.pid !=3D MY_PID) {</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>... ...</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>Process.killProcessQuiet(app.pid);</=
+span></p>
+<p style=3D"margin-left: 0.0cm;"><span>return;</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>}</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>... ...</span></p>
+<p style=3D"margin-left: 0.0cm;">&nbsp;</p>
+<p style=3D"margin-left: 0.0cm;"><span>//&nbsp;</span><span>=E6=98=BE=E7=A4=
+=BA</span><span>ANR</span><span>=E6=8F=90=E7=A4=BA=E5=AF=B9=E8=AF=9D=E6=A1=
+=86</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>Message msg =3D Message.obtain();</s=
+pan></p>
+<p style=3D"margin-left: 0.0cm;"><span>HashMap map =3D new HashMap();</span=
+></p>
+<p style=3D"margin-left: 0.0cm;"><span>msg.what =3D SHOW_NOT_RESPONDING_MSG=
+;</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>msg.obj =3D map;</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>map.put("app", app);</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>if (activity !=3D null) {</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>map.put("activity", activity);</span=
+></p>
+<p style=3D"margin-left: 0.0cm;"><span>}</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>mHandler.sendMessage(msg);</span></p=
+>
+<p style=3D"margin-left: 0.0cm;"><span>}</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>}</span></p>
+<p style=3D"margin-left: 0.0cm;">&nbsp;</p>
+<p class=3D"cjk"><span><span>=E6=9C=89=E4=B8=89=E4=B8=AA=E5=85=B3=E9=94=AE=
+=E7=82=B9=E9=9C=80=E8=A6=81=E6=B3=A8=E6=84=8F=EF=BC=9A</span></span></p>
+<p class=3D"cjk"><span><span>=E2=91=A0&nbsp;</span></span><span><span>=E5=
+=BD=93=E5=89=8D=E5=8F=91=E7=94=9F</span></span><span><span>ANR</span></span=
+><span><span>=E7=9A=84=E5=BA=94=E7=94=A8=E8=BF=9B=E7=A8=8B=E8=A2=AB=E7=AC=
+=AC=E4=B8=80=E4=B8=AA=E6=B7=BB=E5=8A=A0=E8=BF=9B</span></span><span><span>f=
+irstPids</span></span><span><span>=E9=9B=86=E5=90=88=E4=B8=AD=EF=BC=8C=E6=
+=89=80=E4=BB=A5=E4=BC=9A=E7=AC=AC=E4=B8=80=E4=B8=AA=E5=90=91</span></span><=
+span><span>traces</span></span><span><span>=E6=96=87=E4=BB=B6=E4=B8=AD=E5=
+=86=99=E5=85=A5=E4=BF=A1=E6=81=AF=E3=80=82=E5=8F=8D=E8=BF=87=E6=9D=A5=E8=AF=
+=B4=EF=BC=8C</span></span><span><span>traces</span></span><span><span>=E6=
+=96=87=E4=BB=B6=E4=B8=AD=E5=87=BA=E7=8E=B0=E7=9A=84=E7=AC=AC=E4=B8=80=E4=B8=
+=AA=E8=BF=9B=E7=A8=8B=E6=AD=A3=E5=B8=B8=E6=83=85=E5=86=B5=E4=B8=8B=E5=B0=B1=
+=E6=98=AF=E5=8F=91=E7=94=9F</span></span><span><span>ANR</span></span><span=
+><span>=E7=9A=84=E9=82=A3=E4=B8=AA=E8=BF=9B=E7=A8=8B=E3=80=82=E4=B8=8D=E8=
+=BF=87=E6=9C=89=E6=97=B6=E5=80=99=E4=BC=9A=E5=BE=88=E4=B8=8D=E5=87=91=E5=B7=
+=A7=EF=BC=8C=E5=8F=91=E7=94=9F</span></span><span><span>ANR</span></span><s=
+pan><span>=E7=9A=84=E8=BF=9B=E7=A8=8B=E8=BF=98=E6=B2=A1=E6=9C=89=E6=9D=A5=
+=E5=BE=97=E5=8F=8A=E8=BE=93=E5=87=BA</span></span><span><span>trace</span><=
+/span><span><span>=E4=BF=A1=E6=81=AF=EF=BC=8C=E5=B0=B1=E7=94=B1=E4=BA=8E=E6=
+=9F=90=E7=A7=8D=E5=8E=9F=E5=9B=A0=E9=80=80=E5=87=BA=E4=BA=86=EF=BC=8C=E6=89=
+=80=E4=BB=A5=E5=81=B6=E5=B0=94=E4=BC=9A=E9=81=87=E5=88=B0</span></span><spa=
+n><span>traces</span></span><span><span>=E6=96=87=E4=BB=B6=E4=B8=AD=E6=89=
+=BE=E4=B8=8D=E5=88=B0=E5=8F=91=E7=94=9F</span></span><span><span>ANR</span>=
+</span><span><span>=E7=9A=84=E8=BF=9B=E7=A8=8B=E4=BF=A1=E6=81=AF=E7=9A=84=
+=E6=83=85=E5=86=B5=E3=80=82</span></span></p>
+<p class=3D"cjk"><span>=E2=91=A1&nbsp;<span><span>dumpStackTraces</span></s=
+pan></span><span><span>=E6=98=AF=E8=BE=93=E5=87=BA</span></span><span><span=
+><span>traces</span></span></span><span><span>=E6=96=87=E4=BB=B6=E7=9A=84=
+=E5=87=BD=E6=95=B0=EF=BC=8C=E6=8E=A5=E4=B8=8B=E6=9D=A5=E5=88=86=E6=9E=90=E8=
+=BF=99=E4=B8=AA=E5=87=BD=E6=95=B0</span></span></p>
+<p class=3D"cjk"><span><span>=E2=91=A2 addErrorToDropBox</span></span><span=
+><span>=E5=87=BD=E6=95=B0=E5=B0=86</span></span><span><span>ANR</span></spa=
+n><span><span>=E4=BF=A1=E6=81=AF=E5=90=8C=E6=97=B6=E8=BE=93=E5=87=BA=E5=88=
+=B0</span></span><span><span>DropBox</span></span><span><span>=E4=B8=AD=EF=
+=BC=8C=E5=AE=83=E4=B9=9F=E6=98=AF=E4=B8=AA=E9=9D=9E=E5=B8=B8=E6=9C=89=E7=94=
+=A8=E7=9A=84=E6=97=A5=E5=BF=97=E5=AD=98=E6=94=BE=E5=B7=A5=E5=85=B7=EF=BC=8C=
+=E5=90=8E=E9=9D=A2=E4=B9=9F=E4=BC=9A=E5=88=86=E6=9E=90=E5=AE=83=E7=9A=84=E4=
+=BD=9C=E7=94=A8=E3=80=82</span></span></p>
+<p class=3D"cjk"><br><br></p>
+<p class=3D"cjk"><span>public static File dumpStackTraces(boolean clearTrac=
+es, ArrayList&lt;Integer&gt; firstPids,</span></p>
+<p class=3D"cjk"><span>ProcessStats processStats, SparseArray&lt;Boolean&gt=
+; lastPids, String[] nativeProcs) {</span></p>
+<p class=3D"cjk"><span>//</span><span>=E7=B3=BB=E7=BB=9F=E5=B1=9E=E6=80=A7=
+=E2=80=9C</span><span>dalvik.vm.stack-trace-file=E2=80=9D</span><span>=E7=
+=94=A8=E6=9D=A5=E9=85=8D=E7=BD=AE</span><span>trace</span><span>=E4=BF=A1=
+=E6=81=AF=E8=BE=93=E5=87=BA=E6=96=87=E4=BB=B6</span></p>
+<p class=3D"cjk"><span>String tracesPath =3D SystemProperties.get("dalvik.v=
+m.stack-trace-file", null);</span></p>
+<p class=3D"cjk"><span>if (tracesPath =3D=3D null || tracesPath.length() =
+=3D=3D 0) {</span></p>
+<p class=3D"cjk"><span>return null;</span></p>
+<p class=3D"cjk"><span>}</span></p>
+<p class=3D"cjk">&nbsp;</p>
+<p class=3D"cjk"><span>File tracesFile =3D new File(tracesPath);</span></p>
+<p class=3D"cjk"><span>try {</span></p>
+<p class=3D"cjk"><span>File tracesDir =3D tracesFile.getParentFile();</span=
+></p>
+<p class=3D"cjk"><span>if (!tracesDir.exists()) tracesFile.mkdirs();</span>=
+</p>
+<p class=3D"cjk"><span>//FileUtils.setPermissions</span><span>=E6=98=AF=E4=
+=B8=AA=E5=BE=88=E6=9C=89=E7=94=A8=E7=9A=84=E5=87=BD=E6=95=B0=EF=BC=8C=E8=AE=
+=BE=E7=BD=AE=E6=96=87=E4=BB=B6=E5=B1=9E=E6=80=A7=E6=97=B6=E7=BB=8F=E5=B8=B8=
+=E4=BC=9A=E7=94=A8=E5=88=B0</span></p>
+<p class=3D"cjk"><span>FileUtils.setPermissions(tracesDir.getPath(), 0775, =
+-1, -1); // drwxrwxr-x</span></p>
+<p class=3D"cjk">&nbsp;</p>
+<p class=3D"cjk"><span>//clearTraces</span><span>=E4=B8=BA</span><span>true=
+</span><span>=EF=BC=8C=E4=BC=9A=E5=88=A0=E9=99=A4=E6=97=A7=E6=96=87=E4=BB=
+=B6=EF=BC=8C=E5=88=9B=E5=BB=BA=E6=96=B0=E6=96=87=E4=BB=B6</span></p>
+<p class=3D"cjk"><span>if (clearTraces &amp;&amp; tracesFile.exists()) trac=
+esFile.delete();</span></p>
+<p class=3D"cjk"><span>tracesFile.createNewFile();</span></p>
+<p class=3D"cjk"><span>FileUtils.setPermissions(tracesFile.getPath(), 0666,=
+ -1, -1); // -rw-rw-rw-</span></p>
+<p class=3D"cjk"><span>} catch (IOException e) {</span></p>
+<p class=3D"cjk"><span>Slog.w(TAG, "Unable to prepare ANR traces file: " + =
+tracesPath, e);</span></p>
+<p class=3D"cjk"><span>return null;</span></p>
+<p class=3D"cjk"><span>}</span></p>
+<p class=3D"cjk">&nbsp;</p>
+<p class=3D"cjk"><span>//</span><span>=E4=B8=80=E4=B8=AA=E9=87=8D=E8=BD=BD=
+=E5=87=BD=E6=95=B0</span></p>
+<p class=3D"cjk"><span>dumpStackTraces(tracesPath, firstPids, processStats,=
+ lastPids, nativeProcs);</span></p>
+<p class=3D"cjk"><span>return tracesFile;</span></p>
+<p class=3D"cjk"><span>}</span></p>
+<p class=3D"cjk">&nbsp;</p>
+<p class=3D"cjk"><br><br></p>
+<p class=3D"cjk"><span><span>=E6=9C=89=E4=B8=A4=E4=B8=AA=E5=85=B3=E9=94=AE=
+=E7=82=B9=E9=9C=80=E8=A6=81=E6=B3=A8=E6=84=8F=EF=BC=9A</span></span></p>
+<p class=3D"cjk"><span><span>=E2=91=A0&nbsp;</span></span><span><span>=E8=
+=81=AA=E6=98=8E=E7=9A=84=E4=BD=A0=E8=82=AF=E5=AE=9A=E5=B7=B2=E7=BB=8F=E7=9F=
+=A5=E9=81=93=EF=BC=8C=E4=B9=8B=E6=89=80=E4=BB=A5</span></span><span><span>t=
+race</span></span><span><span>=E4=BF=A1=E6=81=AF=E4=BC=9A=E8=BE=93=E5=87=BA=
+=E5=88=B0=E2=80=9C</span></span><span><span>/data/anr/traces.txt=E2=80=9D</=
+span></span><span><span>=E6=96=87=E4=BB=B6=E4=B8=AD=EF=BC=8C=E5=B0=B1=E6=98=
+=AF=E7=B3=BB=E7=BB=9F=E5=B1=9E=E6=80=A7=E2=80=9C</span></span><span><span>d=
+alvik.vm.stack-trace-file=E2=80=9D</span></span><span><span>=E8=AE=BE=E7=BD=
+=AE=E7=9A=84=E3=80=82=E4=BD=A0=E5=8F=AF=E4=BB=A5=E9=80=9A=E8=BF=87=E5=9C=A8=
+=E8=AE=BE=E5=A4=87=E7=9A=84</span></span><span><span>shell</span></span><sp=
+an><span>=E4=B8=AD=E4=BD=BF=E7=94=A8</span></span><span><span>setprop</span=
+></span><span><span>=E5=92=8C</span></span><span><span>getprop</span></span=
+><span><span>=E5=AF=B9=E7=B3=BB=E7=BB=9F=E5=B1=9E=E6=80=A7=E8=BF=9B=E8=A1=
+=8C=E8=AE=BE=E7=BD=AE=E5=92=8C=E8=AF=BB=E5=8F=96=EF=BC=9A</span></span></p>
+<p class=3D"cjk"><span><span>getprop</span><span>dalvik.vm.stack-trace-file=
+</span></span></p>
+<p class=3D"cjk"><span>setprop dalvik.vm.stack-trace-file /tmp/stack-traces=
+.txt</span></p>
+<p class=3D"cjk"><span><span>=E2=91=A1&nbsp;</span></span><span><span>=E6=
+=AF=8F=E6=AC=A1=E5=8F=91=E7=94=9F</span></span><span><span>ANR</span></span=
+><span><span>=E6=97=B6=E9=83=BD=E4=BC=9A=E5=88=A0=E9=99=A4=E6=97=A7=E7=9A=
+=84</span></span><span><span>traces</span></span><span><span>=E6=96=87=E4=
+=BB=B6=EF=BC=8C=E9=87=8D=E6=96=B0=E5=88=9B=E5=BB=BA=E6=96=B0=E6=96=87=E4=BB=
+=B6=E3=80=82=E4=B9=9F=E5=B0=B1=E6=98=AF=E8=AF=B4</span></span><span><span>A=
+ndroid</span></span><span><span>=E5=8F=AA=E4=BF=9D=E7=95=99=E6=9C=80=E5=90=
+=8E=E4=B8=80=E6=AC=A1=E5=8F=91=E7=94=9F</span></span><span><span>ANR</span>=
+</span><span><span>=E6=97=B6=E7=9A=84</span></span><span><span>traces</span=
+></span><span><span>=E4=BF=A1=E6=81=AF=EF=BC=8C=E9=82=A3=E4=B9=88=E4=BB=A5=
+=E5=89=8D=E7=9A=84</span></span><span><span>traces</span></span><span><span=
+>=E4=BF=A1=E6=81=AF=E5=B0=B1=E4=B8=A2=E5=A4=B1=E4=BA=86=E4=B9=88=EF=BC=9F=
+=E7=A8=8D=E5=90=8E=E5=9B=9E=E7=AD=94=E3=80=82</span></span></p>
+<p class=3D"cjk"><span><span>=E6=8E=A5=E7=9D=80=E6=9D=A5=E7=9C=8B=E9=87=8D=
+=E8=BD=BD=E7=9A=84</span></span><span><span>dumpStackTraces</span></span><s=
+pan><span>=E5=87=BD=E6=95=B0=E3=80=82</span></span></p>
+<p class=3D"cjk">&nbsp;</p>
+<p class=3D"cjk"><span>private static void dumpStackTraces(String tracesPat=
+h, ArrayList&lt;Integer&gt; firstPids,</span></p>
+<p class=3D"cjk"><span>ProcessStats processStats, SparseArray&lt;Boolean&gt=
+; lastPids, String[] nativeProcs) {</span></p>
+<p class=3D"cjk"><span>//</span><span>=E4=BD=BF=E7=94=A8</span><span>FileOb=
+server</span><span>=E7=9B=91=E5=90=AC=E5=BA=94=E7=94=A8=E8=BF=9B=E7=A8=8B=
+=E6=98=AF=E5=90=A6=E5=B7=B2=E7=BB=8F=E5=AE=8C=E6=88=90=E5=86=99=E5=85=A5</s=
+pan><span>traces</span><span>=E6=96=87=E4=BB=B6=E7=9A=84=E6=93=8D=E4=BD=9C<=
+/span></p>
+<p class=3D"cjk"><span>//Android</span><span>=E5=9C=A8=E5=88=A4=E6=96=AD=E6=
+=A1=8C=E9=9D=A2=E5=A3=81=E7=BA=B8=E6=96=87=E4=BB=B6=E6=98=AF=E5=90=A6=E8=AE=
+=BE=E7=BD=AE=E5=AE=8C=E6=88=90=E6=97=B6=E4=B9=9F=E6=98=AF=E7=94=A8=E7=9A=84=
+</span><span>FileObserver</span><span>=EF=BC=8C=E5=BE=88=E6=9C=89=E7=94=A8=
+=E7=9A=84=E7=B1=BB</span></p>
+<p class=3D"cjk"><span>FileObserver observer =3D new FileObserver(tracesPat=
+h, FileObserver.CLOSE_WRITE) {</span></p>
+<p class=3D"cjk"><span>public synchronized void onEvent(int event, String p=
+ath) { notify(); }</span></p>
+<p class=3D"cjk"><span>};</span></p>
+<p class=3D"cjk"><span>... ...</span></p>
+<p class=3D"cjk"><span>//</span><span>=E9=A6=96=E5=85=88=E8=BE=93=E5=87=BA<=
+/span><span>firstPids</span><span>=E9=9B=86=E5=90=88=E4=B8=AD=E6=8C=87=E5=
+=AE=9A=E7=9A=84=E8=BF=9B=E7=A8=8B=EF=BC=8C=E8=BF=99=E4=BA=9B=E4=B9=9F=E6=98=
+=AF=E5=AF=B9</span><span>ANR</span><span>=E9=97=AE=E9=A2=98=E6=9D=A5=E8=AF=
+=B4=E6=9C=80=E9=87=8D=E8=A6=81=E7=9A=84=E8=BF=9B=E7=A8=8B</span></p>
+<p class=3D"cjk"><span>if (firstPids !=3D null) {</span></p>
+<p class=3D"cjk"><span>try {</span></p>
+<p class=3D"cjk"><span>int num =3D firstPids.size();</span></p>
+<p class=3D"cjk"><span>for (int i =3D 0; i &lt; num; i++) {</span></p>
+<p class=3D"cjk"><span>synchronized (observer) {</span></p>
+<p class=3D"cjk"><span>//</span><span>=E5=89=8D=E9=9D=A2=E6=8F=90=E5=88=B0=
+=E7=9A=84</span><span>SIGNAL_QUIT</span></p>
+<p class=3D"cjk"><span>Process.sendSignal(firstPids.get(i), Process.SIGNAL_=
+QUIT);</span></p>
+<p class=3D"cjk"><span>observer.wait(200);</span></p>
+<p class=3D"cjk"><span>... ...</span></p>
+<p class=3D"cjk"><span>}</span></p>
+<p class=3D"cjk"><br><br></p>
+<p class=3D"cjk"><br><br></p>
+<p class=3D"cjk"><span><span>=E6=8F=90=E7=A4=BA=EF=BC=9A=E5=A6=82=E6=9E=9C=
+=E4=BD=A0=E5=9C=A8=E8=A7=A3=E5=86=B3=E5=85=B6=E4=BB=96=E9=97=AE=E9=A2=98=E6=
+=97=B6=E4=B9=9F=E9=9C=80=E8=A6=81=E6=9F=A5=E7=9C=8B</span></span><span><spa=
+n>Java</span></span><span><span>=E8=BF=9B=E7=A8=8B=E4=B8=AD=E5=90=84=E4=B8=
+=AA=E7=BA=BF=E7=A8=8B=E7=9A=84=E5=87=BD=E6=95=B0=E5=A0=86=E6=A0=88=E4=BF=A1=
+=E6=81=AF=EF=BC=8C=E5=B0=B1=E5=8F=AF=E4=BB=A5=E4=BD=BF=E7=94=A8=E5=90=91=E7=
+=9B=AE=E6=A0=87=E8=BF=9B=E7=A8=8B=E5=8F=91=E9=80=81</span></span><span><spa=
+n>SIGNAL_QUIT</span></span><span><span>=EF=BC=88</span></span><span><span>3=
+</span></span><span><span>=EF=BC=89=E8=BF=99=E4=B8=AA=E6=8A=80=E5=B7=A7=E3=
+=80=82=E5=85=B6=E5=AE=9E=E8=BF=99=E4=B8=AA=E5=90=8D=E7=A7=B0=E6=9C=89=E7=82=
+=B9=E8=AF=AF=E5=AF=BC=EF=BC=8C=E5=AE=83=E5=B9=B6=E4=B8=8D=E4=BC=9A=E8=AE=A9=
+=E8=BF=9B=E7=A8=8B=E7=9C=9F=E6=AD=A3=E9=80=80=E5=87=BA=E3=80=82</span></spa=
+n></p>
+<p class=3D"cjk"><br><br></p>
+<h5 class=3D"cjk" id=3D"Android=E7=B3=BB=E7=BB=9F=E7=A8=B3=E5=AE=9A=E6=80=
+=A7-ANR=EF=BC=88=E4=BA=8C=EF=BC=89-1.2.3DropBox"><span><span>1.2.3 DropBox<=
+/span></span></h5>
+<p class=3D"cjk"><span><span>=E5=88=9A=E6=89=8D=E7=95=99=E4=BA=86=E4=B8=80=
+=E4=B8=AA=E9=97=AE=E9=A2=98=EF=BC=9A</span></span><span><span>Android</span=
+></span><span><span>=E5=8F=AA=E4=BF=9D=E7=95=99=E6=9C=80=E5=90=8E=E4=B8=80=
+=E6=AC=A1=E5=8F=91=E7=94=9F</span></span><span><span>ANR</span></span><span=
+><span>=E6=97=B6=E7=9A=84</span></span><span><span>traces</span></span><spa=
+n><span>=E4=BF=A1=E6=81=AF=EF=BC=8C=E9=82=A3=E4=B9=88=E4=BB=A5=E5=89=8D=E7=
+=9A=84</span></span><span><span>traces</span></span><span><span>=E4=BF=A1=
+=E6=81=AF=E5=B0=B1=E4=B8=A2=E5=A4=B1=E4=BA=86=E4=B9=88=EF=BC=9F=E4=B8=BA=E4=
+=BA=86=E5=A2=9E=E5=BC=BA</span></span><span><span>Android</span></span><spa=
+n><span>=E7=9A=84=E5=BC=82=E5=B8=B8=E4=BF=A1=E6=81=AF=E6=94=B6=E9=9B=86=E7=
+=AE=A1=E7=90=86=E8=83=BD=E5=8A=9B=EF=BC=8C=E4=BB=8E</span></span><span><spa=
+n>2.2</span></span><span><span>=E5=BC=80=E5=A7=8B=E5=A2=9E=E5=8A=A0=E4=BA=
+=86</span></span><span><span>DropBox</span></span><span><span>=E5=8A=9F=E8=
+=83=BD=E3=80=82</span></span></p>
+<p class=3D"cjk"><span><span><span>DropBox</span></span></span><span><span>=
+=EF=BC=88=E7=AE=80=E7=A7=B0</span></span><span><span><span>DB</span></span>=
+</span><span><span>=EF=BC=89=E6=98=AF=E7=B3=BB=E7=BB=9F=E8=BF=9B=E7=A8=8B=
+=E4=B8=AD=E7=9A=84=E4=B8=80=E4=B8=AA=E6=9C=8D=E5=8A=A1=EF=BC=8C=E5=9C=A8</s=
+pan></span><span><span><span>system_server</span></span></span><span><span>=
+=E8=BF=9B=E7=A8=8B=E5=90=AF=E5=8A=A8=E6=97=B6=E5=88=9B=E5=BB=BA=EF=BC=8C=E5=
+=B9=B6=E4=B8=94=E5=AE=83=E6=B2=A1=E6=9C=89=E8=BF=90=E8=A1=8C=E5=9C=A8=E5=8D=
+=95=E7=8B=AC=E7=9A=84=E7=BA=BF=E7=A8=8B=E4=B8=AD=EF=BC=8C=E8=80=8C=E6=98=AF=
+=E8=BF=90=E8=A1=8C=E5=9C=A8</span></span><span><span><span>system_server</s=
+pan></span></span><span><span>=E7=9A=84</span></span><span><span><span>Serv=
+erThread</span></span></span><span><span>=E7=BA=BF=E7=A8=8B=E4=B8=AD=E3=80=
+=82=E6=88=91=E4=BB=AC=E5=8F=AF=E4=BB=A5=E5=B0=86</span></span><span><span><=
+span>ServerThread</span></span></span><span><span>=E7=A7=B0=E4=BD=9C</span>=
+</span><span><span><span>system_server</span></span></span><span><span>=E7=
+=9A=84=E4=B8=BB=E7=BA=BF=E7=A8=8B=EF=BC=8C</span></span><span><span><span>S=
+erverThread</span></span></span><span><span>=E7=BA=BF=E7=A8=8B=E9=99=A4=E4=
+=BA=86=E5=90=AF=E5=8A=A8=E5=B9=B6=E7=BB=B4=E6=8A=A4=E5=90=84=E4=B8=AA=E6=9C=
+=8D=E5=8A=A1=E5=A4=96=EF=BC=8C=E8=BF=98=E8=B4=9F=E8=B4=A3=E6=A3=80=E6=B5=8B=
+=E4=B8=80=E4=BA=9B=E9=87=8D=E8=A6=81=E7=9A=84=E6=9C=8D=E5=8A=A1=E6=98=AF=E5=
+=90=A6=E6=AD=BB=E9=94=81=EF=BC=8C=E8=BF=99=E4=B8=80=E7=82=B9=E5=88=B0=E5=90=
+=8E=E9=9D=A2=E7=9A=84</span></span><span><span><span>Watchdog</span></span>=
+</span><span><span>=E9=83=A8=E5=88=86=E5=86=8D=E5=88=86=E6=9E=90</span></sp=
+an>&lt;!-- Watchdog=E5=86=99=E5=AE=8C=E5=90=8E=E6=B3=A8=E6=84=8F=E8=A1=A5=
+=E5=85=85=E7=AB=A0=E8=8A=82=E5=8F=B7 --&gt;<span><span>=E3=80=82</span></sp=
+an><span><span><span>DB</span></span></span><span><span>=E8=A2=AB=E5=88=9B=
+=E5=BB=BA=E7=9A=84=E4=BB=A3=E7=A0=81=E5=A6=82=E4=B8=8B=E3=80=82</span></spa=
+n></p>
+<p class=3D"cjk"><span><span>SystemServer.java =E2=86=92 ServerThread.run()=
+</span></span></p>
+<p class=3D"cjk"><span>Slog.<em>i</em>(<em>TAG</em>, "DropBox Service");</s=
+pan></p>
+<p class=3D"cjk"><span>ServiceManager.<em>addService</em>(Context.<em>DROPB=
+OX_SERVICE</em>, //</span><span>=E6=9C=8D=E5=8A=A1=E5=90=8D=E7=A7=B0=E4=B8=
+=BA=E2=80=9C</span><span>dropbox=E2=80=9D</span></p>
+<p class=3D"cjk"><span><strong>new</strong>&nbsp;DropBoxManagerService(cont=
+ext,&nbsp;<strong>new</strong>&nbsp;File("/data/system/dropbox")));</span><=
+/p>
+<p class=3D"cjk">&nbsp;</p>
+<p class=3D"cjk"><span><span>=E2=80=9C/data/system/dropbox=E2=80=9D</span><=
+/span><span><span>=E6=98=AF</span></span><span><span>DB</span></span><span>=
+<span>=E6=8C=87=E5=AE=9A=E7=9A=84=E6=96=87=E4=BB=B6=E5=AD=98=E6=94=BE=E4=BD=
+=8D=E7=BD=AE=E3=80=82=E4=B8=8B=E9=9D=A2=E6=9D=A5=E7=9C=8B=E4=B8=80=E4=B8=8B=
+</span></span><span><span>DB</span></span><span><span>=E6=9C=8D=E5=8A=A1=E7=
+=9A=84=E4=B8=BB=E8=A6=81=E5=8A=9F=E8=83=BD=E3=80=82</span></span></p>
+<p><span><span><strong>1. DropBoxManagerService</strong></span></span></p>
+<p class=3D"cjk"><span><span>DropBoxManagerService</span></span><span><span=
+>=EF=BC=88=E7=AE=80=E7=A7=B0</span></span><span><span>DBMS</span></span><sp=
+an><span>=EF=BC=89=E5=B0=B1=E6=98=AF</span></span><span><span>DB</span></sp=
+an><span><span>=E6=9C=8D=E5=8A=A1=E7=9A=84=E6=9C=AC=E5=B0=8A=EF=BC=8C=E5=AE=
+=83=E7=9A=84=E4=B8=BB=E8=A6=81=E5=8A=9F=E8=83=BD=E6=8E=A5=E5=8F=A3=E5=8C=85=
+=E6=8B=AC=E4=BB=A5=E4=B8=8B=E5=87=A0=E4=B8=AA=E5=87=BD=E6=95=B0=EF=BC=9A</s=
+pan></span></p>
+<p class=3D"cjk"><span><span style=3D"color: rgb(127,0,85);"><span><strong>=
+public void</strong></span></span><span>add(DropBoxManager.Entry</span><spa=
+n>entry)</span></span></p>
+<p class=3D"cjk"><span><span>DBMS</span></span><span><span>=E5=B0=86=E6=89=
+=80=E6=9C=89=E8=A6=81=E6=B7=BB=E5=8A=A0=E7=9A=84=E6=97=A5=E5=BF=97=E9=83=BD=
+=E7=94=A8</span></span><span><span>DropBoxManager.Entry</span></span><span>=
+<span>=E7=B1=BB=E5=9E=8B=E7=9A=84=E5=AF=B9=E8=B1=A1=E8=A1=A8=E7=A4=BA=EF=BC=
+=8C=E9=80=9A=E8=BF=87</span></span><span><span>add</span></span><span><span=
+>=E5=87=BD=E6=95=B0=E6=B7=BB=E5=8A=A0=EF=BC=8C=E5=B9=B6=E4=B8=94=E7=9B=B4=
+=E5=88=B0=E7=9B=AE=E5=89=8D=E4=B8=BA=E6=AD=A2=E4=B8=80=E4=B8=AA</span></spa=
+n><span><span>Entry</span></span><span><span>=E5=AF=B9=E8=B1=A1=E5=AF=B9=E5=
+=BA=94=E7=9D=80=E4=B8=80=E4=B8=AA=E6=97=A5=E5=BF=97=E6=96=87=E4=BB=B6=E3=80=
+=82</span></span></p>
+<p class=3D"cjk"><span><span><span style=3D"color: rgb(127,0,85);"><strong>=
+public</strong></span><span style=3D"color: rgb(127,0,85);"><strong>boolean=
+</strong></span>&nbsp;isTagEnabled(String tag)</span></span></p>
+<p class=3D"cjk"><span><span>=E9=80=9A=E8=BF=87=E7=BB=99=E6=AF=8F=E4=B8=80=
+=E4=B8=AA</span></span><span><span>Entry</span></span><span><span>=E8=AE=BE=
+=E7=BD=AE=E4=B8=80=E4=B8=AA</span></span><span><span>tag</span></span><span=
+><span>=E5=8F=AF=E4=BB=A5=E6=A0=87=E8=AF=86=E4=B8=8D=E5=90=8C=E7=B1=BB=E5=
+=9E=8B=E7=9A=84=E6=97=A5=E5=BF=97=EF=BC=8C=E5=B9=B6=E4=B8=94=E5=8F=AF=E4=BB=
+=A5=E7=81=B5=E6=B4=BB=E7=9A=84=E5=90=AF=E7=94=A8</span></span><span><span>/=
+</span></span><span><span>=E7=A6=81=E7=94=A8=E6=9F=90=E7=A7=8D=E7=B1=BB=E5=
+=9E=8B=E7=9A=84=E6=97=A5=E5=BF=97=EF=BC=8C</span></span><span><span>isTagEn=
+abled</span></span><span><span>=E7=94=A8=E6=9D=A5=E5=88=A4=E6=96=AD=E6=8C=
+=87=E5=AE=9A=E7=B1=BB=E5=9E=8B=E7=9A=84=E6=97=A5=E5=BF=97=E6=98=AF=E5=90=A6=
+=E8=A2=AB=E5=90=AF=E7=94=A8</span></span><span><span>/</span></span><span><=
+span>=E7=A6=81=E7=94=A8=E4=BA=86=EF=BC=8C=E4=B8=80=E6=97=A6=E7=A6=81=E7=94=
+=A8=E5=B0=B1=E4=B8=8D=E4=BC=9A=E5=86=8D=E8=AE=B0=E5=BD=95=E8=BF=99=E7=A7=8D=
+=E7=B1=BB=E5=9E=8B=E7=9A=84=E6=97=A5=E5=BF=97=E3=80=82=E9=BB=98=E8=AE=A4=E6=
+=98=AF=E4=B8=8D=E7=A6=81=E7=94=A8=E4=BB=BB=E4=BD=95=E7=B1=BB=E5=9E=8B=E7=9A=
+=84=E6=97=A5=E5=BF=97=E7=9A=84=E3=80=82=E7=A8=8D=E5=90=8E=E8=AF=B4=E6=98=8E=
+=E5=A6=82=E4=BD=95=E5=90=AF=E7=94=A8</span></span><span><span>/</span></spa=
+n><span><span>=E7=A6=81=E7=94=A8=E6=97=A5=E5=BF=97=E3=80=82</span></span></=
+p>
+<p class=3D"cjk"><span><span><span style=3D"color: rgb(127,0,85);"><strong>=
+public</strong></span><span style=3D"color: rgb(127,0,85);"><strong>synchro=
+nized</strong></span>&nbsp;DropBoxManager.Entry getNextEntry(String tag,&nb=
+sp;<span style=3D"color: rgb(127,0,85);"><strong>long</strong></span>&nbsp;=
+millis)</span></span></p>
+<p class=3D"cjk"><span><span>=E6=88=91=E4=BB=AC=E5=8F=AF=E4=BB=A5=E9=80=9A=
+=E8=BF=87</span></span><span><span><span>getNextEntry</span></span></span><=
+span><span>=E5=87=BD=E6=95=B0=E8=8E=B7=E5=8F=96=E6=8C=87=E5=AE=9A=E7=B1=BB=
+=E5=9E=8B=E5=92=8C=E6=8C=87=E5=AE=9A=E6=97=B6=E9=97=B4=E7=82=B9=E4=B9=8B=E5=
+=90=8E=E7=9A=84=E7=AC=AC=E4=B8=80=E6=9D=A1=E6=97=A5=E5=BF=97=EF=BC=8C=E8=A6=
+=81=E4=BD=BF=E7=94=A8=E8=BF=99=E4=B8=AA=E5=8A=9F=E8=83=BD=E5=BA=94=E7=94=A8=
+=E7=A8=8B=E5=BA=8F=E9=9C=80=E8=A6=81=E6=9C=89</span></span><span><span>=E2=
+=80=9C</span></span><span><span><span>android.permission.READ_LOGS=E2=80=9D=
+</span></span></span><span><span>=E7=9A=84=E6=9D=83=E9=99=90=EF=BC=8C=E5=B9=
+=B6=E4=B8=94=E5=9C=A8=E4=BD=BF=E7=94=A8=E5=AE=8C=E6=AF=95=E8=BF=94=E5=9B=9E=
+=E7=9A=84</span></span><span><span><span>Entry</span></span></span><span><s=
+pan>=E5=AF=B9=E8=B1=A1=E5=90=8E=E8=A6=81=E8=B0=83=E7=94=A8=E5=85=B6</span><=
+/span><span><span><span>close</span></span></span><span><span>=E5=87=BD=E6=
+=95=B0=E7=A1=AE=E4=BF=9D=E5=85=B3=E9=97=AD=E6=97=A5=E5=BF=97=E6=96=87=E4=BB=
+=B6=E7=9A=84=E6=96=87=E4=BB=B6=E6=8F=8F=E8=BF=B0=E7=AC=A6=EF=BC=88=E5=A6=82=
+=E6=9E=9C=E4=B8=8D=E5=85=B3=E9=97=AD=E7=9A=84=E8=AF=9D=E5=8F=AF=E8=83=BD=E9=
+=80=A0=E6=88=90=E8=BF=9B=E7=A8=8B=E6=89=93=E5=BC=80=E7=9A=84=E6=96=87=E4=BB=
+=B6=E6=8F=8F=E8=BF=B0=E7=AC=A6=E8=B6=85=E8=BF=87</span></span><span><span><=
+span>1024</span></span></span><span><span>=E8=80=8C=E5=B4=A9=E6=BA=83=EF=BC=
+=8C</span></span><span><span><span>Android</span></span></span><span><span>=
+=E4=B8=AD=E9=99=90=E5=88=B6=E6=AF=8F=E4=B8=AA=E8=BF=9B=E7=A8=8B=E7=9A=84=E6=
+=96=87=E4=BB=B6=E6=8F=8F=E8=BF=B0=E7=AC=A6=E4=B8=8A=E9=99=90=E4=B8=BA</span=
+></span><span><span><span>1024</span></span></span><span><span>=EF=BC=89</s=
+pan></span><span>=E3=80=82</span></p>
+<p class=3D"cjk">&nbsp;</p>
+<p class=3D"cjk"><span>DBMS</span><span>=E6=8F=90=E4=BE=9B=E4=BA=86=E5=BE=
+=88=E5=A4=9A=E7=9A=84=E9=85=8D=E7=BD=AE=E9=A1=B9=E7=94=A8=E6=9D=A5=E9=99=90=
+=E5=88=B6=E5=AF=B9=E7=A3=81=E7=9B=98=E7=9A=84=E4=BD=BF=E7=94=A8=EF=BC=8C=E9=
+=80=9A=E8=BF=87</span><span>SettingsProvider</span><span>=E5=BA=94=E7=94=A8=
+=E7=A8=8B=E5=BA=8F=E7=BB=B4=E6=8A=A4=EF=BC=8C=E6=95=B0=E6=8D=AE=E5=AD=98=E6=
+=94=BE=E5=9C=A8=E5=85=B6</span><span>settings.db</span><span>=E6=95=B0=E6=
+=8D=AE=E5=BA=93=E4=B8=AD=E3=80=82=E8=BF=99=E4=BA=9B=E9=85=8D=E7=BD=AE=E9=A1=
+=B9=E4=B9=9F=E9=83=BD=E6=9C=89=E9=BB=98=E8=AE=A4=E5=80=BC=EF=BC=8C=E7=BD=97=
+=E5=88=97=E5=A6=82=E4=B8=8B=EF=BC=9A</span></p>
+<ul>
+<li><p class=3D"cjk"><span><span>Settings.Secure.DROPBOX_AGE_SECONDS =3D "d=
+ropbox_age_seconds"</span></span></p></li>
+</ul>
+<p class=3D"cjk"><span><span>=E6=97=A5=E5=BF=97=E6=96=87=E4=BB=B6=E4=BF=9D=
+=E5=AD=98=E7=9A=84=E6=9C=80=E9=95=BF=E6=97=B6=E9=97=B4=EF=BC=8C=E9=BB=98=E8=
+=AE=A4</span></span><span><span>3</span></span><span><span>=E5=A4=A9</span>=
+</span></p>
+<ul>
+<li><p class=3D"cjk"><span><span>Settings.Secure.DROPBOX_MAX_FILES =3D "dro=
+pbox_max_files"</span></span></p></li>
+</ul>
+<p class=3D"cjk"><span><span>=E6=97=A5=E5=BF=97=E6=96=87=E4=BB=B6=E7=9A=84=
+=E6=9C=80=E5=A4=A7=E6=95=B0=E9=87=8F=EF=BC=8C=E9=BB=98=E8=AE=A4=E5=80=BC=E6=
+=98=AF</span></span><span><span>1000</span></span></p>
+<ul>
+<li><p class=3D"cjk"><span><span>Settings.Secure.DROPBOX_QUOTA_KB =3D "drop=
+box_quota_kb"</span></span></p></li>
+</ul>
+<p class=3D"cjk"><span><span>=E7=A3=81=E7=9B=98=E7=A9=BA=E9=97=B4=E6=9C=80=
+=E5=A4=A7=E4=BD=BF=E7=94=A8=E9=87=8F</span></span></p>
+<ul>
+<li><p class=3D"cjk"><span><span>Settings.Secure.DROPBOX_QUOTA_PERCENT =3D =
+"dropbox_quota_percent"</span></span></p></li>
+</ul>
+<p class=3D"cjk">&nbsp;</p>
+<ul>
+<li><p class=3D"cjk"><span><span>Settings.Secure.DROPBOX_RESERVE_PERCENT =
+=3D "dropbox_reserve_percent"</span></span></p></li>
+</ul>
+<p class=3D"cjk">&nbsp;</p>
+<ul>
+<li><p class=3D"cjk"><span><span>Settings.Secure.DROPBOX_TAG_PREFIX =3D "dr=
+opbox:"</span></span></p></li>
+</ul>
+<p class=3D"cjk">&nbsp;</p>
+<p class=3D"cjk"><span>//</span><span>=E5=BA=94=E7=94=A8=E7=A8=8B=E5=BA=8F=
+=E5=8F=AF=E4=BB=A5=E5=88=A9=E7=94=A8</span><span>DropBox</span><span>=E6=9D=
+=A5=E5=81=9A=E4=BA=8B=E6=83=85=EF=BC=8C=E6=94=B6=E9=9B=86=E6=97=A5=E5=BF=97=
+=E7=AD=89</span></p>
+<h5 class=3D"cjk" id=3D"Android=E7=B3=BB=E7=BB=9F=E7=A8=B3=E5=AE=9A=E6=80=
+=A7-ANR=EF=BC=88=E4=BA=8C=EF=BC=89-1.2.4traces.txt"><span>1.2.4 traces.txt<=
+/span></h5>
+<p class=3D"cjk" style=3D"margin-left: 0.02cm;"><span><span>=E7=BB=88=E4=BA=
+=8E=E5=88=B0=E5=A4=A7=E6=98=8E=E6=98=9F=E5=87=BA=E5=9C=BA=E7=9A=84=E6=97=B6=
+=E5=80=99=E4=BA=86=EF=BC=8C=E4=B8=80=E8=B5=B7=E6=9D=A5=E7=9C=8B=E4=B8=80=E4=
+=B8=8B</span></span><span><span>traces.txt</span></span><span><span>=E7=9A=
+=84=E5=BA=90=E5=B1=B1=E7=9C=9F=E9=9D=A2=E7=9B=AE=E3=80=82=E4=BB=A5=E4=B8=8B=
+=E6=98=AF=E7=AC=94=E8=80=85=E5=86=99=E7=9A=84=E4=B8=80=E4=B8=AA=E6=BC=94=E7=
+=A4=BA=E7=A8=8B=E5=BA=8F=E5=88=B6=E9=80=A0=E5=87=BA=E7=9A=84=E4=B8=80=E6=AC=
+=A1</span></span><span><span>ANR</span></span><span><span>=E7=9A=84</span><=
+/span><span><span>trace</span></span><span><span>=E4=BF=A1=E6=81=AF=EF=BC=
+=9A</span></span></p>
+<p class=3D"cjk"><br><br></p>
+<p class=3D"cjk"><span>//</span><span>=E6=96=87=E4=BB=B6=E4=B8=AD=E8=BE=93=
+=E5=87=BA=E7=9A=84=E7=AC=AC=E4=B8=80=E4=B8=AA=E8=BF=9B=E7=A8=8B=E7=9A=84</s=
+pan><span>trace</span><span>=E4=BF=A1=E6=81=AF=EF=BC=8C=E6=AD=A3=E6=98=AF=
+=E5=8F=91=E7=94=9F</span><span>ANR</span><span>=E7=9A=84=E6=BC=94=E7=A4=BA=
+=E7=A8=8B=E5=BA=8F</span></p>
+<p class=3D"cjk"><span>//</span><span>=E5=BC=80=E5=A4=B4=E6=98=BE=E7=A4=BA=
+=E8=BF=9B=E7=A8=8B=E5=8F=B7=E3=80=81</span><span>ANR</span><span>=E5=8F=91=
+=E7=94=9F=E7=9A=84=E6=97=B6=E9=97=B4=E7=82=B9=E5=92=8C=E8=BF=9B=E7=A8=8B=E5=
+=90=8D=E7=A7=B0</span></p>
+<p class=3D"cjk"><span>----- pid 9183 at 2012-09-28 22:20:42 -----</span></=
+p>
+<p class=3D"cjk"><span>Cmd line: com.example.anrdemo</span></p>
+<p class=3D"cjk">&nbsp;</p>
+<p class=3D"cjk"><span>DALVIK THREADS: //</span><span>=E4=BB=A5=E4=B8=8B=E6=
+=98=AF=E5=90=84=E4=B8=AA=E7=BA=BF=E7=A8=8B=E7=9A=84=E5=87=BD=E6=95=B0=E5=A0=
+=86=E6=A0=88=E4=BF=A1=E6=81=AF</span></p>
+<p class=3D"cjk"><span>//mutexes</span><span>=E8=A1=A8=E7=A4=BA=E8=99=9A=E6=
+=8B=9F=E6=9C=BA=E5=AE=9E=E4=BE=8B=E4=B8=AD=E5=90=84=E7=A7=8D=E7=BA=BF=E7=A8=
+=8B=E7=9B=B8=E5=85=B3=E5=AF=B9=E8=B1=A1=E9=94=81=E7=9A=84</span><span>value=
+</span><span>=E5=80=BC</span></p>
+<p class=3D"cjk"><span>(mutexes: tll=3D0 tsl=3D0 tscl=3D0 ghl=3D0 hwl=3D0 h=
+wll=3D0)</span></p>
+<p class=3D"cjk"><span><span>//</span></span><span>=E4=BE=9D=E6=AC=A1=E6=98=
+=AF=EF=BC=9A=E7=BA=BF=E7=A8=8B=E5=90=8D=E3=80=81=E7=BA=BF=E7=A8=8B=E4=BC=98=
+=E5=85=88=E7=BA=A7=E3=80=81=E7=BA=BF=E7=A8=8B=E5=88=9B=E5=BB=BA=E6=97=B6=E7=
+=9A=84=E5=BA=8F=E5=8F=B7=E3=80=81</span><span><span>=E2=91=A0</span></span>=
+<span>=E7=BA=BF=E7=A8=8B=E5=BD=93=E5=89=8D=E7=8A=B6=E6=80=81</span></p>
+<p class=3D"cjk"><span>"main" prio=3D5 tid=3D1 TIMED_WAIT</span></p>
+<p class=3D"cjk"><span>//</span><span>=E4=BE=9D=E6=AC=A1=E6=98=AF=EF=BC=9A=
+=E7=BA=BF=E7=A8=8B=E7=BB=84=E5=90=8D=E7=A7=B0=E3=80=81</span><span>suspendC=
+ount</span><span>=E3=80=81</span><span>debugSuspendCount</span><span>=E3=80=
+=81=E7=BA=BF=E7=A8=8B=E7=9A=84</span><span>Java</span><span>=E5=AF=B9=E8=B1=
+=A1=E5=9C=B0=E5=9D=80=E3=80=81=E7=BA=BF=E7=A8=8B=E7=9A=84</span><span>Nativ=
+e</span><span>=E5=AF=B9=E8=B1=A1=E5=9C=B0=E5=9D=80</span></p>
+<p class=3D"cjk"><span>| group=3D"main" sCount=3D1 dsCount=3D0 obj=3D0x4025=
+b1b8 self=3D0xce68</span></p>
+<p class=3D"cjk"><span>//sysTid</span><span>=E6=98=AF=E7=BA=BF=E7=A8=8B=E5=
+=8F=B7=EF=BC=8C=E4=B8=BB=E7=BA=BF=E7=A8=8B=E7=9A=84=E7=BA=BF=E7=A8=8B=E5=8F=
+=B7=E5=92=8C=E8=BF=9B=E7=A8=8B=E5=8F=B7=E7=9B=B8=E5=90=8C</span></p>
+<p class=3D"cjk"><span>| sysTid=3D9183 nice=3D0 sched=3D0/0 cgrp=3Ddefault =
+handle=3D-1345002368</span></p>
+<p class=3D"cjk"><span>| schedstat=3D( 140838632 210998525 213 )</span></p>
+<p class=3D"cjk"><span>at java.lang.VMThread.sleep(Native Method)</span></p=
+>
+<p class=3D"cjk"><span>at java.lang.Thread.sleep(Thread.<a href=3D"http://j=
+ava:1213" class=3D"external-link" rel=3D"nofollow">java:1213</a>)</span></p=
+>
+<p class=3D"cjk"><span>at java.lang.Thread.sleep(Thread.<a href=3D"http://j=
+ava:1195" class=3D"external-link" rel=3D"nofollow">java:1195</a>)</span></p=
+>
+<p class=3D"cjk"><span>at com.example.anrdemo.ANRActivity.makeANR(ANRActivi=
+ty.java:44)</span></p>
+<p class=3D"cjk"><span>at com.example.anrdemo.ANRActivity.onClick(ANRActivi=
+ty.java:38)</span></p>
+<p class=3D"cjk"><span>at android.view.View.performClick(View.<a href=3D"ht=
+tp://java:2486" class=3D"external-link" rel=3D"nofollow">java:2486</a>)</sp=
+an></p>
+<p class=3D"cjk"><span>at android.view.View$PerformClick.run(View.<a href=
+=3D"http://java:9130" class=3D"external-link" rel=3D"nofollow">java:9130</a=
+>)</span></p>
+<p class=3D"cjk"><span>at android.os.Handler.handleCallback(Handler.<a href=
+=3D"http://java:587" class=3D"external-link" rel=3D"nofollow">java:587</a>)=
+</span></p>
+<p class=3D"cjk"><span>at android.os.Handler.dispatchMessage(Handler.java:9=
+2)</span></p>
+<p class=3D"cjk"><span>at android.os.Looper.loop(Looper.<a href=3D"http://j=
+ava:130" class=3D"external-link" rel=3D"nofollow">java:130</a>)</span></p>
+<p class=3D"cjk"><span>at android.app.ActivityThread.main(ActivityThread.<a=
+ href=3D"http://java:3703" class=3D"external-link" rel=3D"nofollow">java:37=
+03</a>)</span></p>
+<p class=3D"cjk"><span>at java.lang.reflect.Method.invokeNative(Native Meth=
+od)</span></p>
+<p class=3D"cjk"><span>at java.lang.reflect.Method.invoke(Method.<a href=3D=
+"http://java:507" class=3D"external-link" rel=3D"nofollow">java:507</a>)</s=
+pan></p>
+<p class=3D"cjk"><span>at com.android.internal.os.ZygoteInit$MethodAndArgsC=
+aller.run(ZygoteInit.<a href=3D"http://java:841" class=3D"external-link" re=
+l=3D"nofollow">java:841</a>)</span></p>
+<p class=3D"cjk"><span>at com.android.internal.os.ZygoteInit.main(ZygoteIni=
+t.<a href=3D"http://java:599" class=3D"external-link" rel=3D"nofollow">java=
+:599</a>)</span></p>
+<p class=3D"cjk"><span>at dalvik.system.NativeStart.main(Native Method)</sp=
+an></p>
+<p class=3D"cjk">&nbsp;</p>
+<p class=3D"cjk"><span><span>//</span><span><span>=E2=91=A1</span></span><s=
+pan>Binder</span></span><span>=E7=BA=BF=E7=A8=8B=E6=98=AF=E8=BF=9B=E7=A8=8B=
+=E7=9A=84=E7=BA=BF=E7=A8=8B=E6=B1=A0=E4=B8=AD=E7=94=A8=E6=9D=A5=E5=A4=84=E7=
+=90=86</span><span><span>binder</span></span><span>=E8=AF=B7=E6=B1=82=E7=9A=
+=84=E7=BA=BF=E7=A8=8B</span></p>
+<p class=3D"cjk"><span>"Binder Thread #2" prio=3D5 tid=3D8 NATIVE</span></p=
+>
+<p class=3D"cjk"><span>| group=3D"main" sCount=3D1 dsCount=3D0 obj=3D0x4075=
+0b90 self=3D0x1440b8</span></p>
+<p class=3D"cjk"><span>| sysTid=3D9190 nice=3D0 sched=3D0/0 cgrp=3Ddefault =
+handle=3D1476256</span></p>
+<p class=3D"cjk"><span>| schedstat=3D( 915528 18463135 4 )</span></p>
+<p class=3D"cjk"><span>at dalvik.system.NativeStart.run(Native Method)</spa=
+n></p>
+<p class=3D"cjk">&nbsp;</p>
+<p class=3D"cjk"><span>"Binder Thread #1" prio=3D5 tid=3D7 NATIVE</span></p=
+>
+<p class=3D"cjk"><span>| group=3D"main" sCount=3D1 dsCount=3D0 obj=3D0x4074=
+f848 self=3D0x78d40</span></p>
+<p class=3D"cjk"><span>| sysTid=3D9189 nice=3D0 sched=3D0/0 cgrp=3Ddefault =
+handle=3D1308088</span></p>
+<p class=3D"cjk"><span>| schedstat=3D( 3509523 25543212 10 )</span></p>
+<p class=3D"cjk"><span>at dalvik.system.NativeStart.run(Native Method)</spa=
+n></p>
+<p class=3D"cjk">&nbsp;</p>
+<p class=3D"cjk"><span>//</span><span>=E7=BA=BF=E7=A8=8B=E5=90=8D=E7=A7=B0=
+=E5=90=8E=E9=9D=A2=E6=A0=87=E8=AF=86=E6=9C=89</span><span>daemon</span><spa=
+n>=EF=BC=8C=E8=AF=B4=E6=98=8E=E8=BF=99=E6=98=AF=E4=B8=AA=E5=AE=88=E6=8A=A4=
+=E7=BA=BF=E7=A8=8B</span></p>
+<p class=3D"cjk"><span>"Compiler" daemon prio=3D5 tid=3D6 VMWAIT</span></p>
+<p class=3D"cjk"><span>| group=3D"system" sCount=3D1 dsCount=3D0 obj=3D0x40=
+74b928 self=3D0x141e78</span></p>
+<p class=3D"cjk"><span>| sysTid=3D9188 nice=3D0 sched=3D0/0 cgrp=3Ddefault =
+handle=3D1506000</span></p>
+<p class=3D"cjk"><span>| schedstat=3D( 21606438 21636964 101 )</span></p>
+<p class=3D"cjk"><span>at dalvik.system.NativeStart.run(Native Method)</spa=
+n></p>
+<p class=3D"cjk">&nbsp;</p>
+<p class=3D"cjk"><span>//JDWP</span><span>=E7=BA=BF=E7=A8=8B=E6=98=AF=E6=94=
+=AF=E6=8C=81=E8=99=9A=E6=8B=9F=E6=9C=BA=E8=B0=83=E8=AF=95=E7=9A=84=E7=BA=BF=
+=E7=A8=8B=EF=BC=8C=E4=B8=8D=E9=9C=80=E8=A6=81=E5=85=B3=E5=BF=83</span></p>
+<p class=3D"cjk"><span>"JDWP" daemon prio=3D5 tid=3D5 VMWAIT</span></p>
+<p class=3D"cjk"><span>| group=3D"system" sCount=3D1 dsCount=3D0 obj=3D0x40=
+74b878 self=3D0x16c958</span></p>
+<p class=3D"cjk"><span>| sysTid=3D9187 nice=3D0 sched=3D0/0 cgrp=3Ddefault =
+handle=3D1510224</span></p>
+<p class=3D"cjk"><span>| schedstat=3D( 366211 2807617 7 )</span></p>
+<p class=3D"cjk"><span>at dalvik.system.NativeStart.run(Native Method)</spa=
+n></p>
+<p class=3D"cjk"><span>//=E2=80=9CSignal Catcher=E2=80=9D</span><span>=E8=
+=B4=9F=E8=B4=A3=E6=8E=A5=E6=94=B6=E5=92=8C=E5=A4=84=E7=90=86</span><span>ke=
+rnel</span><span>=E5=8F=91=E9=80=81=E7=9A=84=E5=90=84=E7=A7=8D=E4=BF=A1=E5=
+=8F=B7=EF=BC=8C=E4=BE=8B=E5=A6=82</span><span>SIGNAL_QUIT</span><span>=E3=
+=80=81</span><span>SIGNAL_USR1</span><span>=E7=AD=89=E5=B0=B1=E6=98=AF=E8=
+=A2=AB=E8=AF=A5=E7=BA=BF=E7=A8=8B</span></p>
+<p class=3D"cjk"><span>//</span><span>=E6=8E=A5=E6=94=B6=E5=88=B0=EF=BC=8C=
+=E8=BF=99=E4=B8=AA=E6=96=87=E4=BB=B6=E7=9A=84=E5=86=85=E5=AE=B9=E5=B0=B1=E6=
+=98=AF=E7=94=B1=E8=AF=A5=E7=BA=BF=E7=A8=8B=E8=B4=9F=E8=B4=A3=E8=BE=93=E5=87=
+=BA=E7=9A=84=EF=BC=8C=E5=8F=AF=E4=BB=A5=E7=9C=8B=E5=88=B0=E5=AE=83=E7=9A=84=
+=E7=8A=B6=E6=80=81=E6=98=AF</span><span>RUNNABLE</span><span>=EF=BC=8C=E4=
+=B8=8D=E8=BF=87=E6=AD=A4=E7=BA=BF=E7=A8=8B=E4=B9=9F=E4=B8=8D=E9=9C=80=E8=A6=
+=81=E5=85=B3=E5=BF=83</span></p>
+<p class=3D"cjk"><span>"Signal Catcher" daemon prio=3D5 tid=3D4 RUNNABLE</s=
+pan></p>
+<p class=3D"cjk"><span>| group=3D"system" sCount=3D0 dsCount=3D0 obj=3D0x40=
+74b7b8 self=3D0x150008</span></p>
+<p class=3D"cjk"><span>| sysTid=3D9186 nice=3D0 sched=3D0/0 cgrp=3Ddefault =
+handle=3D1501664</span></p>
+<p class=3D"cjk"><span>| schedstat=3D( 1708985 6286621 9 )</span></p>
+<p class=3D"cjk"><span>at dalvik.system.NativeStart.run(Native Method)</spa=
+n></p>
+<p class=3D"cjk">&nbsp;</p>
+<p class=3D"cjk"><span>"GC" daemon prio=3D5 tid=3D3 VMWAIT</span></p>
+<p class=3D"cjk"><span>| group=3D"system" sCount=3D1 dsCount=3D0 obj=3D0x40=
+74b710 self=3D0x168010</span></p>
+<p class=3D"cjk"><span>| sysTid=3D9185 nice=3D0 sched=3D0/0 cgrp=3Ddefault =
+handle=3D1503184</span></p>
+<p class=3D"cjk"><span>| schedstat=3D( 305176 4821778 2 )</span></p>
+<p class=3D"cjk"><span>at dalvik.system.NativeStart.run(Native Method)</spa=
+n></p>
+<p class=3D"cjk">&nbsp;</p>
+<p class=3D"cjk"><span>"HeapWorker" daemon prio=3D5 tid=3D2 VMWAIT</span></=
+p>
+<p class=3D"cjk"><span>| group=3D"system" sCount=3D1 dsCount=3D0 obj=3D0x40=
+74b658 self=3D0x16a080</span></p>
+<p class=3D"cjk"><span>| sysTid=3D9184 nice=3D0 sched=3D0/0 cgrp=3Ddefault =
+handle=3D550856</span></p>
+<p class=3D"cjk"><span>| schedstat=3D( 33691407 26336669 15 )</span></p>
+<p class=3D"cjk"><span>at dalvik.system.NativeStart.run(Native Method)</spa=
+n></p>
+<p class=3D"cjk">&nbsp;</p>
+<p class=3D"cjk"><span>----- end 9183 -----</span></p>
+<p class=3D"cjk">&nbsp;</p>
+<p class=3D"cjk"><span>----- pid 127 at 2012-09-28 22:20:42 -----</span></p=
+>
+<p class=3D"cjk"><span>Cmd line: system_server</span></p>
+<p class=3D"cjk"><span>... ...</span></p>
+<p class=3D"cjk"><span>//</span><span>=E7=9C=81=E7=95=A5=E5=85=B6=E4=BB=96=
+=E8=BF=9B=E7=A8=8B=E7=9A=84=E4=BF=A1=E6=81=AF</span></p>
+<p class=3D"cjk">&nbsp;</p>
+<p class=3D"cjk"><br><br></p>
+<p class=3D"cjk"><span><span>=E6=9C=89=E4=B8=80=E4=B8=AA=E5=85=B3=E9=94=AE=
+=E7=82=B9=E9=9C=80=E8=A6=81=E6=B3=A8=E6=84=8F=EF=BC=9A</span></span></p>
+<p class=3D"cjk"><span><span>=E2=9E=80&nbsp;</span></span><span><span>=E7=
+=BA=BF=E7=A8=8B=E6=9C=89=E5=BE=88=E5=A4=9A=E7=8A=B6=E6=80=81=EF=BC=8C=E4=BA=
+=86=E8=A7=A3=E8=BF=99=E4=BA=9B=E7=8A=B6=E6=80=81=E7=9A=84=E6=84=8F=E4=B9=89=
+=E5=AF=B9=E5=88=86=E6=9E=90</span></span><span><span><span>ANR</span></span=
+></span><span><span>=E7=9A=84=E5=8E=9F=E5=9B=A0=E6=98=AF=E6=9C=89=E5=B8=AE=
+=E5=8A=A9=E7=9A=84=EF=BC=8C=E6=80=BB=E7=BB=93=E5=A6=82=E4=B8=8B=EF=BC=9A</s=
+pan></span></p>
+<p class=3D"cjk">&nbsp;</p>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p class=3D"cjk"><span>Thread.java</span><span>=
+=E4=B8=AD=E5=AE=9A=E4=B9=89=E7=9A=84=E7=8A=B6=E6=80=81</span></p></td>
+<td class=3D"confluenceTd"><p class=3D"cjk"><span>Thread.cpp</span><span>=
+=E4=B8=AD=E5=AE=9A=E4=B9=89=E7=9A=84=E7=8A=B6=E6=80=81</span></p></td>
+<td class=3D"confluenceTd"><p class=3D"cjk"><span><span>=E8=AF=B4=E6=98=8E<=
+/span></span></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p class=3D"cjk"><span>TERMINATED</span></p></td=
+>
+<td class=3D"confluenceTd"><p class=3D"cjk"><span>ZOMBIE</span></p></td>
+<td class=3D"confluenceTd"><p class=3D"cjk"><span><span>=E7=BA=BF=E7=A8=8B=
+=E6=AD=BB=E4=BA=A1=EF=BC=8C=E7=BB=88=E6=AD=A2=E8=BF=90=E8=A1=8C</span></spa=
+n></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p class=3D"cjk"><span>RUNNABLE</span></p></td>
+<td class=3D"confluenceTd"><p class=3D"cjk"><span>RUNNING/RUNNABLE</span></=
+p></td>
+<td class=3D"confluenceTd"><p class=3D"cjk"><span><span>=E7=BA=BF=E7=A8=8B=
+=E5=8F=AF=E8=BF=90=E8=A1=8C=E6=88=96=E6=AD=A3=E5=9C=A8=E8=BF=90=E8=A1=8C</s=
+pan></span></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p class=3D"cjk"><span>TIMED_WAITING</span></p><=
+/td>
+<td class=3D"confluenceTd"><p class=3D"cjk"><span>TIMED_WAIT</span></p></td=
+>
+<td class=3D"confluenceTd"><p class=3D"cjk"><span><span>=E6=89=A7=E8=A1=8C=
+=E4=BA=86=E5=B8=A6=E6=9C=89=E8=B6=85=E6=97=B6=E5=8F=82=E6=95=B0=E7=9A=84</s=
+pan></span><span><span>wait</span></span><span><span>=E3=80=81</span></span=
+><span><span>sleep</span></span><span><span>=E6=88=96</span></span><span><s=
+pan>join</span></span><span><span>=E5=87=BD=E6=95=B0</span></span></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p class=3D"cjk"><span>BLOCKED</span></p></td>
+<td class=3D"confluenceTd"><p class=3D"cjk"><span>MONITOR</span></p></td>
+<td class=3D"confluenceTd"><p class=3D"cjk"><span><span>=E7=BA=BF=E7=A8=8B=
+=E9=98=BB=E5=A1=9E=EF=BC=8C=E7=AD=89=E5=BE=85=E8=8E=B7=E5=8F=96=E5=AF=B9=E8=
+=B1=A1=E9=94=81</span></span></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p class=3D"cjk"><span>WAITING</span></p></td>
+<td class=3D"confluenceTd"><p class=3D"cjk"><span>WAIT</span></p></td>
+<td class=3D"confluenceTd"><p class=3D"cjk"><span><span>=E6=89=A7=E8=A1=8C=
+=E4=BA=86=E6=97=A0=E8=B6=85=E6=97=B6=E5=8F=82=E6=95=B0=E7=9A=84</span></spa=
+n><span><span>wait</span></span><span><span>=E5=87=BD=E6=95=B0</span></span=
+></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p class=3D"cjk"><span>NEW</span></p></td>
+<td class=3D"confluenceTd"><p class=3D"cjk"><span>INITIALIZING</span></p></=
+td>
+<td class=3D"confluenceTd"><p class=3D"cjk"><span><span>=E6=96=B0=E5=BB=BA=
+=EF=BC=8C=E6=AD=A3=E5=9C=A8=E5=88=9D=E5=A7=8B=E5=8C=96=EF=BC=8C=E4=B8=BA=E5=
+=85=B6=E5=88=86=E9=85=8D=E8=B5=84=E6=BA=90</span></span></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p class=3D"cjk"><span>NEW</span></p></td>
+<td class=3D"confluenceTd"><p class=3D"cjk"><span>STARTING</span></p></td>
+<td class=3D"confluenceTd"><p class=3D"cjk"><span><span>=E6=96=B0=E5=BB=BA=
+=EF=BC=8C=E6=AD=A3=E5=9C=A8=E5=90=AF=E5=8A=A8</span></span></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p class=3D"cjk"><span>RUNNABLE</span></p></td>
+<td class=3D"confluenceTd"><p class=3D"cjk"><span>NATIVE</span></p></td>
+<td class=3D"confluenceTd"><p class=3D"cjk"><span><span>=E6=AD=A3=E5=9C=A8=
+=E6=89=A7=E8=A1=8C</span></span><span><span>JNI</span></span><span><span>=
+=E6=9C=AC=E5=9C=B0=E5=87=BD=E6=95=B0</span></span></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p class=3D"cjk"><span>WAITING</span></p></td>
+<td class=3D"confluenceTd"><p class=3D"cjk"><span>VMWAIT</span></p></td>
+<td class=3D"confluenceTd"><p class=3D"cjk"><span><span>=E6=AD=A3=E5=9C=A8=
+=E7=AD=89=E5=BE=85</span></span><span><span>VM</span></span><span><span>=E8=
+=B5=84=E6=BA=90</span></span></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p class=3D"cjk"><span>RUNNABLE</span></p></td>
+<td class=3D"confluenceTd"><p class=3D"cjk"><span>SUSPENDED</span></p></td>
+<td class=3D"confluenceTd"><p class=3D"cjk"><span><span>=E7=BA=BF=E7=A8=8B=
+=E6=9A=82=E5=81=9C=EF=BC=8C=E9=80=9A=E5=B8=B8=E6=98=AF=E7=94=B1=E4=BA=8E</s=
+pan></span><span><span>GC</span></span><span><span>=E6=88=96</span></span><=
+span><span>debug</span></span><span><span>=E8=A2=AB=E6=9A=82=E5=81=9C</span=
+></span></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p class=3D"cjk">&nbsp;</p></td>
+<td class=3D"confluenceTd"><p class=3D"cjk"><span>UNKNOWN</span></p></td>
+<td class=3D"confluenceTd"><p class=3D"cjk"><span><span>=E6=9C=AA=E7=9F=A5=
+=E7=8A=B6=E6=80=81</span></span></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class=3D"cjk">&nbsp;</p>
+<p class=3D"cjk"><span><span><span>Thread.java</span></span></span><span><s=
+pan>=E4=B8=AD=E7=9A=84=E7=8A=B6=E6=80=81=E5=92=8C</span></span><span><span>=
+<span>Thread.cpp</span></span></span><span><span>=E4=B8=AD=E7=9A=84=E7=8A=
+=B6=E6=80=81=E6=98=AF=E6=9C=89=E5=AF=B9=E5=BA=94=E5=85=B3=E7=B3=BB=E7=9A=84=
+=E3=80=82=E5=8F=AF=E4=BB=A5=E7=9C=8B=E5=88=B0=E5=89=8D=E8=80=85=E6=9B=B4=E5=
+=8A=A0=E6=A6=82=E6=8B=AC=EF=BC=8C=E4=B9=9F=E6=AF=94=E8=BE=83=E5=AE=B9=E6=98=
+=93=E7=90=86=E8=A7=A3=EF=BC=8C=E9=9D=A2=E5=90=91</span></span><span><span><=
+span>Java</span></span></span><span><span>=E7=9A=84=E4=BD=BF=E7=94=A8=E8=80=
+=85=EF=BC=9B=E8=80=8C=E5=90=8E=E8=80=85=E6=9B=B4=E8=AF=A6=E7=BB=86=EF=BC=8C=
+=E9=9D=A2=E5=90=91=E8=99=9A=E6=8B=9F=E6=9C=BA=E5=86=85=E9=83=A8=E7=9A=84=E7=
+=8E=AF=E5=A2=83=E3=80=82</span></span><span><span><span>traces.txt</span></=
+span></span><span><span>=E4=B8=AD=E6=98=BE=E7=A4=BA=E7=9A=84=E7=BA=BF=E7=A8=
+=8B=E7=8A=B6=E6=80=81=E9=83=BD=E6=98=AF</span></span><span><span><span>Thre=
+ad.cpp</span></span></span><span><span>=E4=B8=AD=E5=AE=9A=E4=B9=89=E7=9A=84=
+=E3=80=82=E5=8F=A6=E5=A4=96=EF=BC=8C=E6=89=80=E6=9C=89=E7=9A=84=E7=BA=BF=E7=
+=A8=8B=E9=83=BD=E6=98=AF=E9=81=B5=E5=BE=AA</span></span><span><span><span>P=
+OSIX</span></span></span><span><span>=E6=A0=87=E5=87=86=E7=9A=84=E6=9C=AC=
+=E5=9C=B0=E7=BA=BF=E7=A8=8B=E3=80=82=E5=85=B3=E4=BA=8E=E7=BA=BF=E7=A8=8B=E6=
+=9B=B4=E5=A4=9A=E7=9A=84=E8=AF=B4=E6=98=8E=E5=8F=AF=E4=BB=A5=E6=9F=A5=E9=98=
+=85=E6=BA=90=E7=A0=81</span></span><span><span><span>/dalvik/vm/Thread.cpp<=
+/span></span></span><span><span>=E4=B8=AD=E7=9A=84=E8=AF=B4=E6=98=8E=E3=80=
+=82</span></span>&lt;!-- =E7=BA=BF=E7=A8=8B=E7=9A=84ThreadGroup=E6=9C=80=E5=
+=A5=BD=E4=B9=9F=E5=86=99=E8=BF=9B=E5=8E=BB --&gt;</p>
+<p class=3D"cjk"><span><span>traces.txt</span></span><span><span>=E6=96=87=
+=E4=BB=B6=E4=B8=AD=E7=9A=84=E8=BF=99=E4=BA=9B=E4=BF=A1=E6=81=AF=E6=98=AF=E7=
+=94=B1=E6=AF=8F=E4=B8=AA</span></span><span><span>Dalvik</span></span><span=
+><span>=E8=BF=9B=E7=A8=8B=E7=9A=84</span></span><span><span>SignalCatcher</=
+span></span><span><span>=E7=BA=BF=E7=A8=8B=E8=BE=93=E5=87=BA=E7=9A=84=EF=BC=
+=8C=E7=9B=B8=E5=85=B3=E4=BB=A3=E7=A0=81=E5=8F=AF=E4=BB=A5=E6=9F=A5=E7=9C=8B=
+</span></span><span><span>/dalvik/vm/</span></span><span><span>=E7=9B=AE=E5=
+=BD=95=E4=B8=8B=E7=9A=84</span></span><span><span>SignalCatcher.cpp::logThr=
+eadStacks</span></span><span><span>=E5=87=BD=E6=95=B0=E5=92=8C</span></span=
+><span><span>Thread.cpp:: dvmDumpAllThreadsEx</span></span><span><span>=E5=
+=87=BD=E6=95=B0=E3=80=82=E5=8F=A6=E5=A4=96=E8=AF=B7=E6=B3=A8=E6=84=8F=EF=BC=
+=8C=E8=BE=93=E5=87=BA=E5=A0=86=E6=A0=88=E4=BF=A1=E6=81=AF=E6=97=B6</span></=
+span><span><span>SignalCatcher</span></span><span><span>=E4=BC=9A=E6=9A=82=
+=E5=81=9C=E6=89=80=E6=9C=89=E7=BA=BF=E7=A8=8B=E3=80=82</span></span></p>
+<p class=3D"cjk"><span><span>=E9=80=9A=E8=BF=87=E8=AF=A5=E6=96=87=E4=BB=B6=
+=E5=BE=88=E5=AE=B9=E6=98=93=E5=B0=B1=E8=83=BD=E7=9F=A5=E9=81=93=E9=97=AE=E9=
+=A2=98=E8=BF=9B=E7=A8=8B=E7=9A=84=E4=B8=BB=E7=BA=BF=E7=A8=8B=E5=8F=91=E7=94=
+=9F</span></span><span><span>ANR</span></span><span><span>=E6=97=B6=E6=AD=
+=A3=E5=9C=A8=E6=89=A7=E8=A1=8C=E6=80=8E=E6=A0=B7=E7=9A=84=E6=93=8D=E4=BD=9C=
+=E3=80=82=E4=BE=8B=E5=A6=82=E4=B8=8A=E8=BF=B0=E7=A4=BA=E4=BE=8B=EF=BC=8C</s=
+pan></span><span><span>ANRActivity</span></span><span><span>=E5=9C=A8</span=
+></span><span><span>makeANR</span></span><span><span>=E5=87=BD=E6=95=B0=E4=
+=B8=AD=E6=89=A7=E8=A1=8C=E7=BA=BF=E7=A8=8B</span></span><span><span>sleep</=
+span></span><span><span>=E6=97=B6=E5=8F=91=E7=94=9F</span></span><span><spa=
+n>ANR</span></span><span><span>=EF=BC=8C=E5=8F=AF=E4=BB=A5=E6=8E=A8=E6=B5=
+=8B</span></span><span><span>sleep</span></span><span><span>=E6=97=B6=E9=97=
+=B4=E8=BF=87=E9=95=BF=EF=BC=8C=E8=B6=85=E8=BF=87=E4=BA=86=E8=B6=85=E6=97=B6=
+=E4=B8=8A=E9=99=90=E5=AF=BC=E8=87=B4=E3=80=82=E8=BF=99=E6=98=AF=E4=B8=80=E7=
+=A7=8D=E6=AF=94=E8=BE=83=E7=AE=80=E5=8D=95=E7=9A=84=E6=83=85=E5=86=B5=EF=BC=
+=8C=E5=AE=9E=E9=99=85=E5=BC=80=E5=8F=91=E4=B8=AD=E4=BC=9A=E9=81=87=E5=88=B0=
+=E5=BE=88=E5=A4=9A=E8=AF=A1=E5=BC=82=E7=9A=84=E3=80=81=E6=9B=B4=E5=8A=A0=E5=
+=A4=8D=E6=9D=82=E7=9A=84=E6=83=85=E5=86=B5=EF=BC=8C=E5=9C=A8=E5=90=8E=E9=9D=
+=A2=E7=9A=84=E5=AE=9E=E4=BE=8B=E8=AE=B2=E8=A7=A3=E4=B8=80=E8=8A=82=E4=BC=9A=
+=E8=AF=A6=E7=BB=86=E8=AF=B4=E6=98=8E=E3=80=82</span></span></p>
+<h5 class=3D"cjk" id=3D"Android=E7=B3=BB=E7=BB=9F=E7=A8=B3=E5=AE=9A=E6=80=
+=A7-ANR=EF=BC=88=E4=BA=8C=EF=BC=89-1.2.5CPU=E4=BD=BF=E7=94=A8=E7=8E=87"><sp=
+an><span>1.2.5 CPU</span></span><span><span>=E4=BD=BF=E7=94=A8=E7=8E=87</sp=
+an></span></h5>
+<p class=3D"cjk"><span><span>=E8=BF=99=E9=83=A8=E5=88=86=E7=9A=84=E5=86=85=
+=E5=AE=B9=E4=B8=BB=E8=A6=81=E6=B6=89=E5=8F=8A=E5=88=B0</span></span><span><=
+span><span>Linux</span></span></span><span><span>=E7=9A=84=E7=9B=B8=E5=85=
+=B3=E7=9F=A5=E8=AF=86=EF=BC=8C=E6=95=B0=E6=8D=AE=E6=98=AF=E4=BB=8E</span></=
+span><span><span>=E2=80=9C</span></span><span><span><span>/proc/stat=E2=80=
+=9D</span></span></span><span><span>=E6=96=87=E4=BB=B6=E4=B8=AD=E8=AF=BB=E5=
+=8F=96=E7=9A=84=EF=BC=8C</span></span><span><span><span>Android</span></spa=
+n></span><span><span>=E4=B8=AD=E4=BB=85=E4=BB=85=E6=98=AF=E6=B1=87=E6=80=BB=
+=E5=92=8C=E8=AE=B0=E5=BD=95=E8=BF=99=E4=BA=9B=E6=95=B0=E6=8D=AE=E8=80=8C=E5=
+=B7=B2=EF=BC=8C=E7=86=9F=E6=82=89</span></span><span><span><span>Linux</spa=
+n></span></span><span><span>=E7=9A=84=E8=AF=BB=E8=80=85=E5=8F=AF=E4=BB=A5=
+=E8=B7=B3=E8=BF=87=E6=9C=AC=E8=8A=82=E5=86=85=E5=AE=B9=E3=80=82</span></spa=
+n></p>
+<p class=3D"cjk"><span><span>=E5=89=8D=E9=9D=A2=E7=AE=80=E5=8D=95=E8=AF=B4=
+=E6=98=8E=E4=BA=86</span></span><span><span>CPU</span></span><span><span>=
+=E4=BD=BF=E7=94=A8=E7=8E=87=E4=BF=A1=E6=81=AF=EF=BC=8C=E6=88=91=E4=BB=AC=E5=
+=9B=9E=E9=A1=BE=E4=B8=80=E4=B8=8B=EF=BC=8C=E8=BF=99=E6=AC=A1=E4=BC=9A=E6=9C=
+=89=E6=9B=B4=E5=A4=9A=E7=9A=84=E7=9F=A5=E8=AF=86=E7=82=B9=E8=A6=81=E8=AF=B4=
+=E6=98=8E=E3=80=82</span></span></p>
+<p class=3D"cjk"><br><br></p>
+<p style=3D"margin-left: 0.0cm;"><span>E/ActivityManager( 127): ANR in com.=
+example.anrdemo (com.example.anrdemo/.ANRActivity)</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>E/ActivityManager( 127): Reason: key=
+DispatchingTimedOut</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>E/ActivityManager( 127): Load: 3.85 =
+/ 3.41 / 3.16 //=E2=9E=80 CPU</span><span>=E5=B9=B3=E5=9D=87=E8=B4=9F=E8=BD=
+=BD</span></p>
+<p style=3D"margin-left: 0.0cm;">&nbsp;</p>
+<p style=3D"margin-left: 0.0cm;"><span>//</span><span>=E2=91=A1</span><span=
+>ANR</span><span>=E5=8F=91=E7=94=9F=E4=B9=8B=E5=89=8D=E7=9A=84=E4=B8=80=E6=
+=AE=B5=E6=97=B6=E9=97=B4=E5=86=85=E7=9A=84</span><span>CPU</span><span>=E4=
+=BD=BF=E7=94=A8=E7=8E=87</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>E/ActivityManager( 127): CPU usage f=
+rom 26835ms to 3662ms ago with 99% awake://</span><span>=E2=91=A2</span></p=
+>
+<p style=3D"margin-left: 0.0cm;"><span>E/ActivityManager( 127): 9.4% 98/med=
+iaserver: 9.4% user + 0% kernel</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>E/ActivityManager( 127): 8.9% 127/sy=
+stem_server: 6.9% user + 2% kernel / faults: 1823 minor //=E2=91=A4 minor</=
+span><span>=E6=88=96=E8=80=85</span><span>major</span><span>=E7=9A=84=E9=A1=
+=B5=E9=94=99=E8=AF=AF=E6=AC=A1=E6=95=B0</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>... ...</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>E/ActivityManager( 127)://</span><sp=
+an>=E2=91=A5</span><span>+0% 5033/com.example.anrdemo: 0% user + 0% kernel<=
+/span></p>
+<p style=3D"margin-left: 0.0cm;"><span>E/ActivityManager( 127): 39% TOTAL: =
+32% user + 6.1% kernel</span></p>
+<p style=3D"margin-left: 0.0cm;">&nbsp;</p>
+<p style=3D"margin-left: 0.0cm;"><span>//</span><span>=E2=91=A6</span><span=
+>ANR</span><span>=E5=8F=91=E7=94=9F=E4=B9=8B=E5=90=8E=E7=9A=84=E4=B8=80=E6=
+=AE=B5=E6=97=B6=E9=97=B4=E5=86=85=E7=9A=84</span><span>CPU</span><span>=E4=
+=BD=BF=E7=94=A8=E7=8E=87</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>E/ActivityManager( 127): CPU usage f=
+rom 601ms to 1132ms later with 99% awake:</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>E/ActivityManager( 127): 10% 127/sys=
+tem_server: 1.7% user + 8.9% kernel / faults: 5 minor</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>E/ActivityManager( 127): 10% 163/Inp=
+utDispatcher: 1.7% user + 8.9% kernel</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>E/ActivityManager( 127): 1.7% 127/sy=
+stem_server: 1.7% user + 0% kernel</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>E/ActivityManager( 127): 1.7% 135/Su=
+rfaceFlinger: 0% user + 1.7% kernel</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>E/ActivityManager( 127): 1.7% 2814/B=
+inder Thread #: 1.7% user + 0% kernel</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>... ...</span></p>
+<p style=3D"margin-left: 0.0cm;"><span>E/ActivityManager( 127): 37% TOTAL: =
+27% user + 9.2% kernel</span></p>
+<p class=3D"cjk"><br><br></p>
+<p class=3D"cjk"><span><span>=E4=BB=A5=E4=B8=8A=E4=BF=A1=E6=81=AF=E5=85=B6=
+=E5=AE=9E=E5=8C=85=E5=90=AB=E4=BA=86=E4=B8=A4=E4=B8=AA=E6=A6=82=E5=BF=B5=EF=
+=BC=9A</span></span><span><span>CPU</span></span><span><span>=E8=B4=9F=E8=
+=BD=BD=E5=92=8C</span></span><span><span>CPU</span></span><span><span>=E4=
+=BD=BF=E7=94=A8=E7=8E=87=EF=BC=8C=E5=AE=83=E4=BB=AC=E6=98=AF=E4=B8=8D=E5=90=
+=8C=E7=9A=84=E3=80=82=E4=B8=8D=E8=BF=87=E8=B4=9F=E8=BD=BD=E7=9A=84=E6=A6=82=
+=E5=BF=B5=E4=B8=BB=E8=A6=81=E6=98=AF=E5=81=9A=E5=A4=A7=E5=9E=8B=E6=9C=8D=E5=
+=8A=A1=E5=99=A8=E7=AB=AF=E5=BA=94=E7=94=A8=E6=97=B6=E5=85=B3=E6=B3=A8=E7=9A=
+=84=E6=80=A7=E8=83=BD=E6=8C=87=E6=A0=87=EF=BC=8C=E5=9C=A8</span></span><spa=
+n><span>Android</span></span><span><span>=E5=BC=80=E5=8F=91=E4=B8=AD=E6=88=
+=91=E4=BB=AC=E6=9B=B4=E5=8A=A0=E5=85=B3=E6=B3=A8=E7=9A=84=E6=98=AF=E4=BD=BF=
+=E7=94=A8=E7=8E=87=E3=80=82=E4=B8=8B=E9=9D=A2=E8=AF=A6=E7=BB=86=E8=AF=B4=E6=
+=98=8E=EF=BC=8C=E6=9C=89=E5=85=AB=E4=B8=AA=E5=85=B3=E9=94=AE=E7=82=B9=E9=9C=
+=80=E8=A6=81=E6=B3=A8=E6=84=8F=EF=BC=9A</span></span></p>
+<p class=3D"cjk"><span><span><strong>=E2=91=A0 CPU</strong></span></span><s=
+pan><span><strong>=E8=B4=9F=E8=BD=BD</strong></span></span><span><span><str=
+ong>/</strong></span></span><span><span><strong>=E5=B9=B3=E5=9D=87=E8=B4=9F=
+=E8=BD=BD</strong></span></span></p>
+<p class=3D"cjk"><span><span>CPU</span></span><span><span>=E8=B4=9F=E8=BD=
+=BD=E6=98=AF=E6=8C=87=E6=9F=90=E4=B8=80=E6=97=B6=E5=88=BB=E7=B3=BB=E7=BB=9F=
+=E4=B8=AD=E8=BF=90=E8=A1=8C=E9=98=9F=E5=88=97=E9=95=BF=E5=BA=A6=E4=B9=8B=E5=
+=92=8C=E5=8A=A0=E4=B8=8A=E5=BD=93=E5=89=8D=E6=AD=A3=E5=9C=A8</span></span><=
+span><span>CPU</span></span><span><span>=E4=B8=8A=E8=BF=90=E8=A1=8C=E7=9A=
+=84=E8=BF=9B=E7=A8=8B=E6=95=B0=EF=BC=8C=E8=80=8C</span></span><span><span>C=
+PU</span></span><span><span>=E5=B9=B3=E5=9D=87=E8=B4=9F=E8=BD=BD=E5=8F=AF=
+=E4=BB=A5=E7=90=86=E8=A7=A3=E4=B8=BA=E4=B8=80=E6=AE=B5=E6=97=B6=E9=97=B4=E5=
+=86=85=E6=AD=A3=E5=9C=A8=E4=BD=BF=E7=94=A8=E5=92=8C=E7=AD=89=E5=BE=85=E4=BD=
+=BF=E7=94=A8</span></span><span><span>CPU</span></span><span><span>=E7=9A=
+=84=E6=B4=BB=E5=8A=A8=E8=BF=9B=E7=A8=8B=E7=9A=84=E5=B9=B3=E5=9D=87=E6=95=B0=
+=E9=87=8F=E3=80=82=E5=9C=A8</span></span><span><span>Linux</span></span><sp=
+an><span>=E4=B8=AD=E2=80=9C=E6=B4=BB=E5=8A=A8=E8=BF=9B=E7=A8=8B=E2=80=9D=E6=
+=98=AF=E6=8C=87=E5=BD=93=E5=89=8D=E7=8A=B6=E6=80=81=E4=B8=BA=E8=BF=90=E8=A1=
+=8C=E6=88=96=E4=B8=8D=E5=8F=AF=E4=B8=AD=E6=96=AD=E9=98=BB=E5=A1=9E=E7=9A=84=
+=E8=BF=9B=E7=A8=8B=E3=80=82=E9=80=9A=E5=B8=B8=E6=89=80=E8=AF=B4=E7=9A=84=E8=
+=B4=9F=E8=BD=BD=E5=85=B6=E5=AE=9E=E5=B0=B1=E6=98=AF=E6=8C=87=E5=B9=B3=E5=9D=
+=87=E8=B4=9F=E8=BD=BD=E3=80=82</span></span></p>
+<p class=3D"cjk"><span><span>=E7=94=A8=E4=B8=80=E4=B8=AA=E4=BB=8E=E7=BD=91=
+=E4=B8=8A=E7=9C=8B=E5=88=B0=E7=9A=84=E5=BE=88=E7=94=9F=E5=8A=A8=E7=9A=84=E4=
+=BE=8B=E5=AD=90=E6=9D=A5=E8=AF=B4=E6=98=8E=EF=BC=88=E4=B8=8D=E8=80=83=E8=99=
+=91</span></span><span><span>CPU</span></span><span><span>=E6=97=B6=E9=97=
+=B4=E7=89=87=E7=9A=84=E9=99=90=E5=88=B6=EF=BC=89=EF=BC=8C=E6=8A=8A=E8=AE=BE=
+=E5=A4=87=E4=B8=AD=E7=9A=84=E4=B8=80=E4=B8=AA=E5=8D=95=E6=A0=B8</span></spa=
+n><span><span>CPU</span></span><span><span>=E6=AF=94=E4=BD=9C=E4=B8=80=E4=
+=B8=AA=E7=94=B5=E8=AF=9D=E4=BA=AD=EF=BC=8C=E6=8A=8A=E8=BF=9B=E7=A8=8B=E6=AF=
+=94=E4=BD=9C=E6=AD=A3=E5=9C=A8=E4=BD=BF=E7=94=A8=E5=92=8C=E7=AD=89=E5=BE=85=
+=E4=BD=BF=E7=94=A8=E7=94=B5=E8=AF=9D=E7=9A=84=E4=BA=BA=EF=BC=8C=E5=81=87=E5=
+=A6=82=E6=9C=89=E4=B8=80=E4=B8=AA=E4=BA=BA=E6=AD=A3=E5=9C=A8=E6=89=93=E7=94=
+=B5=E8=AF=9D=EF=BC=8C=E6=9C=89=E4=B8=89=E4=B8=AA=E4=BA=BA=E5=9C=A8=E6=8E=92=
+=E9=98=9F=E7=AD=89=E5=BE=85=EF=BC=8C=E6=AD=A4=E5=88=BB=E7=94=B5=E8=AF=9D=E4=
+=BA=AD=E7=9A=84=E8=B4=9F=E8=BD=BD=E5=B0=B1=E6=98=AF</span></span><span><spa=
+n>4</span></span><span><span>=E3=80=82=E4=BD=BF=E7=94=A8=E4=B8=AD=E4=BC=9A=
+=E4=B8=8D=E6=96=AD=E7=9A=84=E6=9C=89=E4=BA=BA=E6=89=93=E5=AE=8C=E7=94=B5=E8=
+=AF=9D=E7=A6=BB=E5=BC=80=EF=BC=8C=E4=B9=9F=E4=BC=9A=E4=B8=8D=E6=96=AD=E7=9A=
+=84=E6=9C=89=E5=85=B6=E4=BB=96=E4=BA=BA=E6=8E=92=E9=98=9F=E7=AD=89=E5=BE=85=
+=EF=BC=8C=E4=B8=BA=E4=BA=86=E5=BE=97=E5=88=B0=E4=B8=80=E4=B8=AA=E6=9C=89=E5=
+=8F=82=E8=80=83=E4=BB=B7=E5=80=BC=E7=9A=84=E8=B4=9F=E8=BD=BD=E5=80=BC=EF=BC=
+=8C=E5=8F=AF=E4=BB=A5=E8=A7=84=E5=AE=9A=E6=AF=8F=E9=9A=94</span></span><spa=
+n><span>5</span></span><span><span>=E7=A7=92=E8=AE=B0=E5=BD=95=E4=B8=80=E4=
+=B8=8B=E7=94=B5=E8=AF=9D=E4=BA=AD=E7=9A=84=E8=B4=9F=E8=BD=BD=EF=BC=8C=E5=B9=
+=B6=E5=B0=86=E6=9F=90=E4=B8=80=E6=97=B6=E5=88=BB=E4=B9=8B=E5=89=8D=E7=9A=84=
+=E4=B8=80=E5=88=86=E9=92=9F=E3=80=81=E4=BA=94=E5=88=86=E9=92=9F=E3=80=81=E5=
+=8D=81=E4=BA=94=E5=88=86=E9=92=9F=E7=9A=84=E7=9A=84=E8=B4=9F=E8=BD=BD=E6=83=
+=85=E5=86=B5=E5=88=86=E5=88=AB=E6=B1=82=E5=B9=B3=E5=9D=87=E5=80=BC=EF=BC=8C=
+=E6=9C=80=E7=BB=88=E5=B0=B1=E5=BE=97=E5=88=B0=E4=BA=86=E4=B8=89=E4=B8=AA=E6=
+=97=B6=E6=AE=B5=E7=9A=84=E5=B9=B3=E5=9D=87=E8=B4=9F=E8=BD=BD=E3=80=82</span=
+></span></p>
+<p class=3D"cjk"><span><span>=E5=AE=9E=E9=99=85=E4=B8=8A=E6=88=91=E4=BB=AC=
+=E9=80=9A=E5=B8=B8=E5=85=B3=E5=BF=83=E7=9A=84=E5=B0=B1=E6=98=AF=E5=9C=A8=E6=
+=9F=90=E4=B8=80=E6=97=B6=E5=88=BB=E7=9A=84=E5=89=8D=E4=B8=80=E5=88=86=E9=92=
+=9F=E3=80=81=E4=BA=94=E5=88=86=E9=92=9F=E3=80=81=E5=8D=81=E4=BA=94=E5=88=86=
+=E9=92=9F=E7=9A=84</span></span><span><span><span>CPU</span></span></span><=
+span><span>=E5=B9=B3=E5=9D=87=E8=B4=9F=E8=BD=BD=EF=BC=8C=E4=BE=8B=E5=A6=82=
+=E4=BB=A5=E4=B8=8A=E6=97=A5=E5=BF=97=E4=B8=AD=E8=BF=99=E4=B8=89=E4=B8=AA=E5=
+=80=BC=E5=88=86=E5=88=AB=E6=98=AF</span></span><span><span><span>3.85</span=
+></span></span><span><span>=E3=80=81</span></span><span><span><span>3.41</s=
+pan></span></span><span><span>=E3=80=81</span></span><span><span><span>3.16=
+</span></span></span><span><span>=EF=BC=8C=E8=AF=B4=E6=98=8E=E5=89=8D=E4=B8=
+=80=E5=88=86=E9=92=9F=E5=86=85=E6=AD=A3=E5=9C=A8=E4=BD=BF=E7=94=A8=E5=92=8C=
+=E7=AD=89=E5=BE=85=E4=BD=BF=E7=94=A8</span></span><span><span><span>CPU</sp=
+an></span></span><span><span>=E7=9A=84=E6=B4=BB=E5=8A=A8=E8=BF=9B=E7=A8=8B=
+=E5=B9=B3=E5=9D=87=E6=9C=89</span></span><span><span><span>3.85</span></spa=
+n></span><span><span>=E4=B8=AA=EF=BC=8C=E4=BE=9D=E6=AD=A4=E7=B1=BB=E6=8E=A8=
+=E3=80=82=E5=9C=A8=E5=A4=A7=E5=9E=8B=E6=9C=8D=E5=8A=A1=E5=99=A8=E7=AB=AF=E5=
+=BA=94=E7=94=A8=E4=B8=AD=E4=B8=BB=E8=A6=81=E5=85=B3=E6=B3=A8=E7=9A=84=E6=98=
+=AF=E7=AC=AC=E4=BA=94=E5=88=86=E9=92=9F=E5=92=8C=E7=AC=AC=E5=8D=81=E4=BA=94=
+=E5=88=86=E9=92=9F=E7=9A=84=E4=B8=A4=E4=B8=AA=E5=80=BC=EF=BC=8C=E4=BD=86=E6=
+=98=AF</span></span><span><span><span>Android</span></span></span><span><sp=
+an>=E4=B8=BB=E8=A6=81=E5=BA=94=E7=94=A8=E5=9C=A8=E4=BE=BF=E6=90=BA=E6=89=8B=
+=E6=8C=81=E8=AE=BE=E5=A4=87=E4=B8=AD=EF=BC=8C=E6=9C=89=E7=89=B9=E6=AE=8A=E7=
+=9A=84=E8=BD=AF=E7=A1=AC=E4=BB=B6=E7=8E=AF=E5=A2=83=E5=92=8C=E5=BA=94=E7=94=
+=A8=E5=9C=BA=E6=99=AF=EF=BC=8C=E7=9F=AD=E6=97=B6=E9=97=B4=E5=86=85=E7=9A=84=
+=E7=B3=BB=E7=BB=9F=E7=9A=84=E8=BE=83=E9=AB=98=E8=B4=9F=E8=BD=BD=E5=B0=B1=E6=
+=9C=89=E5=8F=AF=E8=83=BD=E9=80=A0=E6=88=90</span></span><span><span><span>A=
+NR</span></span></span><span><span>=EF=BC=8C=E6=89=80=E4=BB=A5=E7=AC=94=E8=
+=80=85=E8=AE=A4=E4=B8=BA=E4=B8=80=E5=88=86=E9=92=9F=E5=86=85=E7=9A=84=E5=B9=
+=B3=E5=9D=87=E8=B4=9F=E8=BD=BD=E7=9B=B8=E5=AF=B9=E6=9D=A5=E8=AF=B4=E6=9B=B4=
+=E5=85=B7=E6=9C=89=E5=8F=82=E8=80=83=E4=BB=B7=E5=80=BC=E3=80=82</span></spa=
+n></p>
+<p class=3D"cjk"><span><span>CPU</span></span><span><span>=E7=9A=84=E8=B4=
+=9F=E8=BD=BD=E5=92=8C=E4=BD=BF=E7=94=A8=E7=8E=87=E6=B2=A1=E6=9C=89=E5=BF=85=
+=E7=84=B6=E5=85=B3=E7=B3=BB=EF=BC=8C=E6=9C=89=E5=8F=AF=E8=83=BD=E5=8F=AA=E6=
+=9C=89=E4=B8=80=E4=B8=AA=E8=BF=9B=E7=A8=8B=E5=9C=A8=E4=BD=BF=E7=94=A8</span=
+></span><span><span>CPU</span></span><span><span>=EF=BC=8C=E4=BD=86=E6=89=
+=A7=E8=A1=8C=E7=9A=84=E6=98=AF=E5=A4=8D=E6=9D=82=E7=9A=84=E6=93=8D=E4=BD=9C=
+=EF=BC=9B=E4=B9=9F=E6=9C=89=E5=8F=AF=E8=83=BD=E7=AD=89=E5=BE=85=E5=92=8C=E6=
+=AD=A3=E5=9C=A8=E4=BD=BF=E7=94=A8</span></span><span><span>CPU</span></span=
+><span><span>=E7=9A=84=E8=BF=9B=E7=A8=8B=E5=BE=88=E5=A4=9A=EF=BC=8C=E4=BD=
+=86=E6=AF=8F=E4=B8=AA=E8=BF=9B=E7=A8=8B=E6=89=A7=E8=A1=8C=E7=9A=84=E9=83=BD=
+=E6=98=AF=E7=AE=80=E5=8D=95=E6=93=8D=E4=BD=9C=E3=80=82</span></span></p>
+<p class=3D"cjk"><span><span>=E5=AE=9E=E9=99=85=E5=A4=84=E7=90=86=E9=97=AE=
+=E9=A2=98=E6=97=B6=E5=81=B6=E5=B0=94=E4=BC=9A=E9=81=87=E5=88=B0=E7=94=B1=E4=
+=BA=8E=E5=B9=B3=E5=9D=87=E8=B4=9F=E8=BD=BD=E9=AB=98=E5=BC=95=E8=B5=B7=E7=9A=
+=84</span></span><span><span>ANR</span></span><span><span>=EF=BC=8C=E5=85=
+=B8=E5=9E=8B=E7=9A=84=E7=89=B9=E5=BE=81=E5=B0=B1=E6=98=AF=E7=B3=BB=E7=BB=9F=
+=E4=B8=AD=E5=BA=94=E7=94=A8=E8=BF=9B=E7=A8=8B=E6=95=B0=E9=87=8F=E5=A4=9A=EF=
+=BC=8C</span></span><span><span>CPU</span></span><span><span>=E6=80=BB=E4=
+=BD=BF=E7=94=A8=E7=8E=87=E8=BE=83=E9=AB=98=EF=BC=8C=E4=BD=86=E6=98=AF=E6=AF=
+=8F=E4=B8=AA=E8=BF=9B=E7=A8=8B=E7=9A=84</span></span><span><span>CPU</span>=
+</span><span><span>=E4=BD=BF=E7=94=A8=E7=8E=87=E4=B8=8D=E9=AB=98=EF=BC=8C=
+=E5=BD=93=E5=89=8D=E5=BA=94=E7=94=A8=E8=BF=9B=E7=A8=8B=E4=B8=BB=E7=BA=BF=E7=
+=A8=8B=E6=B2=A1=E6=9C=89=E5=BC=82=E5=B8=B8=E9=98=BB=E5=A1=9E=EF=BC=8C=E4=B8=
+=80=E5=88=86=E9=92=9F=E5=86=85=E7=9A=84</span></span><span><span>CPU</span>=
+</span><span><span>=E5=B9=B3=E5=9D=87=E8=B4=9F=E8=BD=BD=E8=BE=83=E9=AB=98=
+=E3=80=82</span></span></p>
+<p class=3D"cjk"><br><br></p>
+<p class=3D"cjk"><span><span><strong>=E6=8F=90=E7=A4=BA=EF=BC=9A</strong></=
+span></span><span><span>Linux</span></span><span><span>=E5=86=85=E6=A0=B8=
+=E4=B8=8D=E6=96=AD=E8=BF=9B=E8=A1=8C=E7=9D=80</span></span><span><span>CPU<=
+/span></span><span><span>=E8=B4=9F=E8=BD=BD=E7=9A=84=E8=AE=B0=E5=BD=95=EF=
+=BC=8C=E6=88=91=E4=BB=AC=E5=8F=AF=E4=BB=A5=E5=9C=A8=E4=BB=BB=E6=84=8F=E6=97=
+=B6=E5=88=BB=E9=80=9A=E8=BF=87=E5=9C=A8</span></span><span><span>shell</spa=
+n></span><span><span>=E4=B8=AD=E6=89=A7=E8=A1=8C=E2=80=9C</span></span><spa=
+n><span>cat /proc/loadavg=E2=80=9D</span></span><span><span>=E6=9F=A5=E7=9C=
+=8B=E3=80=82</span></span></p>
+<p class=3D"cjk"><br><br></p>
+<p class=3D"cjk"><span><span><span><strong>=E2=91=A1 ANR</strong></span></s=
+pan></span><span><span><strong>=E5=8F=91=E7=94=9F=E4=B9=8B=E5=89=8D=E5=92=
+=8C=E4=B9=8B=E5=90=8E=E4=B8=80=E6=AE=B5=E6=97=B6=E9=97=B4=E7=9A=84</strong>=
+</span></span><span><span><span><strong>CPU</strong></span></span></span><s=
+pan><span><strong>=E4=BD=BF=E7=94=A8=E7=8E=87</strong></span></span></p>
+<p class=3D"cjk"><span><span>CPU</span></span><span><span>=E4=BD=BF=E7=94=
+=A8=E7=8E=87=E5=8F=AF=E4=BB=A5=E7=90=86=E8=A7=A3=E4=B8=BA=E4=B8=80=E6=AE=B5=
+=E6=97=B6=E9=97=B4=EF=BC=88=E8=AE=B0=E4=BD=9C</span></span><span><span>T</s=
+pan></span><span><span>=EF=BC=89=E5=86=85=E9=99=A4</span></span><span><span=
+>CPU</span></span><span><span>=E7=A9=BA=E9=97=B2=E6=97=B6=E9=97=B4=EF=BC=88=
+=E8=AE=B0=E4=BD=9C</span></span><span><span>I</span></span><span><span>=EF=
+=BC=89=E4=B9=8B=E5=A4=96=E7=9A=84=E6=97=B6=E9=97=B4=E4=B8=8E=E8=BF=99=E6=AE=
+=B5=E6=97=B6=E9=97=B4</span></span><span><span>T</span></span><span><span>=
+=E7=9A=84=E6=AF=94=E5=80=BC=EF=BC=8C=E7=94=A8=E5=85=AC=E5=BC=8F=E8=A1=A8=E7=
+=A4=BA=E5=8F=AF=E4=BB=A5=E5=86=99=E4=B8=BA=EF=BC=9A</span></span></p>
+<p class=3D"cjk"><span><span>CPU</span></span><span>=E4=BD=BF=E7=94=A8=E7=
+=8E=87</span><span><span>=3D (T =E2=80=93 I) / T</span></span></p>
+<p class=3D"cjk"><span><span>=E8=80=8C=E6=97=B6=E9=97=B4=E6=AE=B5</span></s=
+pan><span><span>T</span></span><span><span>=E6=98=AF=E4=B8=A4=E4=B8=AA=E9=
+=87=87=E6=A0=B7=E6=97=B6=E9=97=B4=E7=82=B9=E7=9A=84=E6=97=B6=E9=97=B4=E5=B7=
+=AE=E5=80=BC=E3=80=82</span></span></p>
+<p class=3D"cjk"><span><span>=E4=B9=8B=E6=89=80=E4=BB=A5=E5=8F=AF=E4=BB=A5=
+=E8=BF=99=E6=A0=B7=E8=AE=A1=E7=AE=97=EF=BC=8C=E6=98=AF=E5=9B=A0=E4=B8=BA</s=
+pan></span><span><span>Linux</span></span><span><span>=E5=86=85=E6=A0=B8=E4=
+=BC=9A=E6=8A=8A=E4=BB=8E=E7=B3=BB=E7=BB=9F=E5=90=AF=E5=8A=A8=E5=BC=80=E5=A7=
+=8B=E5=88=B0=E5=BD=93=E5=89=8D=E6=97=B6=E5=88=BB</span></span><span><span>C=
+PU</span></span><span><span>=E6=B4=BB=E5=8A=A8=E7=9A=84=E6=89=80=E6=9C=89=
+=E6=97=B6=E9=97=B4=E4=BF=A1=E6=81=AF=E9=83=BD=E8=AE=B0=E5=BD=95=E4=B8=8B=E6=
+=9D=A5=EF=BC=8C=E6=88=91=E4=BB=AC=E5=8F=AF=E4=BB=A5=E9=80=9A=E8=BF=87=E6=9F=
+=A5=E7=9C=8B=E2=80=9C</span></span><span><span>/proc/stat=E2=80=9D</span></=
+span><span><span>=E6=96=87=E4=BB=B6=E8=8E=B7=E5=8F=96=E8=BF=99=E4=BA=9B=E4=
+=BF=A1=E6=81=AF=E3=80=82=E4=B8=BB=E8=A6=81=E5=8C=85=E6=8B=AC=E4=BB=A5=E4=B8=
+=8B=E5=87=A0=E7=A7=8D=E6=97=B6=E9=97=B4=EF=BC=8C=E8=BF=99=E4=BA=9B=E6=97=B6=
+=E9=97=B4=E9=83=BD=E6=98=AF=E4=BB=8E=E7=B3=BB=E7=BB=9F=E5=90=AF=E5=8A=A8=E5=
+=BC=80=E5=A7=8B=E8=AE=A1=E7=AE=97=E7=9A=84=EF=BC=8C=E5=8D=95=E4=BD=8D=E9=83=
+=BD=E6=98=AF</span></span><span><span>0.01</span></span><span><span>=E7=A7=
+=92=EF=BC=9A</span></span></p>
+<p class=3D"cjk"><span><span>user</span></span><span><span>=EF=BC=9A&nbsp;<=
+/span></span><span><span>CPU</span></span><span><span>=E5=9C=A8=E7=94=A8=E6=
+=88=B7=E6=80=81=E7=9A=84=E8=BF=90=E8=A1=8C=E6=97=B6=E9=97=B4=EF=BC=8C=E4=B8=
+=8D=E5=8C=85=E6=8B=AC</span></span><span><span>nice</span></span><span><spa=
+n>=E5=80=BC=E4=B8=BA=E8=B4=9F=E6=95=B0=E7=9A=84=E8=BF=9B=E7=A8=8B=E8=BF=90=
+=E8=A1=8C=E7=9A=84=E6=97=B6=E9=97=B4</span></span></p>
+<p class=3D"cjk"><span><span>nice</span></span><span><span>=EF=BC=9A</span>=
+</span><span><span>&nbsp;CPU</span></span><span><span>=E5=9C=A8=E7=94=A8=E6=
+=88=B7=E6=80=81=E5=B9=B6=E4=B8=94</span></span><span><span>nice</span></spa=
+n><span><span>=E5=80=BC=E4=B8=BA=E8=B4=9F=E6=95=B0=E7=9A=84=E8=BF=9B=E7=A8=
+=8B=E8=BF=90=E8=A1=8C=E7=9A=84=E6=97=B6=E9=97=B4</span></span></p>
+<p class=3D"cjk"><span><span>system</span></span><span><span>=EF=BC=9A</spa=
+n></span><span><span>CPU</span></span><span><span>=E5=9C=A8=E5=86=85=E6=A0=
+=B8=E6=80=81=E8=BF=90=E8=A1=8C=E7=9A=84=E6=97=B6=E9=97=B4</span></span></p>
+<p class=3D"cjk"><span><span>idle</span></span><span><span>=EF=BC=9A&nbsp;<=
+/span></span><span><span>CPU</span></span><span><span>=E7=A9=BA=E9=97=B2=E6=
+=97=B6=E9=97=B4=EF=BC=8C=E4=B8=8D=E5=8C=85=E6=8B=AC</span></span><span><spa=
+n>iowait</span></span><span><span>=E6=97=B6=E9=97=B4</span></span></p>
+<p class=3D"cjk"><span><span>iowait</span></span><span><span>=EF=BC=9A&nbsp=
+;</span></span><span><span>CPU</span></span><span><span>=E7=AD=89=E5=BE=85<=
+/span></span><span><span>I/O</span></span><span><span>=E6=93=8D=E4=BD=9C=E7=
+=9A=84=E6=97=B6=E9=97=B4</span></span></p>
+<p class=3D"cjk"><span><span>irq</span></span><span><span>=EF=BC=9A&nbsp;</=
+span></span><span><span>CPU</span></span><span><span>=E7=A1=AC=E4=B8=AD=E6=
+=96=AD=E7=9A=84=E6=97=B6=E9=97=B4</span></span></p>
+<p class=3D"cjk"><span><span>softirq</span></span><span><span>=EF=BC=9A</sp=
+an></span><span><span>CPU</span></span><span><span>=E8=BD=AF=E4=B8=AD=E6=96=
+=AD=E7=9A=84=E6=97=B6=E9=97=B4</span></span></p>
+<p class=3D"cjk"><br><br></p>
+<p class=3D"cjk"><span><span><strong>=E6=B3=A8=E6=84=8F=EF=BC=9A</strong>=
+=E9=9A=8F=E7=9D=80</span></span><span><span>Linux</span></span><span><span>=
+=E5=86=85=E6=A0=B8=E7=89=88=E6=9C=AC=E7=9A=84=E4=B8=8D=E5=90=8C=EF=BC=8C=E5=
+=8C=85=E5=90=AB=E7=9A=84=E6=97=B6=E9=97=B4=E7=B1=BB=E5=9E=8B=E6=9C=89=E5=8F=
+=AF=E8=83=BD=E4=B8=8D=E5=90=8C=EF=BC=8C=E4=BE=8B=E5=A6=82</span></span><spa=
+n><span>2.6.11</span></span><span><span>=E4=B8=AD=E5=A2=9E=E5=8A=A0=E7=9A=
+=84</span></span><span><span>stealstolen</span></span><span><span>=E7=AD=89=
+=E3=80=82=E4=BD=86=E6=A0=B9=E6=8D=AE</span></span><span><span>Android</span=
+></span><span><span>=E6=BA=90=E7=A0=81=EF=BC=8C=E6=88=91=E4=BB=AC=E5=8F=AA=
+=E9=9C=80=E8=A6=81=E5=85=B3=E5=BF=83=E4=BB=A5=E4=B8=8A=E4=B8=83=E7=A7=8D=E7=
+=B1=BB=E5=9E=8B=E5=8D=B3=E5=8F=AF=E3=80=82</span></span></p>
+<p class=3D"cjk"><br><br></p>
+<p class=3D"cjk"><span><span>CPU</span></span><span><span>=E4=BD=BF=E7=94=
+=A8=E7=8E=87=E7=9A=84=E8=AE=A1=E7=AE=97=E6=98=AF=E5=9C=A8</span></span><spa=
+n><span>ProcessStats</span></span><span><span>=E7=B1=BB=E4=B8=AD=E5=AE=9E=
+=E7=8E=B0=E7=9A=84=E3=80=82=E5=A6=82=E6=9E=9C=E5=9C=A8=E6=9F=90=E4=B8=A4=E4=
+=B8=AA=E6=97=B6=E5=88=BB</span></span><span><span>T1</span></span><span><sp=
+an>=E5=92=8C</span></span><span><span>T2</span></span><span><span>=EF=BC=88=
+</span></span><span><span>T1 &lt; T2</span></span><span><span>=EF=BC=89=E8=
+=BF=9B=E8=A1=8C=E9=87=87=E6=A0=B7=E8=AE=B0=E5=BD=95=EF=BC=8C</span></span><=
+span><span>CPU</span></span><span><span>=E4=BD=BF=E7=94=A8=E7=8E=87=E7=9A=
+=84=E6=95=B4=E4=B8=AA=E7=AE=97=E6=B3=95=E5=8F=AF=E4=BB=A5=E5=BD=92=E7=BA=B3=
+=E4=B8=BA=E4=BB=A5=E4=B8=8B=E5=87=A0=E4=B8=AA=E5=85=AC=E5=BC=8F=EF=BC=9A</s=
+pan></span></p>
+<p class=3D"cjk"><span><span>userTime =3D (user2 + nice2) =E2=80=93 (user1 =
++ nice1)</span></span></p>
+<p class=3D"cjk"><span><span>systemTime =3D system2 - system1</span></span>=
+</p>
+<p class=3D"cjk"><span><span>idleTime =3D idle2 - idle1</span></span></p>
+<p class=3D"cjk"><span><span>iowaitTime =3D iowait2 - iowait1</span></span>=
+</p>
+<p class=3D"cjk"><span><span>irqTime =3D irq2 - irq1</span></span></p>
+<p class=3D"cjk"><span><span>softirqTime =3D softirq2 - softirq1</span></sp=
+an></p>
+<p class=3D"cjk"><span><span>TotalTime =3D userTime + systemTime + idleTime=
+ + iowaitTime + irqTime + softirqTime</span></span></p>
+<p class=3D"cjk"><span><span>=E6=9C=89=E4=BA=86=E4=BB=A5=E4=B8=8A=E6=95=B0=
+=E6=8D=AE=E5=B0=B1=E5=8F=AF=E4=BB=A5=E8=AE=A1=E7=AE=97=E5=85=B7=E4=BD=93=E7=
+=9A=84=E4=BD=BF=E7=94=A8=E7=8E=87=E4=BA=86=EF=BC=8C=E4=BE=8B=E5=A6=82=E7=94=
+=A8=E6=88=B7=E6=80=81</span></span><span><span>CPU</span></span><span><span=
+>=E4=BD=BF=E7=94=A8=E7=8E=87=E4=B8=BA=EF=BC=9A</span></span></p>
+<p class=3D"cjk"><span><span>userCpuUsage =3D userTime / TotalTime</span></=
+span></p>
+<p class=3D"cjk"><span><span>=E4=BE=9D=E6=AD=A4=E7=B1=BB=E6=8E=A8=E5=8F=AF=
+=E4=BB=A5=E8=AE=A1=E7=AE=97=E5=85=B6=E4=BB=96=E7=B1=BB=E5=9E=8B=E7=9A=84=E4=
+=BD=BF=E7=94=A8=E7=8E=87=E3=80=82=E8=80=8C=E6=95=B4=E4=B8=AA=E6=97=B6=E9=97=
+=B4=E6=AE=B5=E5=86=85</span></span><span><span>CPU</span></span><span><span=
+>=E4=BD=BF=E7=94=A8=E7=8E=87=E4=B8=BA=EF=BC=9A</span></span></p>
+<p class=3D"cjk"><span><span>CpuUsage =3D (TotalTime =E2=80=93 idleTime) / =
+TotalTime</span></span></p>
+<p class=3D"cjk"><span><span>=E4=BB=A5=E4=B8=8A=E8=AE=A1=E7=AE=97=E7=9A=84=
+=E6=98=AF=E6=95=B4=E4=B8=AA=E7=B3=BB=E7=BB=9F=E7=9A=84</span></span><span><=
+span>CPU</span></span><span><span>=E4=BD=BF=E7=94=A8=E7=8E=87=EF=BC=8C=E5=
+=AF=B9=E4=BA=8E=E6=8C=87=E5=AE=9A=E8=BF=9B=E7=A8=8B=E7=9A=84=E4=BD=BF=E7=94=
+=A8=E7=8E=87=E6=98=AF=E9=80=9A=E8=BF=87=E8=AF=BB=E5=8F=96=E8=AF=A5=E8=BF=9B=
+=E7=A8=8B=E7=9A=84=E2=80=9C</span></span><span><span>/proc/</span></span><s=
+pan><span>=E8=BF=9B=E7=A8=8B=E5=8F=B7</span></span><span><span>/stat=E2=80=
+=9D</span></span><span><span>=E6=96=87=E4=BB=B6=E8=AE=A1=E7=AE=97=E7=9A=84=
+=EF=BC=8C=E8=80=8C=E5=AF=B9=E4=BA=8E=E6=8C=87=E5=AE=9A=E8=BF=9B=E7=A8=8B=E7=
+=9A=84=E6=8C=87=E5=AE=9A=E7=BA=BF=E7=A8=8B=E7=9A=84=E4=BD=BF=E7=94=A8=E7=8E=
+=87=E6=98=AF=E9=80=9A=E8=BF=87=E8=AF=BB=E5=8F=96=E8=AF=A5=E7=BA=BF=E7=A8=8B=
+=E7=9A=84=E2=80=9C</span></span><span><span>/proc/</span></span><span><span=
+>=E8=BF=9B=E7=A8=8B=E5=8F=B7</span></span><span><span>/task/</span></span><=
+span><span>=E7=BA=BF=E7=A8=8B=E5=8F=B7</span></span><span><span>/stat=E2=80=
+=9D</span></span><span><span>=E6=96=87=E4=BB=B6=E8=AE=A1=E7=AE=97=E7=9A=84=
+=E3=80=82=E8=BF=9B=E7=A8=8B=E5=92=8C=E7=BA=BF=E7=A8=8B=E7=9A=84</span></spa=
+n><span><span>CPU</span></span><span><span>=E4=BD=BF=E7=94=A8=E7=8E=87=E5=
+=8F=AA=E5=8C=85=E5=90=AB=E8=AF=A5=E8=BF=9B=E7=A8=8B=E6=88=96=E7=BA=BF=E7=A8=
+=8B=E7=9A=84=E6=80=BB=E4=BD=BF=E7=94=A8=E7=8E=87=E3=80=81=E7=94=A8=E6=88=B7=
+=E6=80=81=E4=BD=BF=E7=94=A8=E7=8E=87=E5=92=8C=E5=86=85=E6=A0=B8=E6=80=81=E4=
+=BD=BF=E7=94=A8=E7=8E=87=E3=80=82</span></span></p>
+<p class=3D"cjk"><span><span>AMS</span></span><span><span>=E5=9C=A8=E6=89=
+=A7=E8=A1=8C</span></span><span><span>appNotResponding</span></span><span><=
+span>=E5=87=BD=E6=95=B0=E8=BF=87=E7=A8=8B=E4=B8=AD=EF=BC=8C=E5=85=B1=E8=BE=
+=93=E5=87=BA=E4=BA=86=E4=B8=A4=E4=B8=AA=E6=97=B6=E9=97=B4=E6=AE=B5=E7=9A=84=
+</span></span><span><span>CPU</span></span><span><span>=E4=BD=BF=E7=94=A8=
+=E7=8E=87=EF=BC=8C=E9=80=9A=E5=B8=B8=E6=83=85=E5=86=B5=E4=B8=8B=E5=9C=A8</s=
+pan></span><span><span>ANR</span></span><span><span>=E5=8F=91=E7=94=9F=E6=
+=97=B6=E9=97=B4=E7=82=B9=E4=B9=8B=E5=89=8D=E5=92=8C=E4=B9=8B=E5=90=8E=E5=90=
+=84=E6=9C=89=E4=B8=80=E6=AE=B5=E3=80=82=E4=B8=A4=E6=AE=B5=E4=BD=BF=E7=94=A8=
+=E7=8E=87=E9=83=BD=E6=98=AF=E4=B8=A4=E6=AC=A1=E8=B0=83=E7=94=A8</span></spa=
+n><span><span>ProcessStats</span></span><span><span>=E5=AF=B9=E8=B1=A1=E7=
+=9A=84</span></span><span><span>update</span></span><span><span>=E5=87=BD=
+=E6=95=B0=EF=BC=8C=E6=AF=8F=E6=AC=A1=E8=B0=83=E7=94=A8</span></span><span><=
+span>update</span></span><span><span>=E5=87=BD=E6=95=B0=E6=97=B6=E4=BC=9A=
+=E4=BF=9D=E7=95=99=E4=B8=8A=E4=B8=80=E6=97=B6=E9=97=B4=E7=82=B9=E7=9A=84=E9=
+=87=87=E6=A0=B7=E6=95=B0=E6=8D=AE=EF=BC=8C=E5=B9=B6=E8=AE=B0=E5=BD=95=E5=BD=
+=93=E5=89=8D=E6=97=B6=E9=97=B4=E7=82=B9=E7=9A=84=E9=87=87=E6=A0=B7=E6=95=B0=
+=E6=8D=AE=E3=80=82=E7=84=B6=E5=90=8E=E5=86=8D=E8=B0=83=E7=94=A8</span></spa=
+n><span><span>ProcessStats</span></span><span><span>=E5=AF=B9=E8=B1=A1=E7=
+=9A=84</span></span><span><span>printCurrentState</span></span><span><span>=
+=E5=87=BD=E6=95=B0=EF=BC=8C=E6=8C=89=E7=85=A7=E4=B8=8A=E8=BF=B0=E5=85=AC=E5=
+=BC=8F=E5=BD=92=E7=BA=B3=E7=9A=84=E7=AE=97=E6=B3=95=E8=AE=A1=E7=AE=97</span=
+></span><span><span>CPU</span></span><span><span>=E4=BD=BF=E7=94=A8=E7=8E=
+=87=EF=BC=8C=E5=B9=B6=E8=BE=93=E5=87=BA=E6=9C=80=E7=BB=88=E7=9A=84=E7=BB=93=
+=E6=9E=9C=E3=80=82=E5=86=8D=E8=AF=A6=E7=BB=86=E7=9C=8B=E4=B8=80=E4=B8=8B=E4=
+=BB=A3=E7=A0=81=EF=BC=9A</span></span></p>
+<p class=3D"cjk"><span><span>ActivityManagerService.java =E2=86=92 appNotRe=
+sponding</span></span></p>
+<p class=3D"cjk"><span>//</span><span>=E7=AC=AC=E4=B8=80=E6=AC=A1=E4=BD=BF=
+=E7=94=A8=E6=88=90=E5=91=98=E5=8F=98=E9=87=8F</span><span>mProcessStats</sp=
+an><span>=E9=87=87=E6=A0=B7</span></p>
+<p class=3D"cjk"><span><strong>if</strong>&nbsp;(<span style=3D"color: rgb(=
+0,0,192);"><em>MONITOR_CPU_USAGE</em></span>) {</span></p>
+<p class=3D"cjk"><span>updateCpuStatsNow();</span></p>
+<p class=3D"cjk"><span>}</span></p>
+<p class=3D"cjk"><span>... ...</span></p>
+<p class=3D"cjk">&nbsp;</p>
+<p class=3D"cjk"><span>//</span><span>=E5=A3=B0=E6=98=8E=E4=BA=86=E4=B8=80=
+=E4=B8=AA=E5=B1=80=E9=83=A8=E5=8F=98=E9=87=8F=EF=BC=8C=E5=8F=82=E6=95=B0</s=
+pan><span>true</span><span>=E8=A1=A8=E7=A4=BA=E5=8C=85=E6=8B=AC=E7=BA=BF=E7=
+=A8=8B=E4=BF=A1=E6=81=AF</span></p>
+<p class=3D"cjk"><span><span style=3D"color: rgb(127,0,85);"><strong>final<=
+/strong></span>&nbsp;ProcessStats processStats =3D&nbsp;<span style=3D"colo=
+r: rgb(127,0,85);"><strong>new</strong></span>&nbsp;ProcessStats(<span styl=
+e=3D"color: rgb(127,0,85);"><strong>true</strong></span>);</span></p>
+<p class=3D"cjk"><span>//</span><span>=E5=B0=86</span><span>processStats</s=
+pan><span>=E4=BD=9C=E4=B8=BA=E5=AE=9E=E5=8F=82=E4=BC=A0=E5=85=A5=EF=BC=8C=
+=E5=9C=A8</span><span>dumpStackTraces</span><span>=E4=B8=AD=E7=9B=B8=E9=9A=
+=94</span><span>500</span><span>=E6=AF=AB=E7=A7=92=E4=B8=A4=E6=AC=A1=E8=B0=
+=83=E7=94=A8=E5=85=B6</span><span>update</span><span>=E5=87=BD=E6=95=B0=E8=
+=BF=9B=E8=A1=8C=E9=87=87=E6=A0=B7</span></p>
+<p class=3D"cjk"><span>File tracesFile =3D&nbsp;<em>dumpStackTraces</em>(<s=
+pan style=3D"color: rgb(127,0,85);"><strong>true</strong></span>, firstPids=
+, processStats, lastPids);</span></p>
+<p class=3D"cjk">&nbsp;</p>
+<p class=3D"cjk"><span>String cpuInfo =3D&nbsp;<span style=3D"color: rgb(12=
+7,0,85);"><strong>null</strong></span>;</span></p>
+<p class=3D"cjk"><span><span style=3D"color: rgb(127,0,85);"><strong>if</st=
+rong></span>&nbsp;(<span style=3D"color: rgb(0,0,192);"><em>MONITOR_CPU_USA=
+GE</em></span>) {</span></p>
+<p class=3D"cjk"><span>//</span><span>=E5=9B=A0=E4=B8=BA=E5=9C=A8=E7=AC=AC=
+=E4=B8=80=E6=AC=A1=E8=B0=83=E7=94=A8=E5=90=8E=EF=BC=8C=E5=8F=AF=E8=83=BD=E7=
+=94=B1=E4=BA=8E=E8=BE=93=E5=87=BA</span><span>trace</span><span>=E4=BF=A1=
+=E6=81=AF=E7=AD=89=E6=93=8D=E4=BD=9C=EF=BC=8C=E4=B8=AD=E9=97=B4=E6=89=A7=E8=
+=A1=8C=E4=BA=86=E8=BE=83=E9=95=BF=E7=9A=84=E6=97=B6=E9=97=B4=EF=BC=8C=E6=89=
+=80=E4=BB=A5=E6=9C=89=E7=AC=AC=E4=BA=8C=E6=AC=A1=E4=BD=BF=E7=94=A8=E6=88=90=
+=E5=91=98=E5=8F=98=E9=87=8F</span></p>
+<p class=3D"cjk"><span>//mProcessStats</span><span>=E9=87=87=E6=A0=B7=EF=BC=
+=8C=E5=B0=BD=E9=87=8F=E4=BD=BF=E5=BE=97=E9=87=87=E6=A0=B7=E6=97=B6=E9=97=B4=
+=E7=82=B9=E9=9D=A0=E5=90=8E=E3=80=82</span></p>
+<p class=3D"cjk"><span>//</span><span>=E6=AD=A4=E5=87=BD=E6=95=B0=E4=B8=AD=
+=E8=A6=81=E6=B1=82=E8=BF=9E=E7=BB=AD=E4=B8=A4=E6=AC=A1=E9=87=87=E6=A0=B7=E6=
+=97=B6=E9=97=B4=E9=97=B4=E9=9A=94=E4=B8=8D=E5=B0=91=E4=BA=8E</span><span>5<=
+/span><span>=E7=A7=92=EF=BC=8C=E6=89=80=E4=BB=A5=E4=B8=80=E8=88=AC=E4=B8=8D=
+=E4=BC=9A=E6=89=A7=E8=A1=8C=E7=AC=AC=E4=BA=8C=E6=AC=A1=E9=87=87=E6=A0=B7=E3=
+=80=82=E4=B8=80=E6=97=A6=E6=89=A7=E8=A1=8C=EF=BC=8C=E5=B0=B1=E4=BC=9A=E5=87=
+=BA=E7=8E=B0=E4=B8=A4=E4=B8=AA=E9=87=87=E6=A0=B7</span></p>
+<p class=3D"cjk"><span>//</span><span>=E6=97=B6=E9=97=B4=E7=82=B9=E4=B8=80=
+=E4=B8=AA=E5=9C=A8</span><span>ANR</span><span>=E5=8F=91=E7=94=9F=E4=B9=8B=
+=E5=89=8D=EF=BC=8C=E5=8F=A6=E4=B8=80=E4=B8=AA=E5=9C=A8=E5=85=B6=E4=B9=8B=E5=
+=90=8E=EF=BC=8C=E6=88=96=E8=80=85=E4=B8=A4=E4=B8=AA=E6=97=B6=E9=97=B4=E7=82=
+=B9=E9=83=BD=E5=9C=A8</span><span>ANR</span><span>=E5=8F=91=E7=94=9F=E4=B9=
+=8B=E5=90=8E=E7=9A=84=E6=83=85=E5=86=B5=E3=80=82</span></p>
+<p class=3D"cjk"><span>updateCpuStatsNow();</span></p>
+<p class=3D"cjk"><span><span style=3D"color: rgb(127,0,85);"><strong>synchr=
+onized</strong></span>&nbsp;(<span style=3D"color: rgb(0,0,192);">mProcessS=
+tatsThread</span>) {</span></p>
+<p class=3D"cjk"><span>//mProcessStats</span><span>=E6=98=AF=E6=88=90=E5=91=
+=98=E5=8F=98=E9=87=8F=EF=BC=8C=E5=88=9B=E5=BB=BA=E5=AF=B9=E8=B1=A1=E6=97=B6=
+=E4=BC=A0=E5=85=A5=E7=9A=84=E5=8F=82=E6=95=B0=E6=98=AF</span><span>false</s=
+pan><span>=EF=BC=8C=E6=89=80=E4=BB=A5=E4=B8=8D=E5=8C=85=E6=8B=AC=E7=BA=BF=
+=E7=A8=8B=E4=BF=A1=E6=81=AF</span></p>
+<p class=3D"cjk"><span>//</span><span>=E6=AD=A4=E5=A4=84=E5=85=88=E8=BE=93=
+=E5=87=BA</span><span>ANR</span><span>=E5=8F=91=E7=94=9F=E4=B9=8B=E5=89=8D=
+=E4=B8=80=E6=AE=B5=E6=97=B6=E9=97=B4=E5=86=85=E7=9A=84</span><span>CPU</spa=
+n><span>=E4=BD=BF=E7=94=A8=E7=8E=87</span></p>
+<p class=3D"cjk"><span>cpuInfo =3D&nbsp;</span><span style=3D"color: rgb(0,=
+0,192);">mProcessStats</span>.printCurrentState(anrTime);</p>
+<p class=3D"cjk"><span>}</span></p>
+<p class=3D"cjk"><span>info.append(processStats.printCurrentLoad());</span>=
+</p>
+<p class=3D"cjk"><span>info.append(cpuInfo);</span></p>
+<p class=3D"cjk"><span>}</span></p>
+<p class=3D"cjk"><span>//processStats</span><span>=E5=AF=B9=E8=B1=A1=E6=98=
+=AF=E5=9C=A8</span><span>ANR</span><span>=E5=8F=91=E7=94=9F=E5=90=8E=E5=88=
+=9B=E5=BB=BA=E5=B9=B6=E9=87=87=E6=A0=B7=E7=9A=84=EF=BC=8C=E6=89=80=E4=BB=A5=
+=E8=BE=93=E5=87=BA=E7=9A=84=E6=98=AF</span><span>ANR</span><span>=E5=8F=91=
+=E7=94=9F=E4=B9=8B=E5=90=8E=E4=B8=80=E6=AE=B5=E6=97=B6=E9=97=B4=E5=86=85=E7=
+=9A=84</span><span>CPU</span><span>=E4=BD=BF=E7=94=A8=E7=8E=87</span></p>
+<p class=3D"cjk"><span>info.append(processStats.printCurrentState(anrTime))=
+;</span></p>
+<p class=3D"cjk"><br><br></p>
+<p class=3D"cjk"><span><span><span><strong>=E2=91=A2&nbsp;</strong></span><=
+/span></span><span><span><strong>=E9=9D=9E=E7=9D=A1=E7=9C=A0=E6=97=B6=E9=97=
+=B4=E7=99=BE=E5=88=86=E6=AF=94</strong></span></span></p>
+<p class=3D"cjk"><span><span>=E5=9C=A8=E8=AE=B0=E5=BD=95</span></span><span=
+><span>CPU</span></span><span><span>=E4=BD=BF=E7=94=A8=E7=8E=87=E7=9A=84=E6=
+=AF=8F=E4=B8=AA=E9=87=87=E6=A0=B7=E6=97=B6=E9=97=B4=E7=82=B9=E6=97=B6=E4=BD=
+=BF=E7=94=A8=E4=BA=86=E4=B8=A4=E7=A7=8D=E8=AE=B0=E5=BD=95=E6=96=B9=E6=B3=95=
+=EF=BC=9A</span></span><span><span>SystemClock.uptimeMillis()</span></span>=
+<span><span>=E5=92=8C</span></span><span><span>SystemClock.elapsedRealtime(=
+)</span></span><span><span>=EF=BC=8C=E4=B8=A4=E8=80=85=E7=9A=84=E5=8C=BA=E5=
+=88=AB=E5=B0=B1=E6=98=AF</span></span><span><span>uptimeMillis</span></span=
+><span><span>=E4=B8=8D=E5=8C=85=E5=90=AB=E7=9D=A1=E7=9C=A0=E6=97=B6=E9=97=
+=B4=EF=BC=8C=E6=89=80=E4=BB=A5=E4=B8=A4=E4=B8=AA=E9=87=87=E6=A0=B7=E6=97=B6=
+=E9=97=B4=E7=82=B9=E4=B9=8B=E9=97=B4=E7=9A=84</span></span><span><span>upti=
+meMillis</span></span><span><span>=E5=92=8C</span></span><span><span>elapse=
+dRealtime</span></span><span><span>=E4=B9=8B=E6=AF=94=E5=B0=B1=E6=98=AF=E9=
+=9D=9E=E7=9D=A1=E7=9C=A0=E6=97=B6=E9=97=B4=E7=99=BE=E5=88=86=E6=AF=94=E3=80=
+=82</span></span></p>
+<p class=3D"cjk"><span><span>=E2=9E=83</span></span><span><span><strong>=E9=
+=A1=B5=E9=94=99=E8=AF=AF=E6=AC=A1=E6=95=B0</strong></span></span></p>
+<p class=3D"cjk"><span><span>=E8=BF=9B=E7=A8=8B=E7=9A=84</span></span><span=
+><span>CPU</span></span><span><span>=E4=BD=BF=E7=94=A8=E7=8E=87=E6=9C=80=E5=
+=90=8E=E8=BE=93=E5=87=BA=E7=9A=84=E2=80=9C</span></span><span><span>faults:=
+ xxx minor/major=E2=80=9D</span></span><span><span>=E9=83=A8=E5=88=86=E8=A1=
+=A8=E7=A4=BA=E7=9A=84=E6=98=AF=E9=A1=B5=E9=94=99=E8=AF=AF=E6=AC=A1=E6=95=B0=
+=EF=BC=8C=E5=BD=93=E6=AC=A1=E6=95=B0=E4=B8=BA</span></span><span><span>0</s=
+pan></span><span><span>=E6=97=B6=E4=B8=8D=E6=98=BE=E7=A4=BA=E3=80=82</span>=
+</span><span><span>major</span></span><span><span>=E6=98=AF=E6=8C=87</span>=
+</span><span><span>Major Page Fault</span></span><span><span>=EF=BC=88=E4=
+=B8=BB=E8=A6=81=E9=A1=B5=E9=94=99=E8=AF=AF=EF=BC=8C=E7=AE=80=E7=A7=B0</span=
+></span><span><span>MPF</span></span><span><span>=EF=BC=89=EF=BC=8C=E5=86=
+=85=E6=A0=B8=E5=9C=A8=E8=AF=BB=E5=8F=96=E6=95=B0=E6=8D=AE=E6=97=B6=E4=BC=9A=
+=E5=85=88=E5=90=8E=E6=9F=A5=E6=89=BE</span></span><span><span>CPU</span></s=
+pan><span><span>=E7=9A=84=E9=AB=98=E9=80=9F=E7=BC=93=E5=AD=98=E5=92=8C=E7=
+=89=A9=E7=90=86=E5=86=85=E5=AD=98=EF=BC=8C=E5=A6=82=E6=9E=9C=E6=89=BE=E4=B8=
+=8D=E5=88=B0=E4=BC=9A=E5=8F=91=E5=87=BA=E4=B8=80=E4=B8=AA</span></span><spa=
+n><span>MPF</span></span><span><span>=E4=BF=A1=E6=81=AF=EF=BC=8C=E8=AF=B7=
+=E6=B1=82=E5=B0=86=E6=95=B0=E6=8D=AE=E5=8A=A0=E8=BD=BD=E5=88=B0=E5=86=85=E5=
+=AD=98=E3=80=82</span></span><span><span>Minor</span></span><span><span>=E6=
+=98=AF=E6=8C=87</span></span><span><span>Minor Page Fault</span></span><spa=
+n><span>=EF=BC=88=E6=AC=A1=E8=A6=81=E9=A1=B5=E9=94=99=E8=AF=AF=EF=BC=8C=E7=
+=AE=80=E7=A7=B0</span></span><span><span>MnPF</span></span><span><span>=EF=
+=BC=89=EF=BC=8C=E7=A3=81=E7=9B=98=E6=95=B0=E6=8D=AE=E8=A2=AB=E5=8A=A0=E8=BD=
+=BD=E5=88=B0=E5=86=85=E5=AD=98=E5=90=8E=EF=BC=8C=E5=86=85=E6=A0=B8=E5=86=8D=
+=E6=AC=A1=E8=AF=BB=E5=8F=96=E6=97=B6=EF=BC=8C=E4=BC=9A=E5=8F=91=E5=87=BA=E4=
+=B8=80=E4=B8=AA</span></span><span><span>MnPF</span></span><span><span>=E4=
+=BF=A1=E6=81=AF=E3=80=82=E4=B8=80=E4=B8=AA=E6=96=87=E4=BB=B6=E7=AC=AC=E4=B8=
+=80=E6=AC=A1=E8=A2=AB=E8=AF=BB=E5=86=99=E6=97=B6=E4=BC=9A=E6=9C=89=E5=BE=88=
+=E5=A4=9A=E7=9A=84</span></span><span><span>MPF</span></span><span><span>=
+=EF=BC=8C=E8=A2=AB=E7=BC=93=E5=AD=98=E5=88=B0=E5=86=85=E5=AD=98=E5=90=8E=E5=
+=86=8D=E6=AC=A1=E8=AE=BF=E9=97=AE</span></span><span><span>MPF</span></span=
+><span><span>=E5=B0=B1=E4=BC=9A=E5=BE=88=E5=B0=91=EF=BC=8C</span></span><sp=
+an><span>MnPF</span></span><span><span>=E5=8F=8D=E8=80=8C=E5=8F=98=E5=A4=9A=
+=EF=BC=8C=E8=BF=99=E6=98=AF=E5=86=85=E6=A0=B8=E4=B8=BA=E5=87=8F=E5=B0=91=E6=
+=95=88=E7=8E=87=E4=BD=8E=E4=B8=8B=E7=9A=84=E7=A3=81=E7=9B=98</span></span><=
+span><span>I/O</span></span><span><span>=E6=93=8D=E4=BD=9C=E9=87=87=E7=94=
+=A8=E7=9A=84=E7=BC=93=E5=AD=98=E6=8A=80=E6=9C=AF=E7=9A=84=E7=BB=93=E6=9E=9C=
+=E3=80=82</span></span></p>
+<p class=3D"cjk"><span><span>=E5=A6=82=E6=9E=9C</span></span><span><span><s=
+pan>ANR</span></span></span><span><span>=E5=8F=91=E7=94=9F=E6=97=B6=E5=8F=
+=91=E7=8E=B0</span></span><span><span><span>CPU</span></span></span><span><=
+span>=E4=BD=BF=E7=94=A8=E7=8E=87=E4=B8=AD</span></span><span><span><span>io=
+wait</span></span></span><span><span>=E5=8D=A0=E6=AF=94=E5=BE=88=E9=AB=98=
+=EF=BC=8C=E5=8F=AF=E4=BB=A5=E9=80=9A=E8=BF=87=E6=9F=A5=E7=9C=8B=E8=BF=9B=E7=
+=A8=8B=E7=9A=84</span></span><span><span><span>major</span></span></span><s=
+pan><span>=E6=AC=A1=E6=95=B0=E6=9D=A5=E6=8E=A8=E6=96=AD=E6=98=AF=E5=93=AA=
+=E4=B8=AA=E8=BF=9B=E7=A8=8B=E5=9C=A8=E8=BF=9B=E8=A1=8C=E7=A3=81=E7=9B=98</s=
+pan></span><span><span><span>I/O</span></span></span><span><span>=E6=93=8D=
+=E4=BD=9C=E3=80=82</span></span>&lt;!-- =E6=B1=82=E8=AF=81=E4=B8=80=E4=B8=
+=8B --&gt;</p>
+<p class=3D"cjk"><span><span><span><strong>=E2=9E=84</strong></span></span>=
+</span><span><span><strong>=E6=96=B0=E5=A2=9E=E5=92=8C=E7=A7=BB=E9=99=A4=E7=
+=9A=84=E8=BF=9B=E7=A8=8B=E6=88=96=E7=BA=BF=E7=A8=8B</strong></span></span><=
+/p>
+<p class=3D"cjk"><span><span>=E5=A6=82=E6=9E=9C=E4=B8=80=E4=B8=AA=E8=BF=9B=
+=E7=A8=8B=E6=88=96=E7=BA=BF=E7=A8=8B=E7=9A=84</span></span><span><span>CPU<=
+/span></span><span><span>=E4=BD=BF=E7=94=A8=E7=8E=87=E5=89=8D=E6=9C=89=E2=
+=80=9C</span></span><span><span>+=E2=80=9D</span></span><span><span>=EF=BC=
+=8C=E8=AF=B4=E6=98=8E=E8=AF=A5=E8=BF=9B=E7=A8=8B=E6=88=96=E7=BA=BF=E7=A8=8B=
+=E6=98=AF=E5=9C=A8=E6=9C=80=E5=90=8E=E4=B8=A4=E6=AC=A1</span></span><span><=
+span>CPU</span></span><span><span>=E4=BD=BF=E7=94=A8=E7=8E=87=E9=87=87=E6=
+=A0=B7=E6=97=B6=E9=97=B4=E6=AE=B5=E5=86=85=E6=96=B0=E5=BB=BA=E7=9A=84=EF=BC=
+=9B=E5=8F=8D=E4=B9=8B=E5=A6=82=E6=9E=9C=E6=98=AF=E2=80=9C</span></span><spa=
+n><span>-=E2=80=9D</span></span><span><span>=EF=BC=8C=E8=AF=B4=E6=98=8E=E8=
+=AF=A5=E8=BF=9B=E7=A8=8B=E6=88=96=E7=BA=BF=E7=A8=8B=E5=9C=A8=E9=87=87=E6=A0=
+=B7=E6=97=B6=E9=97=B4=E6=AE=B5=E5=86=85=E7=BB=88=E6=AD=A2=E4=BA=86=EF=BC=9B=
+=E5=A6=82=E6=9E=9C=E6=98=AF=E7=A9=BA=EF=BC=8C=E8=AF=B4=E6=98=8E=E8=AF=A5=E8=
+=BF=9B=E7=A8=8B=E6=88=96=E7=BA=BF=E7=A8=8B=E6=98=AF=E5=9C=A8=E5=80=92=E6=95=
+=B0=E7=AC=AC=E4=BA=8C=E6=AC=A1=E9=87=87=E6=A0=B7=E6=97=B6=E9=97=B4=E7=82=B9=
+=E4=B9=8B=E5=89=8D=E5=B7=B2=E7=BB=8F=E5=AD=98=E5=9C=A8=E3=80=82</span></spa=
+n></p>
+<p class=3D"cjk"><br><br></p>
+<p class=3D"cjk"><span><span>=E8=87=B3=E6=AD=A4=EF=BC=8C=E6=89=80=E6=9C=89=
+=E4=B8=8E</span></span><span><span><span>ANR</span></span></span><span><spa=
+n>=E7=9B=B8=E5=85=B3=E7=9A=84=E6=97=A5=E5=BF=97=E5=86=85=E5=AE=B9=E9=83=BD=
+=E5=B7=B2=E4=BB=8B=E7=BB=8D=E5=AE=8C=E6=AF=95=EF=BC=8C=E7=9B=B8=E4=BF=A1=E8=
+=AF=BB=E8=80=85=E4=BB=A5=E5=90=8E=E5=A4=84=E7=90=86</span></span><span><spa=
+n><span>ANR</span></span></span><span><span>=E9=97=AE=E9=A2=98=E6=97=B6=E8=
+=83=BD=E5=A4=9F=E6=9C=89=E7=9A=84=E6=94=BE=E7=9F=A2=E4=BA=86=E3=80=82</span=
+></span></p>
+    </div>
+</body>
+</html>
+------=_Part_429352_1443888655.1482404706272--
