@@ -1,0 +1,253 @@
+  
+标准c++中主要有四种强制转换类型运算符：    
+   
+const_cast，reinterpret_cast，static_cast，dynamic_cast等等。
+
+
+1）static_cast<T*>(a)    
+   
+将地址a转换成类型T，T和a必须是指针、引用、算术类型或枚举类型。    
+   
+表达式static_cast<T*>(a), a的值转换为模板中指定的类型T。在运行时转换过程中，不进行类型检查来确保转换的安全性。    
+   
+   
+   
+   
+例子：    
+   
+   
+   
+   
+class B { ... };    
+   
+class D : public B { ... };    
+   
+void f(B* pb, D* pd)    
+   
+{    
+   
+    D* pd2 = static_cast<D*>(pb);        // 不安全, pb可能只是B的指针    
+   
+   
+   
+   
+    B* pb2 = static_cast<B*>(pd);        // 安全的    
+   
+    ...    
+   
+}    
+   
+   
+   
+   
+   
+   
+   
+class B { ... };    
+   
+class D : public B { ... };    
+   
+void f(B* pb, D* pd)    
+   
+{    
+   
+    D* pd2 = static_cast<D*>(pb);        // 不安全, pb可能只是B的指针    
+   
+   
+   
+   
+    B* pb2 = static_cast<B*>(pd);        // 安全的    
+   
+    ...    
+   
+}    
+   
+   
+   
+   
+   
+   
+   
+class B { ... };    
+   
+class D : public B { ... };    
+   
+void f(B* pb, D* pd)    
+   
+{    
+   
+    D* pd2 = static_cast<D*>(pb);        // 不安全, pb可能只是B的指针    
+   
+   
+   
+   
+    B* pb2 = static_cast<B*>(pd);        // 安全的    
+   
+    ...    
+   
+}    
+   
+   
+   
+   
+2）dynamic_cast<T*>(a)    
+   
+完成类层次结构中的提升。T必须是一个指针、引用或无类型的指针。a必须是决定一个指针或引用的表达式。    
+   
+表达式dynamic_cast<T*>(a) 将a值转换为类型为T的对象指针。如果类型T不是a的某个基类型，该操作将返回一个空指针。    
+   
+   
+   
+   
+例子：    
+   
+class A { ... };    
+   
+class B { ... };    
+   
+void f()    
+   
+{    
+   
+   A* pa = new A;    
+   
+   B* pb = new B;    
+   
+  void* pv = dynamic_cast<A*>(pa);    
+   
+  // pv 现在指向了一个类型为A的对象    
+   
+   ...    
+   
+   pv = dynamic_cast<B*>(pb);    
+   
+  // pv 现在指向了一个类型为B的对象    
+   
+}    
+   
+   
+   
+   
+3）const_cast<T*>(a)    
+   
+去掉类型中的常量，除了const或不稳定的变址数，T和a必须是相同的类型。    
+   
+表达式const_cast<T*>(a)被用于从一个类中去除以下这些属性：const, volatile, 和 __unaligned。    
+   
+   
+   
+   
+例子：    
+   
+   
+   
+   
+   
+   
+   
+class A { ... };    
+   
+void f()    
+   
+{    
+   
+const A *pa = new A;//const对象    
+   
+A *pb;//非const对象    
+   
+   
+   
+   
+//pb = pa; // 这里将出错，不能将const对象指针赋值给非const对象    
+   
+pb = const_cast<A*>(pa); // 现在OK了    
+   
+...    
+   
+}    
+   
+   
+   
+   
+   
+   
+   
+class A { ... };    
+   
+void f()    
+   
+{    
+   
+const A *pa = new A;//const对象    
+   
+A *pb;//非const对象    
+   
+   
+   
+   
+//pb = pa; // 这里将出错，不能将const对象指针赋值给非const对象    
+   
+pb = const_cast<A*>(pa); // 现在OK了    
+   
+...    
+   
+}    
+   
+   
+   
+   
+   
+   
+   
+class A { ... };    
+   
+void f()    
+   
+{    
+   
+const A *pa = new A;//const对象    
+   
+A *pb;//非const对象    
+   
+   
+   
+   
+//pb = pa; // 这里将出错，不能将const对象指针赋值给非const对象    
+   
+pb = const_cast<A*>(pa); // 现在OK了    
+   
+...    
+   
+}    
+   
+   
+   
+   
+4）reinterpret_cast<T*>(a)    
+   
+任何指针都可以转换成其它类型的指针，T必须是一个指针、引用、算术类型、指向函数的指针或指向一个类成员的指针。    
+   
+表达式reinterpret_cast<T*>(a)能够用于诸如char* 到 int*，或者One_class* 到 Unrelated_class*等类似这样的转换，因此可能是不安全的。    
+   
+   
+   
+   
+例子：    
+   
+class A { ... };    
+   
+class B { ... };    
+   
+void f()    
+   
+{    
+   
+   A* pa = new A;    
+   
+  void* pv = reinterpret_cast<A*>(pa);    
+   
+  // pv 现在指向了一个类型为B的对象，这可能是不安全的    
+   
+   ...    
+   
+} 

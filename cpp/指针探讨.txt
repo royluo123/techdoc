@@ -1,0 +1,452 @@
+ 指针，在C/C++语言中一直是很受宠的；几乎找不到一个不使用指针的C/C++应用。用于存储数据和程序的地址，这是指针的基本功能。用于指向整型数，用整数指针（int*）；指向浮点数用浮点数指针（float*）；指向结构，用对应的结构指针（struct xxx *）；指向任意地址，用无类型指针（void*）。
+
+    有时候，我们需要一些通用的指针。在C语言当中，（void*） 可以代表一切；但是在C++中，我们还有一些比较特殊的指针，无法用（void*）来表示。事实上，在C++中，想找到一个通用的指针，特别是通用的函数指针简直是一个“不可能任务”。
+
+    C++是一种静态类型的语言，类型安全在C++中举足轻重。在C语言中，你可以用void*来指向一切；但在C++中，void*并不能指向一切，就算能，也失去了类型安全的意义了。类型安全往往能帮我们找出程序中潜在的一些BUG.
+
+    下面我们来探讨一下，C++中如何存储各种类型数据的指针。
+
+    1.  数据指针
+
+    数据指针分为两种：常规数据指针和成员数据指针
+
+    1.1 常规数据指针
+
+    这个不用说明了，和C语言一样，定义、赋值是很简单明了的。常见的有：int*， double* 等等。
+
+    如：
+
+    int value = 123；
+
+    int * pn = &value；
+
+    1.2 成员数据指针
+
+    有如下的结构：
+  struct MyStruct
+     {
+       int key;
+       int value;
+     };
+ 
+
+
+    现在有一个结构对象：
+
+    MyStruct me；
+
+    MyStruct* pMe = &me；
+
+    我们需要 value 成员的地址，我们可以：
+
+    int * pValue = &me.value；
+
+    //或
+
+    int * pValue = &pMe->value；
+
+    当然了，这个指针仍然是属于第一种范筹——常规数据指针。
+
+    好了，我们现在需要一种指针，它指向MyStruct中的任一数据成员，那么它应该是这样的子：
+
+    int MyStruct：：* pMV = &MyStruct：：value；
+
+    //或
+
+    int MyStruct：：* pMK = &MyStruct：：key；
+
+    这种指针的用途是用于取得结构成员在结构内的地址。我们可以通过该指针来访问成员数据：
+
+    int value = pMe->*pMV； // 取得pMe的value成员数据。
+
+    int key = me.*pMK； // 取得me的key成员数据。
+
+    那么，在什么场合下会使用到成员数据指针呢？
+
+    确实，成员指针本来就不是一种很常用的指针。不过，在某些时候还是很有用处的。我们先来看看下面的一个函数：
+ int sum(MyStruct* objs, int MyStruct::* pm, int count)
+  {
+      int result = 0;
+      for(int i = 0; i < count; ++i)
+          result += objs[i].*pm;
+      return result;
+  }
+ 
+
+
+    这个函数的功能是什么，你能看明白吗？它的功能就是，给定count个MyStruct结构的指针，计算出给定成员数据的总和。有点拗口对吧？看看下面的程序，你也许就明白了：
+ MyStruct me[10] =
+     {
+      {1,2},{3,4},{5,6},{7,8},{9,10},{11,12},{13,14},{15,16},{17,18},{19,20}
+     };
+
+     int sum_value = sum(me, &MyStruct::value, 10);
+     //计算10个MyStruct结构的value成员的总和： sum_value 值 为 110     (2+4+6+8+...+20)
+
+     int sum_key = sum(me, &MyStruct::key, 10);
+     //计算10个MyStruct结构的key成员的总和：   sum_key 值 为 100       (1+3+5+7+...+19)
+ 
+    也许，你觉得用常规指针也可以做到，而且更易懂。Ok，没问题：
+ int sum(MyStruct* objs, int count)
+     {
+      int result = 0;
+      for(int i = 0; i < count; ++i)
+       result += objs[i].value;
+      return result;
+     } 
+    你是想这么做吗？但这么做，你只能计算value，如果要算key的话，你要多写一个函数。有多少个成员需要计算的话，你就要写多少个函数，多麻烦啊。 
+
+在C/C++中，数据指针是最直接，也最常用的，因此，理解起来也比较容易。而函数指针，作为运行时动态调用（比如回调函数 CallBack Function）是一种常见的，而且是很好用的手段。
+
+    我们先简单的说一下函数指针。（这一部份没什么价值，纯是为了引出下一节的内容）
+
+    2 常规函数指针
+
+    void（*fp）（）；
+
+    fp 是一个典型的函数指针，用于指向无参数，无返回值的函数。
+
+    void（*fp2）（int）；
+
+    fp2 也是一个函数指针，用于指向有一个整型参数，无返回值的函数。
+
+    当然，有经验人士一般都会建议使用typedef来定义函数指针的类型，如：
+
+    typedef void（* FP）（）；
+
+    FP fp3； // 和上面的fp一样的定义。
+
+    函数指针之所以让初学者畏惧，最主要的原因是它的括号太多了；某些用途的函数指针，往往会让人陷在括号堆中出不来，这里就不举例了，因为不是本文讨论的范围；typedef 方法可以有效的减少括号的数量，以及理清层次，所以受到推荐。本文暂时只考虑简单的函数指针，因此暂不用到typedef.
+
+    假如有如下两个函数：
+ void f1()
+  {
+      std::cout << "call f " << std::endl;
+  }
+
+  void f2(int a)
+  {
+      std::cout << "call f2( " << a << " )" << std::endl;
+  }
+
+ 
+
+
+    现在需要通过函数指针来调用，我们需要给指针指定函数：
+ fp = &f1; // 也可以用：fp = f1;
+  fp2= &f2; // 也可以用：fp2= f2;
+  void (*fp3)() = &f1; // 也可以用：void (*fp3)() = f1;
+  //调用时如下：
+  fp(); // 或 (*fp)();
+  fp2(1); // 或 (*fp2)(1);
+  fp3();  // 或 (*fp3)(); 
+
+    对于此两种调用方法，效果完全一样，我推荐用前一种。后一种不仅仅是多打了键盘，而且也损失了一些灵活性。这里暂且不说它。
+
+    C++强调类型安全。也就是说，不同类型的变量是不能直接赋值的，否则轻则警告，重则报错。这是一个很有用的特性，常常能帮我们找到问题。因此，有识之士认为，C++中的任何一外警告都不能忽视。甚至有人提出，编译的时候不能出现任何警告信息，也就是说，警告应该当作错误一样处理。
+
+    比如，我们把f1赋值给fp2，那么C++编译器（vc7.1）就会报错：
+
+    fp2 = &f1； // error C2440： “=” ： 无法从“void （__cdecl *）（void）”转换为“void （__cdecl *）（int）”
+
+    fp1 = &f1； // OK
+
+    这样，编译器可以帮我们找出编码上的错误，节省了我们的排错时间。
+
+    考虑一下C++标准模板库的sort函数：
+ // 快速排序函数
+  template<typename RandomAccessIterator, typename BinaryPredicate>
+     void sort(
+        RandomAccessIterator _First, // 需排序数据的第一个元素位置
+        RandomAccessIterator _Last,  // 需排序数据的最后一个元素位置（不参与排序）
+        BinaryPredicate _Comp     // 排序使用的比较算法(可以是函数指针、函数对象等)
+     ); 
+
+
+    比如，我们有一个整型数组：
+
+    int n[5] = {3，2，1，8，9}；
+
+    要对它进行升序排序，我们需定义一个比较函数：
+  bool less(int a, int b)
+  {
+      return a < b;
+  } 
+
+
+    然后用：
+
+    sort（n， n+5， less）；
+
+    要是想对它进行降序排序，我们只要换一个比较函数就可以了。C/C++的标准模板已经提供了less和great函数，因此我们可以直接用下面的语句来比较：
+
+    sort（n， n+5， great）；
+
+    这样，不需要改变sort函数的定义，就可以按任意方法进行排序，是不是很灵活？
+
+    这种用法以C++的标准模板库（STL）中非常流行。另外，操作系统中也经常使用回调（CallBack）函数，实际上，所谓回调函数，本质就是函数指针。
+
+    看起来很简单吧，这是最普通的C语言指针的用法。本来这是一个很美妙的事情，但是当C++来临时，世界就开始变了样。
+
+    假如，用来进行sort的比较函数是某个类的成员，那又如何呢？
+
+C语言的指针相当的灵活方便，但也相当容易出错。许多C语言初学者，甚至C语言老鸟都很容易栽倒在C语言的指针下。但不可否认的是，指针在C语言中的位置极其重要，也许可以偏激一点的来说：没有指针的C程序不是真正的C程序。
+
+    然而C++的指针却常常给我一种束手束脚的感觉。C++比C语言有更严格的静态类型，更加强调类型安全，强调编译时检查。因此，对于C语言中最容易错用的指针，更是不能放过：C++的指针被分成数据指针，数据成员指针，函数指针，成员函数指针，而且不能随便相互转换。而且这些指针的声明格式都不一样：
+
+
+
+    还有一个更重要的区别是，指针所占的空间也不一样了。即使在32位系统中，所占的空间也有可能是4字节、8字节、12字节甚至16字节，这个依据平台及编译器，有很大的变化。
+
+    尽管C++中仍然有万能指针void*，但它却属于被批斗的对象，而且再也不能“万能”了。它不能转换成成员指针。
+
+    这样一来，C++的指针就变得很尴尬：我们需要一种指针能够指向同一类型的数据，不管这个数据是普通数据，还是成员数据；我们更需要一种指针能够指向同一类型的函数，不管这个函数是静态函数，还是成员函数。但是没有，至少从现在的C++标准中，还没有看到。
+
+    自从有了类，我们开始按照　数据＋操作　的方式来组织数据结构；自从有了模板，我们又开始把 数据 和 算法 分离，以便重用，实在够折腾人的。但不管怎么折腾，现在大多数函数都不再单身，都嫁给了类，进了围城。可是我们仍然需要能够自由调用这些成员函数。
+
+    考虑一下windows下的定时调用。SetTimer函数的原型是这样的：
+
+
+ UINT_PTR SetTimer(
+    HWND hWnd,
+    UINT_PTR nIDEvent,
+    UINT uElapse,
+    TIMERPROC lpTimerFunc
+);
+ 
+
+
+
+    其中，参数就不解释了，这个函数估计大多数windows开发人员都知道。lpTimerFunc是个会被定时调用的函数指针。假如我们不通过WM_TIMER消息来触发定时器，而是通过lpTimerFunc来定时工作，那么我们就只能使用普通函数或静态函数，而无论如何都不能使用成员函数，哪怕通过静态函数转调也不行。
+
+    再考虑一下线程的创建：
+ uintptr_t _beginthread(
+   void( *start_address )( void * ),
+   unsigned stack_size,
+   void *arglist
+); 
+    start_address仍然只支持普通函数。不过这回好了，它允许回调函数一个void*参数，它将会arglist作为参数来调用start_address.于是，聪明的C++程序员，就利用arglist传递this指针，从而利用静态函数成功的调用到了成员函数了：
+ class mythread
+{
+  public:
+    static void doit(void* pThis)
+    {
+　　　　((mythread*)pThis)->doit();
+    }
+    void doit(...){}
+};
+
+main()
+{
+  ...
+  mythread* pmt = new mythread;
+  _beginthread(&mythread::doit, 0, (void*)pmt);
+
+  ...
+}
+ 
+
+    但是显然，C++程序员肯定不会因此而满足。这里头有许多被C++批判的不安定因素。它使用了C++中被认为不安全的类型转换，不安全的void*指针，等等等等。但这是系统为C语言留下的调用接口，这也就认了。那么假如，我们就在C++程序中如何来调用成员函数指针呢？
+
+    如下例，我们打算对vector中的所有类调用其指定的成员函数：
+ #include <vector>
+#include <algorithm>
+#include <functional>
+#include <iostream>
+using namespace std;
+
+class A
+{
+    int value;
+public:
+    A(int v){value = v;}
+    void doit(){ cout << value << endl;};
+    static void call_doit(A& rThis)
+    {
+        rThis.doit();
+    }
+};
+
+
+int main()
+{
+    vector<A> va;
+    va.push_back(A(1));
+    va.push_back(A(2));
+    va.push_back(A(3));
+    va.push_back(A(4));
+    //方法1:
+    //for_each(va.begin(), va.end(), &A::doit); //error
+    //方法2:
+    for_each(va.begin(), va.end(), &A::call_doit);
+    //方法3:
+    for_each(va.begin(), va.end(), mem_fun_ref<void, A>(&A::doit));
+
+    system("Pause");
+
+    return 0;
+}
+
+ 
+
+
+    方法1，编译不能通过。for_each只允许具有一个参数的函数指针或函数对象，哪怕A：：doit默认有一个this指针参数也不行。不是for_each没考虑到这一点，而是根本做不到！
+
+    方法2，显然是受到了beginthread的启发，使用一个静态函数来转调用，哈哈成功了。但是不爽！这不是C++.
+
+    方法3，呼，好不容易啊，终于用mem_fun_ref包装成功了成员函数指针。
+
+    似乎方法3不错，又是类型安全的，又可以通用——慢着，首先，它很丑，哪有调用普通C函数指针那么漂亮啊（见方法2），用了一大串包装，又是尖括号又是圆括号，还少不了&号！其次，它只能包装不超过一个参数的函数！尽管它在for_each中够用了，但是你要是想用在超过一个参数的场合，那只有一句话：不可能的任务。
+
+    是的，在标准C++中，这是不可能的任务。但事情并不总是悲观的，至少有许多第三方库提供了超越mem_fun的包装。如boost：：function等等。但是它也有限制：它所支持的参数仍然是有限的，只有十多个，尽管够你用的了；同样，它也是丑陋的，永远不要想它能够简单的用&来搞定。
+
+    也许，以失去美丽的代价，来换取质量上的保证，这也是C++对于函数指针的一种无奈吧……
+
+    期待C++0x版本。它通过可变模板参数，能够让mem_fun的参数达到无限个……
+
+    ————————
+
+    BTW： C++Builder扩展了一个关键字 closure ，允许成员函数指针如同普通函数指针一样使用。也许C++0x能考虑一下……
+ 函数对象不是函数指针。但是，在程序代码中，它的调用方式与函数指针一样，后面加个括号就可以了。
+
+    这是入门级的随笔，说的是函数对象的定义，使用，以及与函数指针，成员函数指针的关系。
+
+    沐枫小筑
+
+    函数对象实质上是一个实现了operator（）——括号操作符——的类。
+
+    例如：
+ class Add
+{
+public:
+  int operator()(int a, int b)
+  {
+    return a + b;
+  }
+}; 
+
+
+     Add add； // 定义函数对象 
+    cout << add（3，2）； // 5
+ 
+
+
+    函数指针版本就是：
+ int AddFunc(int a, int b)
+{
+  return a + b;
+}
+typedef int (*Add) (int a, int b); 
+
+ Add add = &AddFunc;
+cout << add(3,2); // 5 
+
+
+    呵呵，除了定义方式不一样，使用方式可是一样的。都是：
+
+    cout << add（3，2）；
+
+    既然函数对象与函数指针在使用方式上没什么区别，那为什么要用函数对象呢？很简单，函数对象可以携带附加数据，而指针就不行了。
+
+    下面就举个使用附加数据的例子：
+ class less
+{
+public:
+    less(int num):n(num){}
+    bool operator()(int value)
+    {
+        return value < n;
+    }
+private:
+    int n;
+};
+ 
+
+
+    使用的时候：
+
+    less isLess（10）；
+
+    cout << isLess（9） << " " << isLess（12）； // 输出 1 0
+
+    这个例子好象太儿戏了，换一个：
+ const int SIZE = 5;
+int array[SIZE] = { 50, 30, 9, 7, 20};
+// 找到小于数组array中小于10的第一个数的位置
+int * pa = std::find_if(array, array + SIZE, less(10)); // pa 指向 9 的位置
+// 找到小于数组array中小于40的第一个数的位置
+int * pb = std::find_if(array, array + SIZE, less(40));　// pb 指向 30 的位置 
+
+
+    这里可以看出函数对象的方便了吧？可以把附加数据保存在函数对象中，是函数对象的优势所在。
+
+    它的弱势也很明显，它虽然用起来象函数指针，但毕竟不是真正的函数指针。在使用函数指针的场合中，它就无能为力了。例如，你不能将函数对象传给qsort函数！因为它只接受函数指针。
+
+    要想让一个函数既能接受函数指针，也能接受函数对象，最方便的方法就是用模板。如：
+ template<typename FUNC>
+int count_n(int* array, int size, FUNC func)
+{
+    int count = 0;
+    for(int i = 0; i < size; ++i)
+        if(func(array[i]))
+            count ++;
+    return count;
+} 
+
+
+    这个函数可以统计数组中符合条件的数据个数，如：
+ const int SIZE = 5;
+int array[SIZE] = { 50, 30, 9, 7, 20};
+cout << count_n(array, SIZE, less(10)); // 2 
+    用函数指针也没有问题：
+ bool less10(int v)
+{
+    return v < 10;
+}
+cout << count_n(array, SIZE, less10); // 2 
+
+    另外，函数对象还有一个函数指针无法匹敌的用法：可以用来封装类成员函数指针！
+
+    因为函数对象可以携带附加数据，而成员函数指针缺少一个类实体（类实例）指针来调用，因此，可以把类实体指针给函数对象保存起来，就可以用于调用对应类实体成员函数了。
+ template<typename O>
+class memfun
+{
+public:
+    memfun(void(O::*f)(const char*), O* o): pFunc(f), pObj(o){}
+    void operator()(const char* name)
+    {
+        (pObj->*pFunc)(name);
+    }
+private:
+    void(O::*pFunc)(const char*);
+    O* pObj;
+};
+
+class A
+{
+public:
+    void doIt(const char* name)
+    { cout << "Hello " << name << "!";}
+};
+ 
+
+
+
+    A a;
+    memfun<A> call(&A::doIt, &a); // 保存 a::doIt指针以便调用
+    call("Kitty"); // 输出 Hello Kitty!
+
+    大功告成了，终于可以方便保存成员函数指针，以备调用了。
+
+    不过，现实是残酷的。函数对象虽然能够保有存成员函数指针和调用信息，以备象函数指针一样被调用，但是，它的能力有限，一个函数对象定义，最多只能实现一个指定参数数目的成员函数指针。
+
+    标准库的mem_fun就是这样的一个函数对象，但是它只能支持0个和1个参数这两种成员函数指针。如 int A：：func（）或void A：：func（int）、int A：：func（double）等等，要想再多一个参数如：int A：：func（int， double），不好意思，不支持。想要的话，只有我们自已写了。
+
+    而且，就算是我们自已写，能写多少个？5个？10个？还是100个（这也太恐怖了）？
+
+    好在boost库提供了boost：：function类，它默认支持10个参数，最多能支持50个函数参数（多了，一般来说这够用了。但它的实现就是很恐怖的：用模板部份特化及宏定义，弄了几十个模板参数，偏特化（编译期）了几十个函数对象。
+
+    ----
+
+    C++0x已经被接受的一个提案，就是可变模板参数列表。用了这个技术，就不需要偏特化无数个函数对象了，只要一个函数对象模板就可以解决问题了。期待吧。
+
